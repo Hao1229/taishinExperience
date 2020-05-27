@@ -1,21 +1,23 @@
 /* 過場跳轉處理 */
-const query = window.location.search
 const url = window.location
 
-console.log(url)
-
-if (query.indexOf('introduce') > -1) {
+$('#introduce-link').click(function (e) { 
+  e.preventDefault()
+  $('#index').css('display', 'none')
   setTimeout(() => {
     window.location.href = `${url.protocol}//${url.host}/pages/introduce.html`
   }, 1500)
-}
+})
 
-if (query.indexOf('index') > -1) {
+$('.index-link').click(function (e) { 
+  e.preventDefault()
+  $('#introduce').css('display', 'none')
   setTimeout(() => {
     window.location.href = `${url.protocol}//${url.host}/index.html`
   }, 1500)
-}
+})
 
+/* introduce page 閒置 pop up 處理 */
 if (url.pathname.indexOf('introduce') > -1) {
   idleTimer()
 }
