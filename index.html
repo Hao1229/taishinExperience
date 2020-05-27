@@ -3,78 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>台新體驗館</title>
   <link rel="stylesheet" href="./css/all.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
 <body>
-  <!-- <div class="box bg-primary">
+  <div class="box bg-primary">
     <div class="dropdown">
       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Dropdown button
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
         <a class="dropdown-item" href="#">得獎紀錄</a>
-        <a class="dropdown-item" href="./pages/introduce.html">場館介紹</a>
+        <a class="dropdown-item" href="./pages/transitions.html?introduce=true">場館介紹</a>
         <a class="dropdown-item" href="#">金融科技沿革</a>
       </div>
     </div>
-  </div> -->
-  <css-doodle use="var(--rule)"></css-doodle>
+  </div>
 
 <script src="./js/jQuery.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="./js/bootstrap.min.js"></script>
-<script src="./js/css-doodle.js"></script>
 </body>
-
-<style>
-  css-doodle {
-    --color: @p(#51eaea, #fffde1, #ff9d76, #FB3569);
-    --rule: (
-      :doodle {
-        @grid: 30x1 / 18vmin;
-        --deg: @p(-180deg, 180deg);
-      }
-      :container {
-        perspective: 30vmin;
-      }
-      :after, :before {
-        content: '';
-        background: var(--color); 
-        @place-cell: @r(100%) @r(100%);
-        @size: @r(6px);
-        @shape: heart;
-      }
-    
-      @place-cell: center;
-      @size: 100%;
-    
-      box-shadow: @m2(0 0 50px var(--color));
-      background: @m100(
-        radial-gradient(var(--color) 50%, transparent 0) 
-        @r(-20%, 120%) @r(-20%, 100%) / 1px 1px
-        no-repeat
-      );
-    
-      will-change: transform, opacity;
-      animation: scale-up 10s linear infinite;
-      animation-delay: calc(-10s / @size() * @i());
-
-      @keyframes scale-up {
-        0%, 95.01%, 100% {
-          transform: translateZ(0) rotate(0);
-          opacity: 0;
-        }
-        10% { 
-          opacity: 1;
-        }
-        95% {
-          transform: 
-            translateZ(35vmin) rotateZ(@var(--deg));
-        }
-      }
-    )
-  }
-</style>
 </html>
