@@ -1,0 +1,15 @@
+.index {
+  background-image: url('../images/index.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  &__introduce {
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    bottom: 250px;
+    left: 48vw;
+  }
+}

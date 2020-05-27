@@ -1,0 +1,36 @@
+.introduce {
+  background-image: url('../images/introduce.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  &__index {
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 41vw;
+  }
+  &__back-popup {
+    max-width: 100vw;
+    height: 100vh;
+    margin: 0;
+    &__content {
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba($color: gray, $alpha: 0.8);
+      p {
+        letter-spacing: 2px;
+      }
+      button {
+        width: 200px;
+        font-size: 30px;
+      }
+      a {
+        width: 200px;
+        font-size: 30px;
+      }
+    }
+  }
+}

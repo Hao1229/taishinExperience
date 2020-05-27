@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-HantTW">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>台新體驗館-場館介紹</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/all.css">
 </head>
 <body>
-  場館介紹
+  <section class="introduce position-relative">
+    <a class="introduce__index" href="./transitions.html?index=true"></a>
+
+    <!-- pop up -->
+    <div class="modal" id="backModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered introduce__back-popup">
+        <div class="modal-content introduce__back-popup__content">
+          <div class="modal-body text-center d-flex flex-column justify-content-center">
+            <p class="display-4 text-white font-weight-bold">
+              是否返回場館介紹？
+            </p>
+            <div style="margin-top: 150px;">
+              <!-- <button type="button" class="btn btn-primary mr-5 py-3">是</button> -->
+              <a href="./transitions.html?index=true" class="btn btn-primary mr-5 py-3">是</a>
+              <button type="button" class="btn btn-primary py-3" data-dismiss="modal">否</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- pop up end -->
+  </section>
+
+  <script src="../js/jQuery.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="../js/all.js"></script>
 </body>
 </html>
