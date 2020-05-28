@@ -8,68 +8,14 @@
   <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
 <body>
-  <section id="index" class="index position-relative">
-    <a id="introduce-link" class="index__introduce d-inline-block" href="#"></a>
+  <section id="index" class="index">
+    <a id="introduce-link" class="index__introduce d-inline-block" href="./pages/introduce.html"></a>
   </section>
-  <div class="transition-animate">
-    <css-doodle use="var(--rule)"></css-doodle>
-  </div>
 
-<script src="../js/css-doodle.js"></script>
 <script src="./js/jQuery.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/all.js"></script>
 </body>
-
-<style>
-  css-doodle {
-    --color: @p(#51eaea, #fffde1, #ff9d76, #FB3569);
-    --rule: (
-      :doodle {
-        @grid: 30x1 / 18vmin;
-        --deg: @p(-180deg, 180deg);
-      }
-      :container {
-        perspective: 30vmin;
-      }
-      :after, :before {
-        content: '';
-        background: var(--color); 
-        @place-cell: @r(100%) @r(100%);
-        @size: @r(6px);
-        @shape: heart;
-      }
-    
-      @place-cell: center;
-      @size: 100%;
-    
-      box-shadow: @m2(0 0 50px var(--color));
-      background: @m100(
-        radial-gradient(var(--color) 50%, transparent 0) 
-        @r(-20%, 120%) @r(-20%, 100%) / 1px 1px
-        no-repeat
-      );
-    
-      will-change: transform, opacity;
-      animation: scale-up 3s linear infinite;
-      animation-delay: calc(-3s / @size() * @i());
-
-      @keyframes scale-up {
-        0%, 95.01%, 100% {
-          transform: translateZ(0) rotate(0);
-          opacity: 0;
-        }
-        10% { 
-          opacity: 1;
-        }
-        95% {
-          transform: 
-            translateZ(35vmin) rotateZ(@var(--deg));
-        }
-      }
-    )
-  }
-</style>
 
 </html>
