@@ -1,23 +1,20 @@
 /* 過場跳轉處理 */
 const url = window.location
-const doodle = document.querySelector('css-doodle')
 
 $('.index-link').click(function (e) { 
   e.preventDefault()
-  doodle.use = 'var(--rule)'
-  $('.transition-animate').css('z-index', '99999')
+  $('.transition-space').css('display', 'block')
   setTimeout(() => {
     window.location.href = `${url.protocol}//${url.host}/index.html`
-  }, 1500)
+  }, 3000)
 })
 
 $('#introduce-link').click(function (e) { 
   e.preventDefault()
-  doodle.use = 'var(--rule)'
-  $('.transition-animate').css('z-index', '99999')
+  $('.transition-space').css('display', 'block')
   setTimeout(() => {
     window.location.href = `${url.protocol}//${url.host}/pages/introduce.html`
-  }, 1500)
+  }, 3000)
 })
 
 /* introduce page 閒置 pop up 處理 */
