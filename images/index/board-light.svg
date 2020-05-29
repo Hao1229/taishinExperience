@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="582" height="622" viewBox="0 0 582 622">
+    <defs>
+        <linearGradient id="prefix__a" x1="19.424%" x2="79.02%" y1="152.002%" y2="-25.164%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".394"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <linearGradient id="prefix__b" x1="67.176%" x2="53.363%" y1="37.264%" y2="112.799%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".913"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#prefix__a)" d="M501.965 334.665l-167.06 196.65s34.476 121.32 156.115 83.544l33.863-280.194h-22.918z" transform="translate(0 -.9)"/>
+        <path fill="#333" d="M499.668 345.027L531.11 325.845 510.392 316.639 479.606 334.346z" transform="translate(0 -.9)"/>
+        <path fill="#000" d="M531.109 332.937L499.667 352.838 499.667 344.287 531.109 325.677z" transform="translate(0 -.9)"/>
+        <path fill="#000" d="M479.606 340.783L499.668 352.839 499.668 344.287 479.606 334.297z" transform="translate(0 -.9)"/>
+        <path fill="#333" d="M36.062 79.388L67.504 60.207 46.786 51 16 68.708z" transform="translate(0 -.9)"/>
+        <path fill="#000" d="M67.504 67.299L36.062 87.2 36.062 78.648 67.504 60.038z" transform="translate(0 -.9)"/>
+        <path fill="#000" d="M16 75.144L36.063 87.201 36.063 78.648 16 68.658z" transform="translate(0 -.9)"/>
+        <path fill="url(#prefix__b)" d="M37.313 91.434l-2.548 258.018s104.124 71.17 173.428-35.693L54.925 76.769 37.313 91.434z" transform="translate(0 -.9)"/>
+    </g>
+</svg>

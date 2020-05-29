@@ -17,6 +17,11 @@ $('#introduce-link').click(function (e) {
   }, 3000)
 })
 
+/* index 大樓燈光換圖 */
+setInterval(() => {
+  $('.index__history').toggleClass('index__history-img-2');
+}, 1000)
+
 /* introduce page 閒置 pop up 處理 */
 if (url.pathname.indexOf('introduce') > -1) {
   idleTimer()
