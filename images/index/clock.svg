@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="202" height="352" viewBox="0 0 202 352">
+    <defs>
+        <linearGradient id="prefix__b" x1="50%" x2="50%" y1="-84.89%" y2="100%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <linearGradient id="prefix__e" x1="53.577%" x2="45.8%" y1="93.63%" y2="-1.224%">
+            <stop offset="0%" stop-color="#F0233D"/>
+            <stop offset="100%" stop-color="#FF7979"/>
+        </linearGradient>
+        <path id="prefix__a" d="M0 0.132L0 233.104 201.406 351 201.406 118.029z"/>
+        <path id="prefix__d" d="M1.974 78.721c7.843 42.991 45.46 77.841 84.019 77.841 38.561 0 63.459-34.85 55.614-77.841C133.763 35.729 96.147.879 57.587.879c-38.56 0-63.458 34.85-55.613 77.842"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0 .867)">
+            <mask id="prefix__c" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <path fill="url(#prefix__b)" d="M0 0.132L0 233.104 201.406 351 201.406 118.029z" mask="url(#prefix__c)"/>
+        </g>
+        <g transform="translate(25 97.867)">
+            <mask id="prefix__f" fill="#fff">
+                <use xlink:href="#prefix__d"/>
+            </mask>
+            <path fill="url(#prefix__e)" d="M1.974 78.721c7.843 42.991 45.46 77.841 84.019 77.841 38.561 0 63.459-34.85 55.614-77.841C133.763 35.729 96.147.879 57.587.879c-38.56 0-63.458 34.85-55.613 77.842" mask="url(#prefix__f)"/>
+        </g>
+        <path stroke="#FFF" stroke-dasharray="7.647 7.647" stroke-width="2.599" d="M85.172 112.911c31.543 0 62.314 28.508 68.73 63.677 6.418 35.168-13.95 63.676-45.493 63.676-31.543 0-62.314-28.508-68.731-63.676-6.417-35.169 13.95-63.677 45.494-63.677z"/>
+    </g>
+</svg>
