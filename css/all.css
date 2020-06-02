@@ -97,8 +97,8 @@ html, body {
 
 .index__introduce {
   position: absolute;
-  bottom: 80px;
-  left: 130px;
+  bottom: 140px;
+  left: 220px;
 }
 
 .index__chronology {
@@ -115,7 +115,7 @@ html, body {
 .index__lifestyle {
   position: absolute;
   top: 100px;
-  left: -180px;
+  left: -150px;
 }
 
 .index__builing-group {
@@ -123,17 +123,18 @@ html, body {
 }
 
 .index__history {
-  width: 816px;
-  height: 1300px;
+  width: 940px;
+  height: 1365px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  margin-right: 180px;
+  margin-right: 50px;
+  margin-bottom: 30px;
 }
 
 .index__history__award {
-  width: 665px;
-  height: 743px;
+  width: 755px;
+  height: 820px;
   background-image: url("../images/index/award.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -152,8 +153,8 @@ html, body {
   background-size: cover;
   background-position: center center;
   position: absolute;
-  bottom: 20px;
-  left: -100px;
+  bottom: 100px;
+  left: -55px;
 }
 
 .index__history__mist {
@@ -164,8 +165,8 @@ html, body {
   background-position: center center;
   background-size: cover;
   position: absolute;
-  top: -350px;
-  left: 30px;
+  top: -320px;
+  left: 80px;
   z-index: 1;
 }
 
@@ -178,9 +179,10 @@ html, body {
 }
 
 .index__intro {
-  width: 1157px;
-  height: 1466px;
-  margin-right: 150px;
+  width: 1350px;
+  height: 1550px;
+  margin-top: 10px;
+  margin-right: 50px;
   background-image: url("../images/index/intro.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -188,15 +190,20 @@ html, body {
 }
 
 .index__board {
-  width: 530px;
-  height: 750px;
+  width: 584px;
+  height: 836px;
   background-image: url("../images/index/board.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   position: absolute;
-  top: -200px;
-  left: 430px;
+  top: -300px;
+  left: 450px;
+}
+
+.index__board__video {
+  -webkit-transform: rotate(34deg) skew(34deg, -4deg) translateX(-27px) translateY(65px);
+          transform: rotate(34deg) skew(34deg, -4deg) translateX(-27px) translateY(65px);
 }
 
 .index__board__light {
@@ -209,12 +216,6 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-}
-
-/* video */
-video {
-  -webkit-transform: rotate(34deg) skew(34deg, -4deg) translateX(-20px) translateY(28px);
-          transform: rotate(34deg) skew(34deg, -4deg) translateX(-20px) translateY(28px);
 }
 
 .introduce {
