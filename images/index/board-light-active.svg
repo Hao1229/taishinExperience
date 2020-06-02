@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="736" height="931" viewBox="0 0 736 931">
+    <defs>
+        <linearGradient id="prefix__b" x1="19.424%" x2="79.02%" y1="152.002%" y2="-25.164%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".394"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <linearGradient id="prefix__c" x1="67.176%" x2="53.363%" y1="37.264%" y2="112.799%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".913"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <filter id="prefix__a" width="115.8%" height="112.5%" x="-7.9%" y="-6.2%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="15"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 1 0 0 0 0 0.352941176 0 0 0 0 0.415686275 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#prefix__a)" transform="translate(.05)">
+        <path fill="url(#prefix__b)" d="M578.965 381.665l-167.06 196.65s34.476 121.32 156.115 83.544l33.863-280.194h-22.918z"/>
+        <path fill="#333" d="M576.668 392.027L608.11 372.845 587.391 363.639 556.606 381.346z"/>
+        <path fill="#000" d="M608.109 379.937L576.667 399.838 576.667 391.287 608.109 372.677z"/>
+        <path fill="#000" d="M556.606 387.783L576.668 399.839 576.668 391.287 556.606 381.297z"/>
+        <path fill="#333" d="M113.062 126.388L144.504 107.207 123.786 98 93 115.708z"/>
+        <path fill="#000" d="M144.504 114.299L113.062 134.2 113.062 125.648 144.504 107.038z"/>
+        <path fill="#000" d="M93.001 122.144L113.063 134.201 113.063 125.648 93.001 115.658z"/>
+        <path fill="url(#prefix__c)" d="M114.313 138.434l-2.548 258.018s104.124 71.17 173.428-35.693l-153.268-236.99-17.612 14.665z"/>
+    </g>
+</svg>

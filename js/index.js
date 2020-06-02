@@ -1,0 +1,27 @@
+/* index 大樓燈光換圖 */
+setInterval(() => {
+  $('.index__history').toggleClass('index__history-img-2');
+}, 1000)
+
+/* index 輪播 */
+function boardActive () {
+  $('.index__intro').removeClass('index__intro__active');
+  $('.index__board').addClass('index__board__active');
+  $('.index__board__video').addClass('index__board__video__active');
+  $('.index__board__light').addClass('index__board__light__active');
+  setTimeout(() => {
+    introActive()
+  }, 2000)
+}
+
+function introActive () {
+  $('.index__board').removeClass('index__board__active');
+  $('.index__board__video').removeClass('index__board__video__active');
+  $('.index__board__light').removeClass('index__board__light__active');
+  $('.index__intro').addClass('index__intro__active');
+  setTimeout(() => {
+    boardActive()
+  }, 2000)
+}
+
+boardActive()

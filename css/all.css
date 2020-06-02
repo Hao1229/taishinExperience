@@ -189,6 +189,10 @@ html, body {
   background-position: center center;
 }
 
+.index__intro__active {
+  background-image: url("../images/index/intro-active.svg");
+}
+
 .index__board {
   width: 584px;
   height: 836px;
@@ -201,21 +205,37 @@ html, body {
   left: 450px;
 }
 
+.index__board__active {
+  background-image: url("../images/index/board-active.svg");
+  height: 889px;
+  top: -325px;
+}
+
 .index__board__video {
   -webkit-transform: rotate(34deg) skew(34deg, -4deg) translateX(-27px) translateY(65px);
           transform: rotate(34deg) skew(34deg, -4deg) translateX(-27px) translateY(65px);
 }
 
+.index__board__video__active {
+  -webkit-transform: rotate(34deg) skew(34deg, -4deg) translateX(-27px) translateY(85px);
+          transform: rotate(34deg) skew(34deg, -4deg) translateX(-27px) translateY(85px);
+}
+
 .index__board__light {
   position: absolute;
-  top: 150px;
-  right: 0;
-  width: 600px;
-  height: 250px;
+  top: 0;
+  left: -80px;
+  width: 750px;
+  height: 836px;
   background-image: url("../images/index/board-light.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.index__board__light__active {
+  background-image: url("../images/index/board-light-active.svg");
+  top: 25px;
 }
 
 .introduce {
