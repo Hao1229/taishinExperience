@@ -238,6 +238,26 @@ html, body {
   top: 25px;
 }
 
+.index__arrow-path {
+  width: 111px;
+  height: 83px;
+  background-image: url("../images/index/arrow-path.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  bottom: 270px;
+  left: 80px;
+}
+
+.index__arrow-path__active {
+  background-image: url("../images/index/arrow-path-active.svg");
+  width: 130px;
+  height: 110px;
+  left: 70px;
+  bottom: 257px;
+}
+
 .introduce {
   background-image: url("../images/introduce.png");
   background-size: cover;

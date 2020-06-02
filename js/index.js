@@ -1,6 +1,11 @@
 /* index 大樓燈光換圖 */
+// setInterval(() => {
+//   $('.index__history').toggleClass('index__history-img-2');
+// }, 1000)
+
+/* index arrow path 換圖 */
 setInterval(() => {
-  $('.index__history').toggleClass('index__history-img-2');
+  $('.index__arrow-path').toggleClass('index__arrow-path__active');
 }, 1000)
 
 /* index 輪播 */
@@ -24,4 +29,4 @@ function introActive () {
   }, 2000)
 }
 
-boardActive()
+// boardActive()
