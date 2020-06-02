@@ -77,6 +77,17 @@
       position: absolute;
       bottom: 100px;
       left: -55px;
+      &::after {
+        content: '';
+        position: absolute;
+        top: 130px;
+        left: 90px;
+        width: 7px;
+        height: 50px;
+        background-color: white;
+        transform-origin: 50% 80%;
+        animation: pointer-rotate 60s infinite steps(60);
+      }
     }
     &__mist {
       width: 686px;
@@ -167,5 +178,13 @@
       left: 70px;
       bottom: 257px;
     }
+  }
+}
+
+/* 指針動畫 */
+// Doc: https://cssanimation.rocks/clocks/
+@keyframes pointer-rotate {
+  100% {
+    transform: rotateZ(360deg);
   }
 }

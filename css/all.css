@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: NotoSansTC;
   src: url("../fonts/Noto_Sans_TC/NotoSansTC-Bold.otf") format("opentype");
@@ -157,6 +158,20 @@ html, body {
   left: -55px;
 }
 
+.index__history__clock::after {
+  content: '';
+  position: absolute;
+  top: 130px;
+  left: 90px;
+  width: 7px;
+  height: 50px;
+  background-color: white;
+  -webkit-transform-origin: 50% 80%;
+          transform-origin: 50% 80%;
+  -webkit-animation: pointer-rotate 60s infinite steps(60);
+          animation: pointer-rotate 60s infinite steps(60);
+}
+
 .index__history__mist {
   width: 686px;
   height: 574px;
@@ -261,6 +276,20 @@ html, body {
   height: 110px;
   left: 70px;
   bottom: 257px;
+}
+
+/* 指針動畫 */
+@-webkit-keyframes pointer-rotate {
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+@keyframes pointer-rotate {
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
 }
 
 .introduce {
