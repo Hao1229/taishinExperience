@@ -166,8 +166,13 @@ html, body {
   background-size: cover;
   position: absolute;
   top: -320px;
-  left: 80px;
+  left: 60px;
   z-index: 1;
+}
+
+.index__history__mist__active {
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
 }
 
 .index__history-img-1 {

@@ -87,8 +87,11 @@
       background-size: cover;
       position: absolute;
       top: -320px;
-      left: 80px;
+      left: 60px;
       z-index: 1;
+      &__active {
+        transform: translateX(50px);
+      }
     }
   }
   &__history-img-1 {
