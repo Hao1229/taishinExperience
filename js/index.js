@@ -1,21 +1,21 @@
 /* history 大樓燈光換圖 */
-// setInterval(() => {
-//   $('.index__history').toggleClass('index__history-img-2');
-// }, 1000)
+setInterval(() => {
+  $('.index__history').toggleClass('index__history-img-2');
+}, 1000)
 
 /* arrow path 換圖 */
-// setInterval(() => {
-//   $('.index__arrow-path').toggleClass('index__arrow-path__active');
-// }, 1000)
+setInterval(() => {
+  $('.index__arrow-path').toggleClass('index__arrow-path__active');
+}, 1000)
 
 /* mist 動態 */
-// setInterval(() => {
-//   $('.index__history__mist').toggleClass('index__history__mist__active');
-// }, 1000)
+setInterval(() => {
+  $('.index__history__mist').toggleClass('index__history__mist__active');
+}, 1000)
 
 /* 影片播放 */
 const boradVideo = document.querySelector('.index__board__video')
-// boradVideo.play()
+boradVideo.play()
 
 /* 輪播 */
 function boardActive () {
@@ -38,4 +38,4 @@ function introActive () {
   }, 2000)
 }
 
-// boardActive()
+boardActive()

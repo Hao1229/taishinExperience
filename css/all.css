@@ -85,6 +85,7 @@ html, body {
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 3;
 }
 
 .index__bg-building {
@@ -94,6 +95,8 @@ html, body {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+  position: relative;
+  z-index: 2;
 }
 
 .index__introduce {
@@ -278,6 +281,87 @@ html, body {
   bottom: 257px;
 }
 
+.index__cloud-wave {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: 200px;
+  left: 300px;
+  z-index: 1;
+}
+
+.index__cloud-wave::before {
+  content: "";
+  position: absolute;
+  width: 470px;
+  height: 390px;
+  bottom: 0;
+  left: 55%;
+  background-color: rgba(255, 255, 255, 0.18);
+  border-radius: 70%;
+  -webkit-transform: translateX(-50%) rotate(0);
+          transform: translateX(-50%) rotate(0);
+  -webkit-animation: wave 6s linear infinite;
+          animation: wave 6s linear infinite;
+  z-index: 10;
+}
+
+.index__cloud-wave::after {
+  content: "";
+  position: absolute;
+  width: 470px;
+  height: 390px;
+  bottom: 0;
+  left: 55%;
+  border-radius: 30%;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-transform: translateX(-50%) rotate(0);
+          transform: translateX(-50%) rotate(0);
+  -webkit-animation: wave 10s linear -5s infinite;
+          animation: wave 10s linear -5s infinite;
+  z-index: 20;
+}
+
+.index__sound {
+  width: 347px;
+  height: 1366px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: -150px;
+  right: 500px;
+  z-index: 3;
+  -webkit-animation-name: soundMove;
+          animation-name: soundMove;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.index__sound-front {
+  width: 347px;
+  height: 1366px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  z-index: 3;
+  -webkit-animation-name: soundMove;
+          animation-name: soundMove;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
 /* 指針動畫 */
 @-webkit-keyframes pointer-rotate {
   100% {
@@ -289,6 +373,70 @@ html, body {
   100% {
     -webkit-transform: rotateZ(360deg);
             transform: rotateZ(360deg);
+  }
+}
+
+/* cloud wave 動畫 */
+@-webkit-keyframes wave {
+  50% {
+    -webkit-transform: translateX(-50%) rotate(180deg);
+            transform: translateX(-50%) rotate(180deg);
+  }
+  100% {
+    -webkit-transform: translateX(-50%) rotate(360deg);
+            transform: translateX(-50%) rotate(360deg);
+  }
+}
+@keyframes wave {
+  50% {
+    -webkit-transform: translateX(-50%) rotate(180deg);
+            transform: translateX(-50%) rotate(180deg);
+  }
+  100% {
+    -webkit-transform: translateX(-50%) rotate(360deg);
+            transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+/* 音響動畫 */
+@-webkit-keyframes soundMove {
+  0% {
+    background-image: url("../images/index/sound-level-1.svg");
+  }
+  20% {
+    background-image: url("../images/index/sound-level-2.svg");
+  }
+  40% {
+    background-image: url("../images/index/sound-level-3.svg");
+  }
+  60% {
+    background-image: url("../images/index/sound-level-4.svg");
+  }
+  80% {
+    background-image: url("../images/index/sound-level-5.svg");
+  }
+  100% {
+    background-image: url("../images/index/sound-level-6.svg");
+  }
+}
+@keyframes soundMove {
+  0% {
+    background-image: url("../images/index/sound-level-1.svg");
+  }
+  20% {
+    background-image: url("../images/index/sound-level-2.svg");
+  }
+  40% {
+    background-image: url("../images/index/sound-level-3.svg");
+  }
+  60% {
+    background-image: url("../images/index/sound-level-4.svg");
+  }
+  80% {
+    background-image: url("../images/index/sound-level-5.svg");
+  }
+  100% {
+    background-image: url("../images/index/sound-level-6.svg");
   }
 }
 
