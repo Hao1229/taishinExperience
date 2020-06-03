@@ -566,6 +566,25 @@ html, body {
   overflow: hidden;
 }
 
+.index__video-popup__rightline {
+  width: 1400px;
+  height: 24px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  background-image: url("../images/index/popup-upperline.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 880px;
+  right: -580px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-filter: brightness(300%);
+          filter: brightness(300%);
+  overflow: hidden;
+}
+
 .index__video-popup__bottomline {
   width: 279px;
   height: 115px;

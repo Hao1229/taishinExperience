@@ -415,6 +415,20 @@
       filter: brightness(300%);
       overflow: hidden;
     }
+    &__rightline {
+      width: 1400px;
+      height: 24px;
+      transform: rotate(90deg);
+      background-image: url('../images/index/popup-upperline.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 880px;
+      right: -580px;
+      display:inline-flex;
+      filter: brightness(300%);
+      overflow: hidden;
+    }
     &__bottomline {
       width: 279px;
       height: 115px;
