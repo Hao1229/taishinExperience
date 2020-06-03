@@ -487,6 +487,48 @@ html, body {
   border: none;
 }
 
+.index__video-popup__upline {
+  width: 2560px;
+  height: 24px;
+  background-image: url("../images/index/popup-upperline.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 70px;
+  left: 330px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-filter: brightness(300%);
+          filter: brightness(300%);
+  overflow: hidden;
+}
+
+.index__video-popup__bottomline {
+  width: 279px;
+  height: 115px;
+  background-image: url("../images/index/popup-bottom-left.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 30px;
+  left: -10px;
+}
+
+.index__video-popup__dodge {
+  background: radial-gradient(circle, white, red 35%) center/25% 25%;
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: color-dodge;
+  -webkit-animation: dodge-area 3s linear infinite;
+          animation: dodge-area 3s linear infinite;
+}
+
 /* 指針動畫 */
 @-webkit-keyframes pointer-rotate {
   100% {
@@ -562,6 +604,20 @@ html, body {
   }
   100% {
     background-image: url("../images/index/sound-level-6.svg");
+  }
+}
+
+/* pop up 邊框動畫 */
+@-webkit-keyframes dodge-area {
+  to {
+    -webkit-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
+  }
+}
+@keyframes dodge-area {
+  to {
+    -webkit-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
   }
 }
 

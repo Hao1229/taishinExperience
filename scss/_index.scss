@@ -350,6 +350,41 @@
         border: none;
       }
     }
+    &__upline {
+      width: 2560px;
+      height: 24px;
+      background-image: url('../images/index/popup-upperline.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: absolute;
+      top: 70px;
+      left: 330px;
+      display:inline-flex;
+      filter: brightness(300%);
+      overflow: hidden;
+    }
+    &__bottomline {
+      width: 279px;
+      height: 115px;
+      background-image: url('../images/index/popup-bottom-left.svg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: 30px;
+      left: -10px;
+    }
+    &__dodge {
+      background: radial-gradient(circle,white,red 35%) center / 25% 25%;
+      position: absolute;
+      top:-100%;
+      left:-100%;
+      right:0;
+      bottom:0;
+      mix-blend-mode: color-dodge;
+      animation: dodge-area 3s linear infinite;
+    }
   }
 }
 
@@ -394,6 +429,12 @@
   }
 }
 
+/* pop up 邊框動畫 */
+@keyframes dodge-area {
+  to {
+    transform: translate(50%, 50%);
+  }
+}
 
 video::-webkit-media-controls-fullscreen-button {
   display: none;
