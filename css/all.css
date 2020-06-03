@@ -480,6 +480,10 @@ html, body {
   left: 585px;
 }
 
+.index__video-popup #film-two, .index__video-popup #film-three {
+  display: none;
+}
+
 .index__video-popup__close {
   position: absolute;
   top: -40px;
@@ -511,6 +515,37 @@ html, body {
   margin-right: 45px;
   background-color: transparent;
   border: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.index__video-popup__button-group button:focus {
+  outline: none;
+}
+
+.index__video-popup__button-group .video-btn-one {
+  background-image: url("../images/index/videoBtn-default.svg");
+}
+
+.index__video-popup__button-group .video-btn-one__active {
+  background-image: url("../images/index/videoBtn-active.svg");
+}
+
+.index__video-popup__button-group .video-btn-two {
+  background-image: url("../images/index/videoBtn-default.svg");
+}
+
+.index__video-popup__button-group .video-btn-two__active {
+  background-image: url("../images/index/videoBtn-active.svg");
+}
+
+.index__video-popup__button-group .video-btn-three {
+  background-image: url("../images/index/videoBtn-default.svg");
+}
+
+.index__video-popup__button-group .video-btn-three__active {
+  background-image: url("../images/index/videoBtn-active.svg");
 }
 
 .index__video-popup__upline {
@@ -553,6 +588,14 @@ html, body {
   mix-blend-mode: color-dodge;
   -webkit-animation: dodge-area 3s linear infinite;
           animation: dodge-area 3s linear infinite;
+}
+
+.index__video-popup__btn-two-active .default {
+  display: none;
+}
+
+.index__video-popup__btn-two-active .active {
+  display: inline;
 }
 
 /* 指針動畫 */
