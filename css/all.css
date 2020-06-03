@@ -434,6 +434,59 @@ html, body {
           animation-direction: alternate;
 }
 
+.index__video-popup {
+  max-width: 3229px !important;
+}
+
+.index__video-popup .modal-content {
+  height: 1770px;
+  background-image: url("../images/index/popup-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+}
+
+.index__video-popup__video {
+  position: absolute;
+  top: 180px;
+  left: 585px;
+}
+
+.index__video-popup__close {
+  position: absolute;
+  top: -40px;
+  right: -30px;
+  opacity: 1 !important;
+}
+
+.index__video-popup__richart {
+  width: 461px;
+  height: 778px;
+  background-image: url("../images/index/richart.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  bottom: -70px;
+  right: -160px;
+}
+
+.index__video-popup__button-group {
+  position: absolute;
+  bottom: 130px;
+  left: 580px;
+}
+
+.index__video-popup__button-group button {
+  width: 500px;
+  height: 120px;
+  margin-right: 45px;
+  background-color: transparent;
+  border: none;
+}
+
 /* 指針動畫 */
 @-webkit-keyframes pointer-rotate {
   100% {
@@ -510,6 +563,18 @@ html, body {
   100% {
     background-image: url("../images/index/sound-level-6.svg");
   }
+}
+
+video::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
+
+video::-webkit-media-controls-mute-button {
+  display: none;
+}
+
+video::-webkit-media-controls-rewind-button {
+  display: none;
 }
 
 .introduce {

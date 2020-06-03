@@ -305,6 +305,52 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
+  &__video-popup {
+    max-width: 3229px !important;
+    .modal-content {
+      height: 1770px;
+      background-image: url('../images/index/popup-bg.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-color: transparent;
+      border: none;
+    }
+    &__video {
+      position: absolute;
+      top: 180px;
+      left: 585px;
+    }
+    &__close {
+      position: absolute;
+      top: -40px;
+      right: -30px;
+      opacity: 1 !important;
+    }
+    &__richart {
+      width: 461px;
+      height: 778px;
+      background-image: url('../images/index/richart.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      bottom: -70px;
+      right: -160px;
+    }
+    &__button-group {
+      position: absolute;
+      bottom: 130px;
+      left: 580px;
+      button {
+        width: 500px;
+        height: 120px;
+        margin-right: 45px;
+        background-color: transparent;
+        border: none;
+      }
+    }
+  }
 }
 
 /* 指針動畫 */
@@ -346,4 +392,15 @@
   100% {
     background-image: url('../images/index/sound-level-6.svg');
   }
+}
+
+
+video::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
+video::-webkit-media-controls-mute-button { 
+  display: none;
+}
+video::-webkit-media-controls-rewind-button { 
+  display: none;
 }

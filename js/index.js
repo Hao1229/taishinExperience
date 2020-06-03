@@ -17,6 +17,27 @@ setInterval(() => {
 const boradVideo = document.querySelector('.index__board__video')
 boradVideo.play()
 
+/* 影片 pop up */
+const popupVideo = document.querySelector('.index__video-popup__video')
+
+$('#lifestyle-link').click(function (e) { 
+  e.preventDefault()
+  $('#video-popup').modal('show')
+  setTimeout(() => {
+    popupVideo.play()
+  }, 1000)
+})
+
+$('#video-popup').modal({
+  backdrop: 'static'
+})
+$('#video-popup').modal('hide')
+
+$('#video-popup').on('hidden.bs.modal', function (e) {
+  popupVideo.pause()
+  popupVideo.load()
+})
+
 /* 輪播 */
 function boardActive () {
   $('.index__intro').removeClass('index__intro__active');

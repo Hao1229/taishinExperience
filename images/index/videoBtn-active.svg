@@ -1,0 +1,17 @@
+<svg width="500px" height="120px" viewBox="0 0 500 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Fill 1</title>
+    <defs>
+        <linearGradient x1="50%" y1="-72.9561743%" x2="50%" y2="115.273501%" id="linearGradient-1">
+            <stop stop-color="#646664" offset="0%"></stop>
+            <stop stop-color="#333333" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tab/active">
+            <path d="M12.575,0 C5.616,0.08 0,5.747 0,12.725 L0,12.725 L0,107.275 C0,114.304 5.697,120 12.724,120 L12.724,120 L487.275,120 C494.303,120 500,114.304 500,107.275 L500,107.275 L500,12.725 C500,5.747 494.384,0.08 487.425,0 L487.425,0 L12.575,0 Z" id="Fill-1" fill="url(#linearGradient-1)"></path>
+            <text id="公司簡介" font-family="PingFangTC-Regular, PingFang TC" font-size="50" font-weight="normal" letter-spacing="0.0536174055" fill="#FFFFFF">
+                <tspan x="150.392765" y="76">公司簡介</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
