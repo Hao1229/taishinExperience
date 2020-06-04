@@ -9,27 +9,22 @@
 </head>
 <body>
   <section id="introduce" class="introduce">
-    <a class="introduce__index d-inline-block index-link" href="#"></a>
-
-    <!-- pop up -->
-    <div class="modal" id="backModal" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered introduce__back-popup">
-        <div class="modal-content introduce__back-popup__content">
-          <div class="modal-body text-center d-flex flex-column justify-content-center">
-            <p class="display-4 text-white font-weight-bold">
-              是否返回場館介紹？
-            </p>
-            <div style="margin-top: 150px;">
-              <a href="#" class="btn btn-primary mr-5 py-3 index-link">是</a>
-              <button type="button" class="btn btn-primary py-3" data-dismiss="modal">否</button>
-            </div>
-          </div>
-        </div>
+    <div class="introduce__frame position-relative">
+      <div class="introduce__title"></div>
+      <div class="introduce__map-land">
+        <section class="introduce__map-land__left-section">
+          <div class="introduce__map-land__left-section__three"></div>
+          <div class="introduce__map-land__left-section__two"></div>
+          <div class="introduce__map-land__left-section__one"></div>
+          <div class="introduce__map-land__left-section__four"></div>
+          <div class="introduce__map-land__left-section__five"></div>
+          <div class="introduce__map-land__your-place"></div>
+        </section>
       </div>
     </div>
-    <!-- pop up end -->
   </section>
 
+  <!-- 過場動畫 -->
   <section class="transition-space">
     <div class="scene">
       <div class="wrap">
@@ -48,10 +43,12 @@
       </div>
     </div>
   </section>
+  <!-- 過場動畫 end -->
 
 <script src="../js/jQuery.js"></script>
 <script src="../js/pooper.js"></script>
 <script src="../js/bootstrap.min.js"></script>
+<script src="../js/introduce.js"></script>
 <script src="../js/all.js"></script>
 </body>
 
