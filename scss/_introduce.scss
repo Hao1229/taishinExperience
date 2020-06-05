@@ -25,7 +25,6 @@
   }
   &__map-land {
     width: 63.47vw;
-    // height: 53.75vh;
     height: 55.56vh;
     position: absolute;
     top: 19.91vh;
@@ -42,13 +41,15 @@
       padding-top: 4.63vh;
       padding-left: 3.91vw;
       &__three {
-        width: 10.26vw;
-        height: 16.76vh;
+        width: 9.56vw;
+        height: 15.74vh;
         background-image: url('../images/introduce/map-leftsection-three-default.svg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        position: relative;
+        position: absolute;
+        top: 4.63vh;
+        left: 4.43vw;
         &__title {
           background-color: #333333;
           width: 1.615vw;
@@ -57,8 +58,18 @@
           font-size: 1.042vw;
           color: white;
           position: absolute;
-          top: -0.463vh;
-          left: 0.261vw;
+          top: -0.926vh;
+          &__active {
+            top: 0;
+            left: 0.521vw;
+          }
+        }
+        &__active {
+          width: 10.42vw;
+          height: 17.04vh;
+          top: 3.71vh;
+          left: 3.91vw;
+          background-image: url('../images/introduce/map-leftsection-three-active.svg');
         }
       }
       &__two {
