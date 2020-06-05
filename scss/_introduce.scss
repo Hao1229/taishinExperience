@@ -25,7 +25,8 @@
   }
   &__map-land {
     width: 63.47vw;
-    height: 53.75vh;
+    // height: 53.75vh;
+    height: 55.56vh;
     position: absolute;
     top: 19.91vh;
     left: 1.302vw;
@@ -47,17 +48,18 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-      }
-      &__two {
-        width: 10.26vw;
-        height: 16.76vh;
-        background-image: url('../images/introduce/map-leftsection-two-default.svg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        position: absolute;
-        top: 0;
-        left: 11.72vw;
+        position: relative;
+        &__title {
+          background-color: #333333;
+          width: 1.615vw;
+          height: 1.615vw;
+          border-radius: 50%;
+          font-size: 1.042vw;
+          color: white;
+          position: absolute;
+          top: -0.463vh;
+          left: 0.261vw;
+        }
       }
       &__two {
         width: 11.85vw;
@@ -69,6 +71,17 @@
         position: absolute;
         top: -0.781vh;
         left: 11.2vw;
+        &__title {
+          background-color: #333333;
+          width: 1.615vw;
+          height: 1.615vw;
+          border-radius: 50%;
+          font-size: 1.042vw;
+          color: white;
+          position: absolute;
+          top: 1.158vh;
+          left: 0;
+        }
       }
       &__one {
         width: 11.67vw;
@@ -80,6 +93,17 @@
         position: absolute;
         top: -2.78vh;
         left: 19.53vw;
+        &__title {
+          background-color: #333333;
+          width: 1.615vw;
+          height: 1.615vw;
+          border-radius: 50%;
+          font-size: 1.042vw;
+          color: white;
+          position: absolute;
+          top: -1.389vh;
+          left: 0;
+        }
       }
       &__four {
         width: 11.8vw;
@@ -91,6 +115,17 @@
         position: absolute;
         top: 17.13vh;
         left: 8.34vw;
+        &__title {
+          background-color: #333333;
+          width: 1.615vw;
+          height: 1.615vw;
+          border-radius: 50%;
+          font-size: 1.042vw;
+          color: white;
+          position: absolute;
+          bottom: -2.547vh;
+          left: 4.688vw;
+        }
       }
       &__five {
         width: 15.55vw;
@@ -102,6 +137,17 @@
         position: absolute;
         top: 9.26vh;
         left: 15.63vw;
+        &__title {
+          background-color: #333333;
+          width: 1.615vw;
+          height: 1.615vw;
+          border-radius: 50%;
+          font-size: 1.042vw;
+          color: white;
+          position: absolute;
+          bottom: 0.926vh;
+          left: 9.115vw;
+        }
       }
     }
     &__your-place {

@@ -752,7 +752,7 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land {
   width: 63.47vw;
-  height: 53.75vh;
+  height: 55.56vh;
   position: absolute;
   top: 19.91vh;
   left: 1.302vw;
@@ -778,18 +778,19 @@ video::-webkit-media-controls-rewind-button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  position: relative;
 }
 
-.introduce__map-land__left-section__two {
-  width: 10.26vw;
-  height: 16.76vh;
-  background-image: url("../images/introduce/map-leftsection-two-default.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+.introduce__map-land__left-section__three__title {
+  background-color: #333333;
+  width: 1.615vw;
+  height: 1.615vw;
+  border-radius: 50%;
+  font-size: 1.042vw;
+  color: white;
   position: absolute;
-  top: 0;
-  left: 11.72vw;
+  top: -0.463vh;
+  left: 0.261vw;
 }
 
 .introduce__map-land__left-section__two {
@@ -804,6 +805,18 @@ video::-webkit-media-controls-rewind-button {
   left: 11.2vw;
 }
 
+.introduce__map-land__left-section__two__title {
+  background-color: #333333;
+  width: 1.615vw;
+  height: 1.615vw;
+  border-radius: 50%;
+  font-size: 1.042vw;
+  color: white;
+  position: absolute;
+  top: 1.158vh;
+  left: 0;
+}
+
 .introduce__map-land__left-section__one {
   width: 11.67vw;
   height: 15.51vh;
@@ -814,6 +827,18 @@ video::-webkit-media-controls-rewind-button {
   position: absolute;
   top: -2.78vh;
   left: 19.53vw;
+}
+
+.introduce__map-land__left-section__one__title {
+  background-color: #333333;
+  width: 1.615vw;
+  height: 1.615vw;
+  border-radius: 50%;
+  font-size: 1.042vw;
+  color: white;
+  position: absolute;
+  top: -1.389vh;
+  left: 0;
 }
 
 .introduce__map-land__left-section__four {
@@ -828,6 +853,18 @@ video::-webkit-media-controls-rewind-button {
   left: 8.34vw;
 }
 
+.introduce__map-land__left-section__four__title {
+  background-color: #333333;
+  width: 1.615vw;
+  height: 1.615vw;
+  border-radius: 50%;
+  font-size: 1.042vw;
+  color: white;
+  position: absolute;
+  bottom: -2.547vh;
+  left: 4.688vw;
+}
+
 .introduce__map-land__left-section__five {
   width: 15.55vw;
   height: 19.45vh;
@@ -838,6 +875,18 @@ video::-webkit-media-controls-rewind-button {
   position: absolute;
   top: 9.26vh;
   left: 15.63vw;
+}
+
+.introduce__map-land__left-section__five__title {
+  background-color: #333333;
+  width: 1.615vw;
+  height: 1.615vw;
+  border-radius: 50%;
+  font-size: 1.042vw;
+  color: white;
+  position: absolute;
+  bottom: 0.926vh;
+  left: 9.115vw;
 }
 
 .introduce__map-land__your-place {
