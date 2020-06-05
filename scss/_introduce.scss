@@ -50,6 +50,7 @@
         position: absolute;
         top: 4.63vh;
         left: 4.43vw;
+        z-index: 2;
         &__title {
           background-color: #333333;
           width: 1.615vw;
@@ -82,6 +83,7 @@
         position: absolute;
         top: -0.781vh;
         left: 11.2vw;
+        z-index: 1;
         &__title {
           background-color: #333333;
           width: 1.615vw;
@@ -92,6 +94,9 @@
           position: absolute;
           top: 1.158vh;
           left: 0;
+        }
+        &__active {
+          background-image: url('../images/introduce/map-leftsection-two-active.svg');
         }
       }
       &__one {
@@ -115,6 +120,9 @@
           top: -1.389vh;
           left: 0;
         }
+        &__active {
+          background-image: url('../images/introduce/map-leftsection-one-active.svg');
+        }
       }
       &__four {
         width: 11.8vw;
@@ -137,6 +145,9 @@
           bottom: -2.547vh;
           left: 4.688vw;
         }
+        &__active {
+          background-image: url('../images/introduce/map-leftsection-four-active.svg');
+        }
       }
       &__five {
         width: 15.55vw;
@@ -158,6 +169,17 @@
           position: absolute;
           bottom: 0.926vh;
           left: 9.115vw;
+          &__active {
+            bottom: 0.232vh;
+            left: 8.724vw;
+          }
+        }
+        &__active {
+          width: 14.82vw;
+          height: 18.52vh;
+          top: 9.5vh;
+          left: 16.02vw;
+          background-image: url('../images/introduce/map-leftsection-five-active.svg');
         }
       }
     }
