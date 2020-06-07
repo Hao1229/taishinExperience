@@ -1041,7 +1041,7 @@ video::-webkit-media-controls-rewind-button {
   background-size: cover;
   background-position: center center;
   position: absolute;
-  top: 20.84vh;
+  top: 21.3vh;
   left: 0.782vw;
   z-index: 2;
 }
@@ -1071,7 +1071,7 @@ video::-webkit-media-controls-rewind-button {
   background-position: center center;
   position: absolute;
   top: 4.63vh;
-  left: 0;
+  left: 0.782vw;
   z-index: 1;
 }
 
