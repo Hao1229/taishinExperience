@@ -34,3 +34,38 @@ $('.introduce__map-land__left-section__five').click(function (e) {
   $('.introduce__map-land__left-section__five').toggleClass('introduce__map-land__left-section__five__active')
   $('.introduce__map-land__left-section__five__title').toggleClass('introduce__map-land__left-section__five__title__active')
 })
+
+// 右 4
+$('.introduce__map-land__right-section__four').click(function (e) { 
+  e.preventDefault()
+  $('.introduce__map-land__right-section__four').toggleClass('introduce__map-land__right-section__four__active')
+  $('.introduce__map-land__right-section__four__title').toggleClass('introduce__map-land__right-section__four__title__active')
+})
+
+// 右 3
+$('.introduce__map-land__right-section__three').click(function (e) { 
+  e.preventDefault()
+  $('.introduce__map-land__right-section__three').toggleClass('introduce__map-land__right-section__three__active')
+  $('.introduce__map-land__right-section__three__title').toggleClass('introduce__map-land__right-section__three__title__active')
+})
+
+// 右 2
+$('.introduce__map-land__right-section__two').click(function (e) { 
+  e.preventDefault()
+  $('.introduce__map-land__right-section__two').toggleClass('introduce__map-land__right-section__two__active')
+  $('.introduce__map-land__right-section__two__title').toggleClass('introduce__map-land__right-section__two__title__active')
+})
+
+// 右 1
+$('.introduce__map-land__right-section__one').click(function (e) { 
+  e.preventDefault()
+  $('.introduce__map-land__right-section__one').toggleClass('introduce__map-land__right-section__one__active')
+  $('.introduce__map-land__right-section__one__title').toggleClass('introduce__map-land__right-section__one__title__active')
+})
+
+// 右 5
+$('.introduce__map-land__right-section__five').click(function (e) { 
+  e.preventDefault()
+  $('.introduce__map-land__right-section__five').toggleClass('introduce__map-land__right-section__five__active')
+  $('.introduce__map-land__right-section__five__title').toggleClass('introduce__map-land__right-section__five__title__active')
+})

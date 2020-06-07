@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="267" height="211" viewBox="0 0 267 211">
+    <defs>
+        <linearGradient id="prefix__b" x1="0%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#4D4D4D"/>
+        </linearGradient>
+        <linearGradient id="prefix__e" x1="0%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="gray"/>
+            <stop offset="100%" stop-color="#666"/>
+        </linearGradient>
+        <linearGradient id="prefix__h" x1="35.719%" x2="60.524%" y1="-4.155%" y2="86.024%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <linearGradient id="prefix__k" x1="-.002%" x2="99.993%" y1="49.996%" y2="49.996%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <linearGradient id="prefix__n" x1="-.002%" x2="99.993%" y1="50.009%" y2="50.009%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <linearGradient id="prefix__q" x1="-.002%" x2="99.993%" y1="50.004%" y2="50.004%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <linearGradient id="prefix__t" x1="-.002%" x2="99.993%" y1="49.998%" y2="49.998%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <linearGradient id="prefix__w" x1="-.002%" x2="99.993%" y1="49.993%" y2="49.993%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <linearGradient id="prefix__z" x1="-.002%" x2="99.993%" y1="50.015%" y2="50.015%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <linearGradient id="prefix__C" x1="-.002%" x2="99.993%" y1="49.991%" y2="49.991%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <linearGradient id="prefix__F" x1="-.002%" x2="99.993%" y1="49.999%" y2="49.999%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <linearGradient id="prefix__I" x1="0%" x2="100.001%" y1="50.001%" y2="50.001%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <linearGradient id="prefix__L" x1="60.539%" x2="47.942%" y1="151.163%" y2="27.813%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <path id="prefix__a" d="M.051 44.72V57c1.219-.361 133.609-42.54 143.361-45.214V.434C136.424 2.366 1.269 44.359.051 44.72"/>
+        <path id="prefix__d" d="M0 13.087L64.051 85 64.051 72.55 0 0.577z"/>
+        <path id="prefix__g" d="M0.596 0.056L0.596 62.459 64.234 128.08 64.234 59.949z"/>
+        <path id="prefix__j" d="M0.531 2.684L0.531 3.83 4.461 1.233 4.574 0.148z"/>
+        <path id="prefix__m" d="M0.531 3.378L0.531 4.523 4.461 1.926 4.574 0.841z"/>
+        <path id="prefix__p" d="M0.531 2.639L0.531 3.784 4.461 1.188 4.574 0.103z"/>
+        <path id="prefix__s" d="M0.531 2.9L0.531 4.046 4.461 1.448 4.574 0.364z"/>
+        <path id="prefix__v" d="M0.531 3.162L0.531 4.307 4.461 1.71 4.574 0.626z"/>
+        <path id="prefix__y" d="M0.531 3.423L0.531 4.568 4.461 1.971 4.574 0.886z"/>
+        <path id="prefix__B" d="M0.531 2.946L0.531 4.091 4.461 1.494 4.574 0.41z"/>
+        <path id="prefix__E" d="M0.531 3.206L0.531 4.352 4.461 1.755 4.574 0.671z"/>
+        <path id="prefix__H" d="M0.596 0.056L64.234 60.314 70.935 56.823 9.686 0.844z"/>
+        <path id="prefix__K" d="M.628 3.132v37.27c0 .727.272 1.425.763 1.96l40.302 40.179c1.786 1.948 5.034.684 5.034-1.959V39.921c0-.765-.303-1.5-.843-2.044L5.581 1.089C4.99.494 4.261.228 3.547.228 2.057.227.628 1.384.628 3.132"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#B2B2B2" d="M0 68.521l64.056 72.143c1.217-.362 136.368-42.354 143.356-44.287L142.295 24.23 0 68.521z" transform="translate(30 29)"/>
+        <g transform="translate(30 29) translate(64 95.944)">
+            <mask id="prefix__c" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <path fill="url(#prefix__b)" d="M.051 44.72V57c1.219-.361 133.609-42.54 143.361-45.214V.434C136.424 2.366 1.269 44.359.051 44.72" mask="url(#prefix__c)"/>
+        </g>
+        <g transform="translate(30 29) translate(0 67.944)">
+            <mask id="prefix__f" fill="#fff">
+                <use xlink:href="#prefix__d"/>
+            </mask>
+            <path fill="url(#prefix__e)" d="M0 13.087L64.051 85 64.051 72.55 0 0.577z" mask="url(#prefix__f)"/>
+        </g>
+        <g transform="translate(30 29) translate(9 .944)">
+            <mask id="prefix__i" fill="#fff">
+                <use xlink:href="#prefix__g"/>
+            </mask>
+            <path fill="url(#prefix__h)" d="M0.596 0.056L0.596 62.459 64.234 128.08 64.234 59.949z" mask="url(#prefix__i)"/>
+        </g>
+        <path fill="#1A1A1A" d="M73.234 60.74L73.234 129.39 80.694 120.992 79.936 57.767z" transform="translate(30 29)"/>
+        <g transform="translate(30 29) translate(75 93.944)">
+            <mask id="prefix__l" fill="#fff">
+                <use xlink:href="#prefix__j"/>
+            </mask>
+            <path fill="url(#prefix__k)" d="M0.531 2.684L0.531 3.83 4.461 1.233 4.574 0.148z" mask="url(#prefix__l)"/>
+        </g>
+        <g transform="translate(30 29) translate(75 81.944)">
+            <mask id="prefix__o" fill="#fff">
+                <use xlink:href="#prefix__m"/>
+            </mask>
+            <path fill="url(#prefix__n)" d="M0.531 3.378L0.531 4.523 4.461 1.926 4.574 0.841z" mask="url(#prefix__o)"/>
+        </g>
+        <g transform="translate(30 29) translate(75 84.944)">
+            <mask id="prefix__r" fill="#fff">
+                <use xlink:href="#prefix__p"/>
+            </mask>
+            <path fill="url(#prefix__q)" d="M0.531 2.639L0.531 3.784 4.461 1.188 4.574 0.103z" mask="url(#prefix__r)"/>
+        </g>
+        <g transform="translate(30 29) translate(75 86.944)">
+            <mask id="prefix__u" fill="#fff">
+                <use xlink:href="#prefix__s"/>
+            </mask>
+            <path fill="url(#prefix__t)" d="M0.531 2.9L0.531 4.046 4.461 1.448 4.574 0.364z" mask="url(#prefix__u)"/>
+        </g>
+        <g transform="translate(30 29) translate(75 88.944)">
+            <mask id="prefix__x" fill="#fff">
+                <use xlink:href="#prefix__v"/>
+            </mask>
+            <path fill="url(#prefix__w)" d="M0.531 3.162L0.531 4.307 4.461 1.71 4.574 0.626z" mask="url(#prefix__x)"/>
+        </g>
+        <g transform="translate(30 29) translate(75 90.944)">
+            <mask id="prefix__A" fill="#fff">
+                <use xlink:href="#prefix__y"/>
+            </mask>
+            <path fill="url(#prefix__z)" d="M0.531 3.423L0.531 4.568 4.461 1.971 4.574 0.886z" mask="url(#prefix__A)"/>
+        </g>
+        <g transform="translate(30 29) translate(75 95.944)">
+            <mask id="prefix__D" fill="#fff">
+                <use xlink:href="#prefix__B"/>
+            </mask>
+            <path fill="url(#prefix__C)" d="M0.531 2.946L0.531 4.091 4.461 1.494 4.574 0.41z" mask="url(#prefix__D)"/>
+        </g>
+        <g transform="translate(30 29) translate(75 97.944)">
+            <mask id="prefix__G" fill="#fff">
+                <use xlink:href="#prefix__E"/>
+            </mask>
+            <path fill="url(#prefix__F)" d="M0.531 3.206L0.531 4.352 4.461 1.755 4.574 0.671z" mask="url(#prefix__G)"/>
+        </g>
+        <g transform="translate(30 29) translate(9 .944)">
+            <mask id="prefix__J" fill="#fff">
+                <use xlink:href="#prefix__H"/>
+            </mask>
+            <path fill="url(#prefix__I)" d="M0.596 0.056L64.234 60.314 70.935 56.823 9.686 0.844z" mask="url(#prefix__J)"/>
+        </g>
+        <path fill="#1A1A1A" d="M62.621 59.977L22.318 23.19c-.726-.733-1.659-.96-2.52-.814l-.007-.017-4.003.915 1.695 1.137c-.073.256-.118.529-.118.822v37.27c0 .725.273 1.424.763 1.958l39.587 39.4-.29 2.504 3.764-.853.052-.011.05-.011-.004-.004c1.187-.31 2.177-1.344 2.177-2.803V62.02c0-.766-.303-1.5-.843-2.043" transform="translate(30 29)"/>
+        <g transform="translate(30 29) translate(13 22.944)">
+            <mask id="prefix__M" fill="#fff">
+                <use xlink:href="#prefix__K"/>
+            </mask>
+            <path fill="url(#prefix__L)" d="M.628 3.132v37.27c0 .727.272 1.425.763 1.96l40.302 40.179c1.786 1.948 5.034.684 5.034-1.959V39.921c0-.765-.303-1.5-.843-2.044L5.581 1.089C4.99.494 4.261.228 3.547.228 2.057.227.628 1.384.628 3.132" mask="url(#prefix__M)"/>
+        </g>
+        <g fill="#B2B2B2">
+            <path d="M1.673.668c.335.504.314 1.106-.046 1.346s-.924.024-1.258-.48C.034 1.03.054.427.414.188c.361-.24.924-.025 1.259.48M1.673 36.161c.335.504.314 1.106-.046 1.346s-.924.024-1.258-.48c-.335-.505-.315-1.107.045-1.346.361-.24.924-.025 1.259.48M40.04 36.86c.334.505.313 1.107-.046 1.347-.36.239-.924.024-1.259-.48-.335-.505-.314-1.107.046-1.346.361-.24.923-.025 1.258.48M40.04 72.354c.334.504.313 1.106-.046 1.346-.36.239-.924.024-1.259-.48-.335-.505-.314-1.107.046-1.346.361-.24.923-.025 1.258.48" transform="translate(30 29) translate(16 26.944)"/>
+        </g>
+    </g>
+</svg>

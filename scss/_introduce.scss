@@ -38,19 +38,16 @@
       position: absolute;
       top: 18.52vh;
       left: 0;
-      padding-top: 4.63vh;
-      padding-left: 3.91vw;
       &__three {
-        width: 9.56vw;
-        height: 15.74vh;
+        width: calc(9.56vw * 0.95);
+        height: calc(15.74vh * 0.95);
         background-image: url('../images/introduce/map-leftsection-three-default.svg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
         position: absolute;
-        top: 4.63vh;
-        left: 4.43vw;
-        z-index: 2;
+        top: 130px;
+        left: 100px;
         &__title {
           background-color: #333333;
           width: 1.615vw;
@@ -59,31 +56,31 @@
           font-size: 1.042vw;
           color: white;
           position: absolute;
-          top: -0.926vh;
+          top: -25px;
+          left: 5px;
           &__active {
-            top: 0;
-            left: 0.521vw;
+            top: -5px;
+            left: 25px;
           }
         }
         &__active {
-          width: 10.42vw;
-          height: 17.04vh;
-          top: 3.71vh;
-          left: 3.91vw;
+          width: calc(10.42vw * 0.95);
+          height: calc(17.04vh * 0.95);
+          top: 110px;
+          left: 80px;
           background-image: url('../images/introduce/map-leftsection-three-active.svg');
         }
       }
       &__two {
-        width: 11.85vw;
-        height: 18.48vh;
+        width: calc(11.85vw * 0.9);
+        height: calc(18.48vh * 0.9);
         background-image: url('../images/introduce/map-leftsection-two-default.svg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
         position: absolute;
-        top: -0.781vh;
-        left: 11.2vw;
-        z-index: 1;
+        top: 30px;
+        left: 350px;
         &__title {
           background-color: #333333;
           width: 1.615vw;
@@ -92,7 +89,7 @@
           font-size: 1.042vw;
           color: white;
           position: absolute;
-          top: 1.158vh;
+          top: 5px;
           left: 0;
         }
         &__active {
@@ -100,15 +97,15 @@
         }
       }
       &__one {
-        width: 11.67vw;
-        height: 15.51vh;
+        width: calc(11.67vw * 0.95);
+        height: calc(15.51vh * 0.95);
         background-image: url('../images/introduce/map-leftsection-one-default.svg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
         position: absolute;
-        top: -2.78vh;
-        left: 19.53vw;
+        top: -20px;
+        left: 640px;
         &__title {
           background-color: #333333;
           width: 1.615vw;
@@ -125,15 +122,15 @@
         }
       }
       &__four {
-        width: 11.8vw;
-        height: 14.95vh;
+        width: calc(11.8vw * 0.9);
+        height: calc(14.95vh * 0.9);
         background-image: url('../images/introduce/map-leftsection-four-default.svg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
         position: absolute;
-        top: 17.13vh;
-        left: 8.34vw;
+        top: 390px;
+        left: 250px;
         &__title {
           background-color: #333333;
           width: 1.615vw;
@@ -142,23 +139,23 @@
           font-size: 1.042vw;
           color: white;
           position: absolute;
-          bottom: -2.547vh;
-          left: 4.688vw;
+          bottom: -70px;
+          left: 190px;
         }
         &__active {
           background-image: url('../images/introduce/map-leftsection-four-active.svg');
         }
       }
       &__five {
-        width: 15.55vw;
-        height: 19.45vh;
+        width: calc(15.55vw * 0.9);
+        height: calc(19.45vh * 0.9);
         background-image: url('../images/introduce/map-leftsection-five-default.svg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
         position: absolute;
-        top: 9.26vh;
-        left: 15.63vw;
+        top: 230px;
+        left: 500px;
         &__title {
           background-color: #333333;
           width: 1.615vw;
@@ -167,18 +164,17 @@
           font-size: 1.042vw;
           color: white;
           position: absolute;
-          bottom: 0.926vh;
-          left: 9.115vw;
+          bottom: -10px;
+          left: 350px;
           &__active {
-            bottom: 0.232vh;
-            left: 8.724vw;
+            bottom: -28px;
+            left: 340px;
           }
         }
         &__active {
-          width: 14.82vw;
-          height: 18.52vh;
-          top: 9.5vh;
-          left: 16.02vw;
+          width: calc(14.82vw * 0.9);
+          height: calc(18.52vh * 0.9);
+          left: 510px;
           background-image: url('../images/introduce/map-leftsection-five-active.svg');
         }
       }
@@ -191,8 +187,154 @@
       background-size: cover;
       background-position: center center;
       position: absolute;
-      top: 7.41vh;
-      left: 27.61vw;
+      top: 170px;
+      left: 900px;
+    }
+    &__right-section {
+      max-width: 50%;
+      position: absolute;
+      top: 2.315vh;
+      right: 28.65vw;
+      &__four {
+        width: calc(5.37vw * 0.95);
+        height: calc(12.07vh * 0.95);
+        background-image: url('../images/introduce/map-rightsection-four-default.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        top: 170px;
+        left: -160px;
+        &__title {
+          background-color: #808080;
+          width: 1.615vw;
+          height: 1.615vw;
+          border-radius: 50%;
+          font-size: 1.042vw;
+          color: white;
+          position: absolute;
+          top: 50px;
+          left: -30px;
+        }
+        &__active {
+          background-image: url('../images/introduce/map-rightsection-four-active.svg');
+        }
+      }
+      &__three {
+        width: calc(6.96vw * 0.95);
+        height: calc(9.77vh * 0.95);
+        background-image: url('../images/introduce/map-rightsection-three-default.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        top: 330px;
+        left: -140px;
+        z-index: 3;
+        &__title {
+          background-color: #808080;
+          width: 1.615vw;
+          height: 1.615vw;
+          border-radius: 50%;
+          font-size: 1.042vw;
+          color: white;
+          position: absolute;
+          top: 130px;
+          left: -20px;
+        }
+        &__active {
+          background-image: url('../images/introduce/map-rightsection-three-active.svg');
+        }
+      }
+      &__two {
+        width: calc(6.28vw * 0.9);
+        height: calc(9.08vh * 0.9);
+        background-image: url('../images/introduce/map-rightsection-two-default.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        top: 440px;
+        left: -45px;
+        z-index: 3;
+        &__title {
+          background-color: #808080;
+          width: 1.615vw;
+          height: 1.615vw;
+          border-radius: 50%;
+          font-size: 1.042vw;
+          color: white;
+          position: absolute;
+          top: 120px;
+          left: -45px;
+        }
+        &__active {
+          background-image: url('../images/introduce/map-rightsection-two-active.svg');
+        }
+      }
+      &__one {
+        width: calc(13.08vw * 0.95);
+        height: calc(13.11vh * 0.95);
+        background-image: url('../images/introduce/map-rightsection-one-default.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        top: 450px;
+        left: 30px;
+        z-index: 2;
+        &__title {
+          background-color: #808080;
+          width: 1.615vw;
+          height: 1.615vw;
+          border-radius: 50%;
+          font-size: 1.042vw;
+          color: white;
+          position: absolute;
+          bottom: -80px;
+          left: 100px;
+        }
+        &__active {
+          background-image: url('../images/introduce/map-rightsection-one-active.svg');
+        }
+      }
+      &__five {
+        width: calc(19.02vw * 0.95);
+        height: calc(20.84vh * 0.95);
+        background-image: url('../images/introduce/map-rightsection-five-default.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        z-index: 1;
+        &__title {
+          background-color: #808080;
+          width: 1.615vw;
+          height: 1.615vw;
+          border-radius: 50%;
+          font-size: 1.042vw;
+          color: white;
+          position: absolute;
+          top: -120px;
+          left: 240px;
+        }
+        &__active {
+          background-image: url('../images/introduce/map-rightsection-five-active.svg');
+        }
+      }
+    }
+    &__conference-room {
+      width: 489px;
+      height: 474px;
+      background-image: url('../images/introduce/conference-room.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      top: 0;
+      right: -950px;
     }
   }
 }

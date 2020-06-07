@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="206" height="263" viewBox="0 0 206 263">
+    <defs>
+        <path id="prefix__a" d="M0 0.041L146.633 0.041 146.633 140.762 0 140.762z"/>
+        <path id="prefix__c" d="M1 0.761L1.685 8 1 0.409z"/>
+        <path id="prefix__f" d="M0 47.409L0.685 55 145.848 10.364 146.632 0.705z"/>
+        <path id="prefix__i" d="M0.542 60.627L15.912 77.886 16.106 2.496 0.542 0.14z"/>
+        <path id="prefix__l" d="M25.105 0.544L0.542 52.46 16.106 54.496 39.604 3.604z"/>
+        <path id="prefix__o" d="M0.338 61.331L15.708 78.591 15.903 3.201 0.338 0.845z"/>
+        <path id="prefix__r" d="M0.338 52.164L15.903 54.201 39.398 3.309 24.899 0.25z"/>
+        <linearGradient id="prefix__d" x1="15.75%" x2="84.259%" y1="50.002%" y2="50.002%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#333"/>
+        </linearGradient>
+        <linearGradient id="prefix__g" x1="0%" x2="100.001%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#4D4D4D"/>
+        </linearGradient>
+        <linearGradient id="prefix__j" x1=".003%" x2="100.006%" y1="50.001%" y2="50.001%">
+            <stop offset="0%" stop-color="#F0233D"/>
+            <stop offset="100%" stop-color="#FF7979"/>
+        </linearGradient>
+        <linearGradient id="prefix__m" x1=".001%" x2="99.998%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#F0233D"/>
+            <stop offset="100%" stop-color="#FF7979"/>
+        </linearGradient>
+        <linearGradient id="prefix__p" x1="-.003%" x2="99.994%" y1="50.001%" y2="50.001%">
+            <stop offset="0%" stop-color="#F0233D"/>
+            <stop offset="100%" stop-color="#FF7979"/>
+        </linearGradient>
+        <linearGradient id="prefix__s" x1="-.001%" x2="100.001%" y1="49.999%" y2="49.999%">
+            <stop offset="0%" stop-color="#F0233D"/>
+            <stop offset="100%" stop-color="#FF7979"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(29 29) translate(1 56.456)">
+            <mask id="prefix__b" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <path fill="#B2B2B2" d="M60.64.04C39.766 36.803 0 140.763 0 140.763v-.353l146.633-46.704L60.64.04z" mask="url(#prefix__b)"/>
+        </g>
+        <g transform="translate(29 29) translate(0 196.456)">
+            <mask id="prefix__e" fill="#fff">
+                <use xlink:href="#prefix__c"/>
+            </mask>
+            <path fill="url(#prefix__d)" d="M1 0.761L1.685 8 1 0.409z" mask="url(#prefix__e)"/>
+        </g>
+        <g transform="translate(29 29) translate(1 149.456)">
+            <mask id="prefix__h" fill="#fff">
+                <use xlink:href="#prefix__f"/>
+            </mask>
+            <path fill="url(#prefix__g)" d="M0 47.409L0.685 55 145.848 10.364 146.632 0.705z" mask="url(#prefix__h)"/>
+        </g>
+        <g transform="translate(29 29) translate(38 52.456)">
+            <mask id="prefix__k" fill="#fff">
+                <use xlink:href="#prefix__i"/>
+            </mask>
+            <path fill="url(#prefix__j)" d="M0.542 60.627L15.912 77.886 16.106 2.496 0.542 0.14z" mask="url(#prefix__k)"/>
+        </g>
+        <g>
+            <path fill="#1A1A1A" d="M0.106 125.186L0.106 51.398 23.604 0.604 20.544 76.457z" transform="translate(29 29) translate(54 3.456)"/>
+            <path fill="#FFF" d="M3.206 108.939L3.206 54 20.504 16.851 18.227 73.329z" transform="translate(29 29) translate(54 3.456)"/>
+        </g>
+        <g transform="translate(29 29) translate(38 .456)">
+            <mask id="prefix__n" fill="#fff">
+                <use xlink:href="#prefix__l"/>
+            </mask>
+            <path fill="url(#prefix__m)" d="M25.105 0.544L0.542 52.46 16.106 54.496 39.604 3.604z" mask="url(#prefix__n)"/>
+        </g>
+        <g>
+            <path fill="#CBCBCB" d="M15.227 57.329L10.19 56 0.206 78.342 0.206 92.939z" transform="translate(29 29) translate(57 19.456)"/>
+            <path fill="#CBCBCB" d="M10.19 56L10.19 15.361 17.503 0.852 15.226 57.329z" transform="translate(29 29) translate(57 19.456)"/>
+            <path fill="gray" d="M10.19 56L0.206 78.342 0.206 38 10.19 15.361z" transform="translate(29 29) translate(57 19.456)"/>
+            <path fill="#FFF" d="M15.227 13.032L1.937 79.863 13.847 53.776z" transform="translate(29 29) translate(57 19.456)"/>
+        </g>
+        <g transform="translate(29 29) translate(12 107.456)">
+            <mask id="prefix__q" fill="#fff">
+                <use xlink:href="#prefix__o"/>
+            </mask>
+            <path fill="url(#prefix__p)" d="M0.338 61.331L15.708 78.591 15.903 3.201 0.338 0.845z" mask="url(#prefix__q)"/>
+        </g>
+        <g>
+            <path fill="#1A1A1A" d="M0.902 124.891L0.902 51.103 24.398 0.309 21.339 76.162z" transform="translate(29 29) translate(27 59.456)"/>
+            <path fill="#FFF" d="M4.001 108.644L4.001 53.705 21.299 16.556 19.022 73.034z" transform="translate(29 29) translate(27 59.456)"/>
+        </g>
+        <g transform="translate(29 29) translate(12 56.456)">
+            <mask id="prefix__t" fill="#fff">
+                <use xlink:href="#prefix__r"/>
+            </mask>
+            <path fill="url(#prefix__s)" d="M0.338 52.164L15.903 54.201 39.398 3.309 24.899 0.25z" mask="url(#prefix__t)"/>
+        </g>
+        <g>
+            <path fill="#CBCBCB" d="M15.021 57.034L9.985 55.705 0.001 78.047 0.001 92.644z" transform="translate(29 29) translate(31 75.456)"/>
+            <path fill="#CBCBCB" d="M9.984 55.705L9.984 15.066 17.298 0.557 15.021 57.034z" transform="translate(29 29) translate(31 75.456)"/>
+            <path fill="gray" d="M9.984 55.705L0.001 78.047 0.001 37.705 9.984 15.066z" transform="translate(29 29) translate(31 75.456)"/>
+            <path fill="#FFF" d="M15.021 12.737L1.732 79.568 13.642 53.481z" transform="translate(29 29) translate(31 75.456)"/>
+        </g>
+    </g>
+</svg>
