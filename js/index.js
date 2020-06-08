@@ -1,12 +1,7 @@
 /* history 大樓燈光換圖 */
 setInterval(() => {
   $('.index__history').toggleClass('index__history-img-2');
-}, 1000)
-
-/* arrow path 換圖 */
-setInterval(() => {
-  $('.index__arrow-path').toggleClass('index__arrow-path__active');
-}, 1000)
+}, 3000)
 
 /* 影片播放 */
 const boradVideo = document.querySelector('.index__board__video')

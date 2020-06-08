@@ -102,6 +102,7 @@ html, body {
   position: absolute;
   bottom: 140px;
   left: 220px;
+  z-index: 3;
 }
 
 .index__introduce::before {
@@ -383,23 +384,23 @@ html, body {
 }
 
 .index__arrow-path {
-  width: 111px;
-  height: 83px;
-  background-image: url("../images/index/arrow-path.svg");
+  width: 135px;
+  height: 106px;
+  background-image: url("../images/index/arrow-path/arrow-path-1.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   position: absolute;
-  bottom: 270px;
-  left: 80px;
-}
-
-.index__arrow-path__active {
-  background-image: url("../images/index/arrow-path-active.svg");
-  width: 130px;
-  height: 110px;
-  left: 70px;
-  bottom: 257px;
+  bottom: 265px;
+  left: 75px;
+  -webkit-animation-name: arrow-path-change;
+          animation-name: arrow-path-change;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 .index__cloud-group {
@@ -865,6 +866,36 @@ video::-webkit-media-controls-rewind-button {
   100% {
     -webkit-transform: rotate(30deg);
             transform: rotate(30deg);
+  }
+}
+
+/* arrow path 換圖 */
+@-webkit-keyframes arrow-path-change {
+  25% {
+    background-image: url("../images/index/arrow-path/arrow-path-1.svg");
+  }
+  50% {
+    background-image: url("../images/index/arrow-path/arrow-path-2.png");
+  }
+  75% {
+    background-image: url("../images/index/arrow-path/arrow-path-3.png");
+  }
+  100% {
+    background-image: url("../images/index/arrow-path/arrow-path-4.png");
+  }
+}
+@keyframes arrow-path-change {
+  25% {
+    background-image: url("../images/index/arrow-path/arrow-path-1.svg");
+  }
+  50% {
+    background-image: url("../images/index/arrow-path/arrow-path-2.png");
+  }
+  75% {
+    background-image: url("../images/index/arrow-path/arrow-path-3.png");
+  }
+  100% {
+    background-image: url("../images/index/arrow-path/arrow-path-4.png");
   }
 }
 
