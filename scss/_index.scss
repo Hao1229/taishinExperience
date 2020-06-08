@@ -127,9 +127,10 @@
       top: -320px;
       left: 60px;
       z-index: 1;
-      &__active {
-        transform: translateX(50px);
-      }
+      animation-name: mist-move;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
     }
   }
   &__history-img-1 {
@@ -517,4 +518,11 @@ video::-webkit-media-controls-mute-button {
 }
 video::-webkit-media-controls-rewind-button { 
   display: none;
+}
+
+/* mist 動畫 */
+@keyframes mist-move {
+  100% {
+    transform: translateX(50px);
+  }
 }

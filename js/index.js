@@ -8,11 +8,6 @@ setInterval(() => {
   $('.index__arrow-path').toggleClass('index__arrow-path__active');
 }, 1000)
 
-/* mist 動態 */
-setInterval(() => {
-  $('.index__history__mist').toggleClass('index__history__mist__active');
-}, 1000)
-
 /* 影片播放 */
 const boradVideo = document.querySelector('.index__board__video')
 boradVideo.play()

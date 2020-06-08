@@ -212,11 +212,14 @@ html, body {
   top: -320px;
   left: 60px;
   z-index: 1;
-}
-
-.index__history__mist__active {
-  -webkit-transform: translateX(50px);
-          transform: translateX(50px);
+  -webkit-animation-name: mist-move;
+          animation-name: mist-move;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 .index__history-img-1 {
@@ -719,6 +722,20 @@ video::-webkit-media-controls-mute-button {
 
 video::-webkit-media-controls-rewind-button {
   display: none;
+}
+
+/* mist 動畫 */
+@-webkit-keyframes mist-move {
+  100% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+}
+@keyframes mist-move {
+  100% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
 }
 
 .introduce {
