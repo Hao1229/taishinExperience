@@ -83,16 +83,93 @@
     margin-right: 70px;
     margin-bottom: 50px;
     &__award {
-      width: 755px;
-      height: 820px;
+      width: 345px;
+      height: 742px;
       background-image: url('../images/index/award.svg');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
       position: absolute;
-      top: -400px;
-      left: 70px;
+      top: -370px;
+      left: 200px;
       z-index: 2;
+      &__left-light-base {
+        position: absolute;
+        bottom: 100px;
+        left: -70px;
+        width: 29px;
+        height: 32px;
+        background-image: url('../images/index/light-rotate/light-base.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transform: scaleX(-1);
+      }
+      &__left-light-head {
+        position: absolute;
+        bottom: 120px;
+        left: -70px;
+        width: 48px;
+        height: 43px;
+        background-image: url('../images/index/light-rotate/light-head-left.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        animation-name: light-rotate;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        &::after {
+          content: '';
+          width: 370px;
+          height: 446px;
+          background-image: url('../images/index/light-rotate/spotlight-left.svg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          position: absolute;
+          bottom: 20px;
+          left: 30px;
+        }
+      }
+      &__right-light-base {
+        position: absolute;
+        bottom: 100px;
+        right: -230px;
+        width: 29px;
+        height: 32px;
+        background-image: url('../images/index/light-rotate/light-base.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+      &__right-light-head {
+        position: absolute;
+        bottom: 120px;
+        right: -230px;
+        width: 48px;
+        height: 43px;
+        background-image: url('../images/index/light-rotate/light-head-right.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        animation-name: light-rotate;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        &::after {
+          content: '';
+          width: 370px;
+          height: 446px;
+          background-image: url('../images/index/light-rotate/spotlight-right.svg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          position: absolute;
+          bottom: 20px;
+          right: 30px;
+        }
+      }
     }
     &__clock {
       width: 202px;
@@ -524,5 +601,21 @@ video::-webkit-media-controls-rewind-button {
 @keyframes mist-move {
   100% {
     transform: translateX(50px);
+  }
+}
+
+/* 獎盃燈光轉動 */
+@keyframes light-rotate {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-30deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(30deg);
   }
 }

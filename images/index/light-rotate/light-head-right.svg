@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="43" viewBox="0 0 48 43">
+    <defs>
+        <path id="prefix__a" d="M0.034 0.823L43.039 0.823 43.039 43 0.034 43z"/>
+        <path id="prefix__c" d="M0 0.496L18.755 0.496 18.755 26.065 0 26.065z"/>
+        <path id="prefix__e" d="M0.195 0.301L23.053 0.301 23.053 18.659 0.195 18.659z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0 -1) translate(1 .504)">
+            <mask id="prefix__b" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <path fill="#1A1A1A" d="M16.721.823l25.284 16.935c2.361 1.582.54 8.441-4.069 15.321-4.608 6.88-10.257 11.175-12.619 9.593L.034 25.737 16.721.823z" mask="url(#prefix__b)"/>
+        </g>
+        <g transform="translate(0 -1) translate(0 .504)">
+            <mask id="prefix__d" fill="#fff">
+                <use xlink:href="#prefix__c"/>
+            </mask>
+            <path fill="#918887" d="M1.034 25.737c2.362 1.582 8.012-2.713 12.62-9.593 4.608-6.88 6.429-13.739 4.067-15.32C15.36-.76 9.71 3.535 5.1 10.415c-4.607 6.88-6.428 13.74-4.067 15.321" mask="url(#prefix__d)"/>
+        </g>
+        <path fill="#FFF" d="M2.201 23.999c1.505 1.008 5.834-2.817 9.67-8.544 3.835-5.727 5.725-11.185 4.22-12.193-1.505-1.008-5.834 2.817-9.669 8.544C2.586 17.532.697 22.99 2.202 23.999" transform="translate(0 -1)"/>
+        <g transform="translate(0 -1) translate(24 22.504)">
+            <mask id="prefix__f" fill="#fff">
+                <use xlink:href="#prefix__e"/>
+            </mask>
+            <path fill="#BDB0AE" d="M20.405 17.92l2.366-3.532c.512-.764.307-1.798-.457-2.31L5.154.583c-.766-.512-1.8-.308-2.31.457L.476 4.572c-.512.764-.308 1.798.456 2.31l17.162 11.495c.764.512 1.798.308 2.31-.457" mask="url(#prefix__f)"/>
+        </g>
+        <path fill="#8E8584" d="M27.96 28.78c.735.493 1.731.296 2.223-.44.493-.735.296-1.73-.439-2.222-.736-.493-1.73-.296-2.223.439-.493.736-.296 1.73.44 2.223" transform="translate(0 -1)"/>
+        <path stroke="#FFF" d="M9.146 26.57L27.25 40.144" transform="translate(0 -1)"/>
+    </g>
+</svg>
