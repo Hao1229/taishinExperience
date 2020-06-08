@@ -55,8 +55,8 @@
   }
   &__lifestyle {
     position: absolute;
-    top: 100px;
-    left: -150px;
+    top: 200px;
+    left: -140px;
     &::before {
       content: '';
       background-image: url('../images/index/index-cartoon-one.svg');
@@ -80,8 +80,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    margin-right: 50px;
-    margin-bottom: 30px;
+    margin-right: 70px;
+    margin-bottom: 50px;
     &__award {
       width: 755px;
       height: 820px;
@@ -142,7 +142,7 @@
     width: 1350px;
     height: 1550px;
     margin-top: 10px;
-    margin-right: 50px;
+    margin-right: 70px;
     background-image: url('../images/index/intro.svg');
     background-size: cover;
     background-repeat: no-repeat;
