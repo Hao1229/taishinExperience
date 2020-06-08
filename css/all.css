@@ -156,11 +156,20 @@ html, body {
 .index__history {
   width: 940px;
   height: 1365px;
+  background-image: url("../images/index/loopBuilding-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   margin-right: 70px;
   margin-bottom: 50px;
+  -webkit-animation-name: history-change;
+          animation-name: history-change;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 .index__history__award {
@@ -313,14 +322,6 @@ html, body {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
-}
-
-.index__history-img-1 {
-  background-image: url("../images/index/loopBuilding-1.png");
-}
-
-.index__history-img-2 {
-  background-image: url("../images/index/loopBuilding-2.png");
 }
 
 .index__intro {
@@ -896,6 +897,24 @@ video::-webkit-media-controls-rewind-button {
   }
   100% {
     background-image: url("../images/index/arrow-path/arrow-path-4.png");
+  }
+}
+
+/* 水滴大樓換圖 */
+@-webkit-keyframes history-change {
+  50% {
+    background-image: url("../images/index/loopBuilding-1.png");
+  }
+  100% {
+    background-image: url("../images/index/loopBuilding-2.png");
+  }
+}
+@keyframes history-change {
+  50% {
+    background-image: url("../images/index/loopBuilding-1.png");
+  }
+  100% {
+    background-image: url("../images/index/loopBuilding-2.png");
   }
 }
 

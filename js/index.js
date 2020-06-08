@@ -1,8 +1,3 @@
-/* history 大樓燈光換圖 */
-setInterval(() => {
-  $('.index__history').toggleClass('index__history-img-2');
-}, 3000)
-
 /* 影片播放 */
 const boradVideo = document.querySelector('.index__board__video')
 boradVideo.play()

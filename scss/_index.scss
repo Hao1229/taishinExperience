@@ -78,11 +78,16 @@
   &__history {
     width: 940px;
     height: 1365px;
+    background-image: url('../images/index/loopBuilding-1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     margin-right: 70px;
     margin-bottom: 50px;
+    animation-name: history-change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     &__award {
       width: 345px;
       height: 742px;
@@ -210,12 +215,6 @@
       animation-iteration-count: infinite;
       animation-direction: alternate;
     }
-  }
-  &__history-img-1 {
-    background-image: url('../images/index/loopBuilding-1.png');
-  }
-  &__history-img-2 {
-    background-image: url('../images/index/loopBuilding-2.png');
   }
   &__intro {
     width: 1350px;
@@ -631,5 +630,15 @@ video::-webkit-media-controls-rewind-button {
   }
   100% {
     background-image: url('../images/index/arrow-path/arrow-path-4.png');
+  }
+}
+
+/* 水滴大樓換圖 */
+@keyframes history-change {
+  50% {
+    background-image: url('../images/index/loopBuilding-1.png');
+  }
+  100% {
+    background-image: url('../images/index/loopBuilding-2.png');
   }
 }
