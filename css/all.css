@@ -197,8 +197,8 @@ html, body {
   background-color: white;
   -webkit-transform-origin: 50% 80%;
           transform-origin: 50% 80%;
-  -webkit-animation: pointer-rotate 60s infinite steps(60);
-          animation: pointer-rotate 60s infinite steps(60);
+  -webkit-animation: pointer-rotate 30s infinite steps(60);
+          animation: pointer-rotate 30s infinite steps(60);
 }
 
 .index__history__mist {
