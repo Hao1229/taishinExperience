@@ -1,10 +1,49 @@
 html, body {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  position: fixed;
+  overflow: hidden !important;
   font-family: NotoSansTC, sans-serif;
 }
 
 .pointer {
   cursor: pointer;
+}
+
+/* 過場門 */
+.left-door {
+  width: 2555px;
+  height: 2160px;
+  background-image: url('../images/door/left.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  transition: all 1s;
+  transform: translateX(-2555px);
+  &__active {
+    transition: all 1s;
+    transform: translateX(0);
+  }
+}
+.right-door {
+  width: 1921px;
+  height: 2160px;
+  background-image: url('../images/door/right.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99999;
+  transition: all 1s;
+  transform: translateX(1921px);
+  &__active {
+    transition: all 1s;
+    transform: translateX(0);
+  }
 }

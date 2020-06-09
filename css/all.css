@@ -61,12 +61,62 @@ table {
 html, body {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  position: fixed;
+  overflow: hidden !important;
   font-family: NotoSansTC, sans-serif;
 }
 
 .pointer {
   cursor: pointer;
+}
+
+/* 過場門 */
+.left-door {
+  width: 2555px;
+  height: 2160px;
+  background-image: url("../images/door/left.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform: translateX(-2555px);
+          transform: translateX(-2555px);
+}
+
+.left-door__active {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.right-door {
+  width: 1921px;
+  height: 2160px;
+  background-image: url("../images/door/right.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99999;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform: translateX(1921px);
+          transform: translateX(1921px);
+}
+
+.right-door__active {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .index {
@@ -1598,7 +1648,7 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .transition-space {
-  display: none;
+  display: block;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -1608,7 +1658,7 @@ video::-webkit-media-controls-rewind-button {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999999;
+  z-index: 1000;
 }
 
 .transition-space::before {
