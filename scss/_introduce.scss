@@ -517,4 +517,10 @@
       }
     }
   }
+  &__guide-line {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
+  }
 }

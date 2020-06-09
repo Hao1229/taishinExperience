@@ -1510,6 +1510,13 @@ video::-webkit-media-controls-rewind-button {
   outline: none;
 }
 
+.introduce__guide-line {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+}
+
 .wall {
   background: url("https://upload.cc/i1/2020/05/28/nt8Vjh.jpg");
   background-size: cover;

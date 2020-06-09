@@ -8,6 +8,7 @@ $('.introduce__map-land__left-section__three').click(function (e) {
   whoActive = 'L-3'
   changeActive()
   changeBoard()
+  guideChange()
 })
 
 $('.introduce__map-land__left-section__three').hover(function () {
@@ -23,6 +24,7 @@ $('.introduce__map-land__left-section__two').click(function (e) {
   whoActive = 'L-2'
   changeActive()
   changeBoard()
+  guideChange()
 })
 
 $('.introduce__map-land__left-section__two').hover(function () {
@@ -38,6 +40,7 @@ $('.introduce__map-land__left-section__one').click(function (e) {
   whoActive = 'L-1'
   changeActive()
   changeBoard()
+  guideChange()
 })
 
 $('.introduce__map-land__left-section__one').hover(function () {
@@ -53,6 +56,7 @@ $('.introduce__map-land__left-section__four').click(function (e) {
   whoActive = 'L-4'
   changeActive()
   changeBoard()
+  guideChange()
 })
 
 $('.introduce__map-land__left-section__four').hover(function () {
@@ -68,6 +72,7 @@ $('.introduce__map-land__left-section__five').click(function (e) {
   whoActive = 'L-5'
   changeActive()
   changeBoard()
+  guideChange()
 })
 
 $('.introduce__map-land__left-section__five').hover(function () {
@@ -83,6 +88,7 @@ $('.introduce__map-land__right-section__four').click(function (e) {
   whoActive = 'R-4'
   changeActive()
   changeBoard()
+  guideChange()
 })
 
 // 右 3
@@ -91,6 +97,7 @@ $('.introduce__map-land__right-section__three').click(function (e) {
   whoActive = 'R-3'
   changeActive()
   changeBoard()
+  guideChange()
 })
 
 // 右 2
@@ -99,6 +106,7 @@ $('.introduce__map-land__right-section__two').click(function (e) {
   whoActive = 'R-2'
   changeActive()
   changeBoard()
+  guideChange()
 })
 
 // 右 1
@@ -107,6 +115,7 @@ $('.introduce__map-land__right-section__one').click(function (e) {
   whoActive = 'R-1'
   changeActive()
   changeBoard()
+  guideChange()
 })
 
 // 右 5
@@ -115,6 +124,7 @@ $('.introduce__map-land__right-section__five').click(function (e) {
   whoActive = 'R-5'
   changeActive()
   changeBoard()
+  guideChange()
 })
 
 /* 判斷 active 區塊 */
@@ -318,3 +328,81 @@ $('.introduce__board__btn-left').click(function (e) {
     changeBoard()
   }
 })
+
+/* 導引線切換 */
+function guideChange () {
+  switch (whoActive) {
+    case 'L-1':
+      $('.introduce__guide-line').css('width', '37.95vw')
+      $('.introduce__guide-line').css('height', '17.13vh')
+      $('.introduce__guide-line').css('right', '35.94vw')
+      $('.introduce__guide-line').css('bottom', '34.491vh')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-1.png")')
+      break
+    case 'L-2':
+      $('.introduce__guide-line').css('width', '45.58vw')
+      $('.introduce__guide-line').css('height', '13.89vh')
+      $('.introduce__guide-line').css('right', '35.94vw')
+      $('.introduce__guide-line').css('bottom', '34.491vh')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-2.png")')
+      break
+    case 'L-3':
+      $('.introduce__guide-line').css('width', '52.09vw')
+      $('.introduce__guide-line').css('height', '9.491vh')
+      $('.introduce__guide-line').css('right', '35.94vw')
+      $('.introduce__guide-line').css('bottom', '34.491vh')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-3.png")')
+      break
+    case 'L-4':
+      $('.introduce__guide-line').css('width', '46.875vw')
+      $('.introduce__guide-line').css('height', '3.2vh')
+      $('.introduce__guide-line').css('right', '35.94vw')
+      $('.introduce__guide-line').css('bottom', '34.491vh')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-4.png")')
+      break
+    case 'L-5':
+      $('.introduce__guide-line').css('width', '39.07vw')
+      $('.introduce__guide-line').css('height', '1.44vh')
+      $('.introduce__guide-line').css('right', '35.94vw')
+      $('.introduce__guide-line').css('bottom', '34.491vh')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-5.png")')
+      break
+    case 'R-1':
+      $('.introduce__guide-line').css('width', '19.54vw')
+      $('.introduce__guide-line').css('height', '1.436vh')
+      $('.introduce__guide-line').css('bottom', '46.3vh')
+      $('.introduce__guide-line').css('right', '35.16vw')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-1.png")')
+      break
+    case 'R-2':
+      $('.introduce__guide-line').css('width', '25.27vw')
+      $('.introduce__guide-line').css('height', '6.39vh')
+      $('.introduce__guide-line').css('right', '35.16vw')
+      $('.introduce__guide-line').css('bottom', '46.3vh')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-2.png")')
+      break
+    case 'R-3':
+      $('.introduce__guide-line').css('width', '28.65vw')
+      $('.introduce__guide-line').css('height', '10.19vh')
+      $('.introduce__guide-line').css('right', '35.16vw')
+      $('.introduce__guide-line').css('bottom', '46.3vh')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-3.png")')
+      break
+    case 'R-4':
+      $('.introduce__guide-line').css('width', '28.65vw')
+      $('.introduce__guide-line').css('height', '15.28vh')
+      $('.introduce__guide-line').css('right', '35.16vw')
+      $('.introduce__guide-line').css('bottom', '46.3vh')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-4.png")')
+      break
+    case 'R-5':
+      $('.introduce__guide-line').css('width', '11.98vw')
+      $('.introduce__guide-line').css('height', '7.88vh')
+      $('.introduce__guide-line').css('right', '35.16vw')
+      $('.introduce__guide-line').css('bottom', '46.3vh')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-5.png")')
+      break
+  }
+}
+
+guideChange()
