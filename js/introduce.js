@@ -301,8 +301,15 @@ changeBoard()
 /* 按鈕切換 */
 $('.introduce__board__btn-right').click(function (e) { 
   e.preventDefault()
-  const sectionArray = ['L-1', 'L-2', 'L-3', 'L-4', 'L-5', 'R-1', 'R-2', 'R-3', 'R-4', 'R-5']
-  if (whoActive !== 'R-5') {
+  let sectionArray = []
+
+  if (whoActive.indexOf('R') > -1) {
+    sectionArray = ['R-1', 'R-2', 'R-3', 'R-4', 'R-5']
+  } else {
+    sectionArray = ['L-1', 'L-2', 'L-3', 'L-4', 'L-5']
+  }
+
+  if (whoActive !== sectionArray[sectionArray.length - 1]) {
     const index = sectionArray.indexOf(whoActive)
     whoActive = sectionArray[index + 1]
     changeActive()
@@ -318,8 +325,15 @@ $('.introduce__board__btn-right').click(function (e) {
 
 $('.introduce__board__btn-left').click(function (e) { 
   e.preventDefault()
-  const sectionArray = ['L-1', 'L-2', 'L-3', 'L-4', 'L-5', 'R-1', 'R-2', 'R-3', 'R-4', 'R-5']
-  if (whoActive !== 'L-1') {
+  let sectionArray = []
+
+  if (whoActive.indexOf('R') > -1) {
+    sectionArray = ['R-1', 'R-2', 'R-3', 'R-4', 'R-5']
+  } else {
+    sectionArray = ['L-1', 'L-2', 'L-3', 'L-4', 'L-5']
+  }
+
+  if (whoActive !== sectionArray[0]) {
     const index = sectionArray.indexOf(whoActive)
     whoActive = sectionArray[index - 1]
     changeActive()
