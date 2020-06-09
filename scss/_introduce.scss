@@ -448,4 +448,72 @@
       color: transparent;
     }
   }
+  &__board {
+    width: 32.79vw;
+    height: 65.77vh;
+    background-image: url('../images/introduce/img-board.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 20.84vh;
+    right: 3.39vw;
+    padding-top: 6.95vh;
+    padding-left: 4.69vw;
+    &__title {
+      font-size: 2.35vw;
+      color: white;
+      &__number {
+        font-size: 3.91vw;
+        margin-right: 1.31vw;
+      }
+    }
+    &__frame {
+      width: 24.74vw;
+      height: 25.47vh;
+      background-image: url('../images/introduce/demo-picture.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      margin-top: 2.09vh;
+    }
+    &__text {
+      width: 24.74vw;
+      color: white;
+      font-size: 1.042vw;
+      line-height: 1.5;
+      margin-top: 1.852vh;
+    }
+    &__btn-group {
+      margin-top: 5.56vh;
+      padding-left: 7.82vw;
+    }
+    &__btn-left {
+      width: 3.05vw;
+      height: 5.37vh;
+      background-image: url('../images/introduce/arrow-left.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-color: transparent;
+      border: none;
+      &:focus {
+        outline: none;
+      }
+    }
+    &__btn-right {
+      width: 3.05vw;
+      height: 5.37vh;
+      background-image: url('../images/introduce/arrow-right.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-color: transparent;
+      border: none;
+      margin-left: 1.57vw;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
 }
