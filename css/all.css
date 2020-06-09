@@ -1424,6 +1424,11 @@ video::-webkit-media-controls-rewind-button {
   position: absolute;
   bottom: 0;
   left: 40vw;
+  color: transparent;
+}
+
+.introduce__back-btn:hover {
+  color: transparent;
 }
 
 .wall {

@@ -443,5 +443,9 @@
     position: absolute;
     bottom: 0;
     left: 40vw;
+    color: transparent;
+    &:hover {
+      color: transparent;
+    }
   }
 }
