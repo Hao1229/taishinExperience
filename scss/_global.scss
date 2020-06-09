@@ -22,10 +22,10 @@ html, body {
   top: 0;
   left: 0;
   z-index: 99999;
-  transition: all 1s;
+  transition: all .5s;
   transform: translateX(-66.54vw);
   &__active {
-    transition: all 1s;
+    transition: all .5s;
     transform: translateX(0);
   }
 }
@@ -40,10 +40,10 @@ html, body {
   top: 0;
   right: 0;
   z-index: 99999;
-  transition: all 1s;
+  transition: all .5s;
   transform: translateX(50.03vw);
   &__active {
-    transition: all 1s;
+    transition: all .5s;
     transform: translateX(0);
   }
 }

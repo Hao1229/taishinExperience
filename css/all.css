@@ -82,15 +82,15 @@ html, body {
   top: 0;
   left: 0;
   z-index: 99999;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
   -webkit-transform: translateX(-66.54vw);
           transform: translateX(-66.54vw);
 }
 
 .left-door__active {
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
@@ -106,15 +106,15 @@ html, body {
   top: 0;
   right: 0;
   z-index: 99999;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
   -webkit-transform: translateX(50.03vw);
           transform: translateX(50.03vw);
 }
 
 .right-door__active {
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
@@ -1723,7 +1723,7 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .transition-space {
-  display: block;
+  display: none;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -1746,6 +1746,10 @@ video::-webkit-media-controls-rewind-button {
 .transition-space__none {
   -webkit-animation: disappear 5s forwards;
           animation: disappear 5s forwards;
+}
+
+.transition-space__no-index {
+  display: block;
 }
 
 .scene {
@@ -1844,7 +1848,7 @@ video::-webkit-media-controls-rewind-button {
 
 @-webkit-keyframes fade {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   25% {
     opacity: 1;
@@ -1859,7 +1863,7 @@ video::-webkit-media-controls-rewind-button {
 
 @keyframes fade {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   25% {
     opacity: 1;
