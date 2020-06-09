@@ -15,13 +15,57 @@
     margin-left: 4.48vw;
   }
   &__frame {
-    background-image: url('../images/introduce/introduce-frame.svg');
+    background-image: url('../images/introduce/introduce-frame.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
     height: 100%;
     padding-top: 9.26vh;
+    &__title {
+      position: absolute;
+      top: 3.704vh;
+      right: 6.511vw;
+      color: white;
+      font-size: 2.605vw;
+    }
+    &__title-english {
+      font-size: 2.084vw;
+    }
+    &__circle-group {
+      position: absolute;
+      top: 1.042vw;
+      right: 1.042vw;
+      &__circle {
+        width: 1.537vw;
+        height: 1.537vw;
+        background-image: url('../images/introduce/circle-1.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        animation: circle-rotate 1.3s linear .2s infinite;
+      }
+      &__circle2 {
+        width: 1.537vw;
+        height: 1.537vw;
+        background-image: url('../images/introduce/circle-2.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin-top: 0.463vh;
+        animation: circle-rotate 1.3s linear .2s infinite;
+      }
+      &__circle3 {
+        width: 1.537vw;
+        height: 1.537vw;
+        background-image: url('../images/introduce/circle-3.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin-top: 0.463vh;
+        animation: circle-rotate 1.3s linear .2s infinite;
+      }
+    }
   }
   &__map-land {
     width: 63.47vw;
@@ -581,4 +625,14 @@ video::-webkit-media-controls-mute-button {
 }
 video::-webkit-media-controls-rewind-button { 
   display: none;
+}
+
+/* 圓圈旋轉 */
+@keyframes circle-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

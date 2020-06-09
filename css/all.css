@@ -990,13 +990,66 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__frame {
-  background-image: url("../images/introduce/introduce-frame.svg");
+  background-image: url("../images/introduce/introduce-frame.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   width: 100%;
   height: 100%;
   padding-top: 9.26vh;
+}
+
+.introduce__frame__title {
+  position: absolute;
+  top: 3.704vh;
+  right: 6.511vw;
+  color: white;
+  font-size: 2.605vw;
+}
+
+.introduce__frame__title-english {
+  font-size: 2.084vw;
+}
+
+.introduce__frame__circle-group {
+  position: absolute;
+  top: 1.042vw;
+  right: 1.042vw;
+}
+
+.introduce__frame__circle-group__circle {
+  width: 1.537vw;
+  height: 1.537vw;
+  background-image: url("../images/introduce/circle-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-animation: circle-rotate 1.3s linear .2s infinite;
+          animation: circle-rotate 1.3s linear .2s infinite;
+}
+
+.introduce__frame__circle-group__circle2 {
+  width: 1.537vw;
+  height: 1.537vw;
+  background-image: url("../images/introduce/circle-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 0.463vh;
+  -webkit-animation: circle-rotate 1.3s linear .2s infinite;
+          animation: circle-rotate 1.3s linear .2s infinite;
+}
+
+.introduce__frame__circle-group__circle3 {
+  width: 1.537vw;
+  height: 1.537vw;
+  background-image: url("../images/introduce/circle-3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 0.463vh;
+  -webkit-animation: circle-rotate 1.3s linear .2s infinite;
+          animation: circle-rotate 1.3s linear .2s infinite;
 }
 
 .introduce__map-land {
@@ -1640,6 +1693,28 @@ video::-webkit-media-controls-mute-button {
 
 video::-webkit-media-controls-rewind-button {
   display: none;
+}
+
+/* 圓圈旋轉 */
+@-webkit-keyframes circle-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes circle-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 .wall {
