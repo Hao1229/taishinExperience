@@ -49,6 +49,14 @@ if (url.pathname.indexOf('introduce') > -1) {
     openDoor()
   }, 500)
   setTimeout(() => {
-    $('.transition-space').css('display', 'none')
-  }, 3000)
+    $('.transition-space').addClass('transition-space__none')
+    watchTranslate()
+  }, 4000)
+}
+
+function watchTranslate () {
+  const translate = document.querySelector('.transition-space__none')
+  translate.addEventListener('animationend', (() => {
+    $('.transition-space__none').css('display', 'none')
+  }))
 }

@@ -12,8 +12,8 @@ html, body {
 
 /* 過場門 */
 .left-door {
-  width: 2555px;
-  height: 2160px;
+  width: 66.54vw;
+  height: 100vh;
   background-image: url('../images/door/left.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,15 +23,15 @@ html, body {
   left: 0;
   z-index: 99999;
   transition: all 1s;
-  transform: translateX(-2555px);
+  transform: translateX(-66.54vw);
   &__active {
     transition: all 1s;
     transform: translateX(0);
   }
 }
 .right-door {
-  width: 1921px;
-  height: 2160px;
+  width: 50.03vw;
+  height: 100vh;
   background-image: url('../images/door/right.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +41,7 @@ html, body {
   right: 0;
   z-index: 99999;
   transition: all 1s;
-  transform: translateX(1921px);
+  transform: translateX(50.03vw);
   &__active {
     transition: all 1s;
     transform: translateX(0);

@@ -72,8 +72,8 @@ html, body {
 
 /* 過場門 */
 .left-door {
-  width: 2555px;
-  height: 2160px;
+  width: 66.54vw;
+  height: 100vh;
   background-image: url("../images/door/left.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,8 +84,8 @@ html, body {
   z-index: 99999;
   -webkit-transition: all 1s;
   transition: all 1s;
-  -webkit-transform: translateX(-2555px);
-          transform: translateX(-2555px);
+  -webkit-transform: translateX(-66.54vw);
+          transform: translateX(-66.54vw);
 }
 
 .left-door__active {
@@ -96,8 +96,8 @@ html, body {
 }
 
 .right-door {
-  width: 1921px;
-  height: 2160px;
+  width: 50.03vw;
+  height: 100vh;
   background-image: url("../images/door/right.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,8 +108,8 @@ html, body {
   z-index: 99999;
   -webkit-transition: all 1s;
   transition: all 1s;
-  -webkit-transform: translateX(1921px);
-          transform: translateX(1921px);
+  -webkit-transform: translateX(50.03vw);
+          transform: translateX(50.03vw);
 }
 
 .right-door__active {
@@ -1668,6 +1668,11 @@ video::-webkit-media-controls-rewind-button {
   vertical-align: middle;
 }
 
+.transition-space__none {
+  -webkit-animation: disappear 5s forwards;
+          animation: disappear 5s forwards;
+}
+
 .scene {
   display: inline-block;
   vertical-align: middle;
@@ -1785,6 +1790,24 @@ video::-webkit-media-controls-rewind-button {
     opacity: 1;
   }
   75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes disappear {
+  0% {
     opacity: 1;
   }
   100% {
