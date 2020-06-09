@@ -555,7 +555,7 @@
     right: 4.167vw;
   }
   &__dodge {
-    background: radial-gradient(circle,white,#c10021 35%) center / 25% 25%;
+    background: radial-gradient(circle,#c10021,transparent 100%) center / 25% 25%;
     position: absolute;
     top:-100%;
     left:-100%;

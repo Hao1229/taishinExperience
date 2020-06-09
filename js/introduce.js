@@ -307,10 +307,12 @@ $('.introduce__board__btn-right').click(function (e) {
     whoActive = sectionArray[index + 1]
     changeActive()
     changeBoard()
+    guideChange()
   } else {
     whoActive = sectionArray[0]
     changeActive()
     changeBoard()
+    guideChange()
   }
 })
 
@@ -322,10 +324,12 @@ $('.introduce__board__btn-left').click(function (e) {
     whoActive = sectionArray[index - 1]
     changeActive()
     changeBoard()
+    guideChange()
   } else {
     whoActive = sectionArray[sectionArray.length - 1]
     changeActive()
     changeBoard()
+    guideChange()
   }
 })
 
