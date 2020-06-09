@@ -1467,6 +1467,7 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__board__text {
   width: 24.74vw;
+  height: 5.56vh;
   color: white;
   font-size: 1.042vw;
   line-height: 1.5;
