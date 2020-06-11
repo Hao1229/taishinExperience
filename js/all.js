@@ -6,6 +6,19 @@ $('#introduce-link').click(function (e) {
   closeDoor('introduce')
 })
 
+$('.introduce__back-btn').click(function (e) { 
+  e.preventDefault()
+  $('#index').css('display', 'flex')
+  $('#introduce').css('display', 'none')
+  $('.transition-space').removeClass('transition-space__none')
+  $('.transition-space').css('display', 'none')
+  /* 讓場館介紹回到 default 狀態 */
+  whoActive = 'L-1'
+  changeActive()
+  changeBoard()
+  guideChange()
+})
+
 /* introduce page 閒置回首頁處理 */
 if (url.pathname.indexOf('introduce') > -1) {
   // idleTimer()
@@ -29,39 +42,26 @@ function idleTimer () {
   }
 }
 
-/* 過場動畫-門 */
+/* 過場動畫 */
 function closeDoor (target) {
   $('.right-door').addClass('right-door__active')
   $('.left-door').addClass('left-door__active')
   setTimeout(() => {
-    $('.transition-space').css('display', 'block')
-    openDoor(target)
+    $('#index').css('display', 'none')
+    $('#introduce').css('display', 'block')
+    openDoor()
   }, 500)
 }
 
 function openDoor (target) {
   $('.right-door').removeClass('right-door__active')
   $('.left-door').removeClass('left-door__active')
-  setTimeout(() => {
-    window.location.href = `${url.protocol}//${url.host}/pages/${target}.html`
-  }, 500)
-}
-
-if (url.pathname.indexOf('introduce') > -1) {
+  $('.transition-space').css('display', 'block')
   setTimeout(() => {
     $('.transition-space').addClass('transition-space__none')
     watchTranslate()
-  }, 3000)
+  }, 4000)
 }
-
-// if (url.pathname.indexOf('index') > -1) { // 避免跳轉回首頁會出現門
-//   $('.right-door').css('opacity', '0')
-//   $('.left-door').css('opacity', '0')
-//   setTimeout(() => {
-//     $('.right-door').css('opacity', '1')
-//     $('.left-door').css('opacity', '1')
-//   }, 2000)
-// }
 
 function watchTranslate () {
   const translate = document.querySelector('.transition-space__none')
