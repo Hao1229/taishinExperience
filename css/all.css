@@ -1668,12 +1668,12 @@ video::-webkit-media-controls-rewind-button {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-filter: brightness(300%);
-          filter: brightness(300%);
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%);
   overflow: hidden;
   position: absolute;
   top: 8.57vh;
-  left: 1.224vw;
+  left: 1.225vw;
 }
 
 .introduce__dodge-right {
@@ -1682,8 +1682,8 @@ video::-webkit-media-controls-rewind-button {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-filter: brightness(300%);
-          filter: brightness(300%);
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%);
   overflow: hidden;
   position: absolute;
   top: 15.28vh;
@@ -1696,8 +1696,8 @@ video::-webkit-media-controls-rewind-button {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-filter: brightness(300%);
-          filter: brightness(300%);
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%);
   overflow: hidden;
   position: absolute;
   bottom: 1.852vh;
@@ -1705,7 +1705,7 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__dodge {
-  background: radial-gradient(circle, #c10021, transparent 100%) center/25% 25%;
+  background: radial-gradient(circle, #E5677C, transparent 35%) center/25% 25%;
   position: absolute;
   top: -100%;
   left: -100%;

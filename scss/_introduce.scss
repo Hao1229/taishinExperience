@@ -578,17 +578,17 @@
     width: 0.521vw;
     height: 79.63vh;
     display:inline-flex;
-    filter: brightness(300%);
+    filter: brightness(150%);
     overflow: hidden;
     position: absolute;
     top: 8.57vh;
-    left: 1.224vw;
+    left: 1.225vw;
   }
   &__dodge-right {
     width: 0.521vw;
     height: 76.39vh;
     display:inline-flex;
-    filter: brightness(300%);
+    filter: brightness(150%);
     overflow: hidden;
     position: absolute;
     top: 15.28vh;
@@ -598,14 +598,14 @@
     height: 0.926vh;
     width: 63.55vw;
     display:inline-flex;
-    filter: brightness(300%);
+    filter: brightness(150%);
     overflow: hidden;
     position: absolute;
     bottom: 1.852vh;
     right: 4.167vw;
   }
   &__dodge {
-    background: radial-gradient(circle,#c10021,transparent 100%) center / 25% 25%;
+    background: radial-gradient(circle,#E5677C,transparent 35%) center / 25% 25%;
     position: absolute;
     top:-100%;
     left:-100%;
