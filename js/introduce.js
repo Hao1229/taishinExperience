@@ -11,6 +11,14 @@ $('.introduce__map-land__left-section__three').click(function (e) {
   guideChange()
 })
 
+$('#left-link-3').click(function (e) {
+  e.preventDefault()
+  whoActive = 'L-3'
+  changeActive()
+  changeBoard()
+  guideChange()
+})
+
 $('.introduce__map-land__left-section__three').hover(function () {
     $('.introduce__map-land__left-section__three').css('z-index', '100')
   }, function () {
@@ -20,6 +28,14 @@ $('.introduce__map-land__left-section__three').hover(function () {
 
 // 左 2
 $('.introduce__map-land__left-section__two').click(function (e) { 
+  e.preventDefault()
+  whoActive = 'L-2'
+  changeActive()
+  changeBoard()
+  guideChange()
+})
+
+$('#left-link-2').click(function (e) {
   e.preventDefault()
   whoActive = 'L-2'
   changeActive()
@@ -43,6 +59,14 @@ $('.introduce__map-land__left-section__one').click(function (e) {
   guideChange()
 })
 
+$('#left-link-1').click(function (e) {
+  e.preventDefault()
+  whoActive = 'L-1'
+  changeActive()
+  changeBoard()
+  guideChange()
+})
+
 $('.introduce__map-land__left-section__one').hover(function () {
     $('.introduce__map-land__left-section__one').css('z-index', '100')
   }, function () {
@@ -52,6 +76,14 @@ $('.introduce__map-land__left-section__one').hover(function () {
 
 // 左 4
 $('.introduce__map-land__left-section__four').click(function (e) { 
+  e.preventDefault()
+  whoActive = 'L-4'
+  changeActive()
+  changeBoard()
+  guideChange()
+})
+
+$('#left-link-4').click(function (e) {
   e.preventDefault()
   whoActive = 'L-4'
   changeActive()
@@ -75,6 +107,14 @@ $('.introduce__map-land__left-section__five').click(function (e) {
   guideChange()
 })
 
+$('#left-link-5').click(function (e) {
+  e.preventDefault()
+  whoActive = 'L-5'
+  changeActive()
+  changeBoard()
+  guideChange()
+})
+
 $('.introduce__map-land__left-section__five').hover(function () {
     $('.introduce__map-land__left-section__five').css('z-index', '100')
   }, function () {
@@ -91,8 +131,24 @@ $('.introduce__map-land__right-section__four').click(function (e) {
   guideChange()
 })
 
+$('#right-link-4').click(function (e) {
+  e.preventDefault()
+  whoActive = 'R-4'
+  changeActive()
+  changeBoard()
+  guideChange()
+})
+
 // 右 3
 $('.introduce__map-land__right-section__three').click(function (e) { 
+  e.preventDefault()
+  whoActive = 'R-3'
+  changeActive()
+  changeBoard()
+  guideChange()
+})
+
+$('#right-link-3').click(function (e) {
   e.preventDefault()
   whoActive = 'R-3'
   changeActive()
@@ -109,6 +165,14 @@ $('.introduce__map-land__right-section__two').click(function (e) {
   guideChange()
 })
 
+$('#right-link-2').click(function (e) {
+  e.preventDefault()
+  whoActive = 'R-2'
+  changeActive()
+  changeBoard()
+  guideChange()
+})
+
 // 右 1
 $('.introduce__map-land__right-section__one').click(function (e) { 
   e.preventDefault()
@@ -118,8 +182,24 @@ $('.introduce__map-land__right-section__one').click(function (e) {
   guideChange()
 })
 
+$('#right-link-1').click(function (e) {
+  e.preventDefault()
+  whoActive = 'R-1'
+  changeActive()
+  changeBoard()
+  guideChange()
+})
+
 // 右 5
 $('.introduce__map-land__right-section__five').click(function (e) { 
+  e.preventDefault()
+  whoActive = 'R-5'
+  changeActive()
+  changeBoard()
+  guideChange()
+})
+
+$('#right-link-5').click(function (e) {
   e.preventDefault()
   whoActive = 'R-5'
   changeActive()
