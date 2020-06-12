@@ -12,6 +12,9 @@ $('.introduce__back-btn').click(function (e) {
   $('#introduce').css('display', 'none')
   $('.transition-space').removeClass('transition-space__none')
   $('.transition-space').css('display', 'none')
+  $('.transition-space').removeClass('transition-space__none')
+  $('.transition-circle__circle-zoom').removeClass('transition-circle__circle-zoom__disappear')
+  $('.introduce').removeClass('introduce__show')
   /* 讓場館介紹回到 default 狀態 */
   whoActive = 'L-1'
   changeActive()
@@ -57,8 +60,11 @@ function openDoor (target) {
   $('.right-door').removeClass('right-door__active')
   $('.left-door').removeClass('left-door__active')
   $('.transition-space').css('display', 'block')
+  $('.transition-circle').css('display', 'flex')
   setTimeout(() => {
     $('.transition-space').addClass('transition-space__none')
+    $('.transition-circle__circle-zoom').addClass('transition-circle__circle-zoom__disappear')
+    $('.introduce').addClass('introduce__show')
     watchTranslate()
   }, 4000)
 }
@@ -67,5 +73,6 @@ function watchTranslate () {
   const translate = document.querySelector('.transition-space__none')
   translate.addEventListener('animationend', (() => {
     $('.transition-space__none').css('display', 'none')
+    $('.transition-circle').css('display', 'none')
   }))
 }

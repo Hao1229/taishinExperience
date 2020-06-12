@@ -6,6 +6,10 @@
   background-position: center center;
   width: 100vw;
   height: 100vh;
+  opacity: 0;
+  &__show {
+    animation: showIntroduce 8s forwards;
+  }
   &__title {
     width: 33.62vw;
     height: 14.73vh;
@@ -636,5 +640,15 @@ video::-webkit-media-controls-rewind-button {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+/* 介紹頁出現動畫 */
+@keyframes showIntroduce {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

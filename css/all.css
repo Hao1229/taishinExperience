@@ -1012,6 +1012,12 @@ video::-webkit-media-controls-rewind-button {
   background-position: center center;
   width: 100vw;
   height: 100vh;
+  opacity: 0;
+}
+
+.introduce__show {
+  -webkit-animation: showIntroduce 8s forwards;
+          animation: showIntroduce 8s forwards;
 }
 
 .introduce__title {
@@ -1752,6 +1758,24 @@ video::-webkit-media-controls-rewind-button {
   }
 }
 
+/* 介紹頁出現動畫 */
+@-webkit-keyframes showIntroduce {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes showIntroduce {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .wall {
   background: url("../images/transition-bg.jpg");
   background-size: cover;
@@ -1779,12 +1803,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .transition-space__none {
-  -webkit-animation: disappear 5s forwards;
-          animation: disappear 5s forwards;
-}
-
-.transition-space__no-index {
-  display: block;
+  -webkit-animation: zoom-opacity 8s forwards;
+          animation: zoom-opacity 8s forwards;
 }
 
 .scene {
@@ -1859,6 +1879,34 @@ video::-webkit-media-controls-rewind-button {
           transform: rotateX(180deg) translateZ(500px);
 }
 
+.transition-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1200;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: transparent;
+}
+
+.transition-circle__circle-zoom {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.transition-circle__circle-zoom__disappear {
+  -webkit-animation: zoom 8s forwards;
+          animation: zoom 8s forwards;
+  width: 100vh;
+  height: 100vh;
+}
+
 @-webkit-keyframes move {
   0% {
     -webkit-transform: translateZ(-500px) rotate(0deg);
@@ -1924,6 +1972,50 @@ video::-webkit-media-controls-rewind-button {
   0% {
     opacity: 1;
   }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    border-radius: 0;
+    width: 100vw;
+    background: transparent;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    border-radius: 0;
+    width: 100vw;
+    background: transparent;
+  }
+}
+
+@-webkit-keyframes zoom-opacity {
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoom-opacity {
   100% {
     opacity: 0;
   }
