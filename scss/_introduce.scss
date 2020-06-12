@@ -1,4 +1,7 @@
 .introduce {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: none;
   background-image: url('../images/introduce/background.svg');
   background-size: cover;
@@ -6,10 +9,7 @@
   background-position: center center;
   width: 100vw;
   height: 100vh;
-  opacity: 0;
-  &__show {
-    animation: showIntroduce 8s forwards;
-  }
+  z-index: 700;
   &__title {
     width: 33.62vw;
     height: 14.73vh;
@@ -48,7 +48,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        animation: circle-rotate 1.3s linear .2s infinite;
+        &__rotate {
+          animation: circle-rotate 1.3s linear .2s infinite;
+        }
       }
       &__circle2 {
         width: 1.537vw;
@@ -58,7 +60,6 @@
         background-size: cover;
         background-position: center center;
         margin-top: 0.463vh;
-        animation: circle-rotate 1.3s linear .2s infinite;
       }
       &__circle3 {
         width: 1.537vw;
@@ -68,7 +69,6 @@
         background-size: cover;
         background-position: center center;
         margin-top: 0.463vh;
-        animation: circle-rotate 1.3s linear .2s infinite;
       }
     }
   }
@@ -635,20 +635,7 @@ video::-webkit-media-controls-rewind-button {
 
 /* 圓圈旋轉 */
 @keyframes circle-rotate {
-  0% {
-    transform: rotate(0deg);
-  }
   100% {
     transform: rotate(360deg);
-  }
-}
-
-/* 介紹頁出現動畫 */
-@keyframes showIntroduce {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }

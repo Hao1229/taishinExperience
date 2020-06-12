@@ -1,4 +1,4 @@
-/* 過場跳轉處理 */
+/* 介紹頁與首頁間跳轉處理 */
 const url = window.location
 
 $('#introduce-link').click(function (e) { 
@@ -10,11 +10,10 @@ $('.introduce__back-btn').click(function (e) {
   e.preventDefault()
   $('#index').css('display', 'flex')
   $('#introduce').css('display', 'none')
-  $('.transition-space').removeClass('transition-space__none')
+  $('.animation-mask').removeClass('animation-mask__show')
   $('.transition-space').css('display', 'none')
-  $('.transition-space').removeClass('transition-space__none')
-  $('.transition-circle__circle-zoom').removeClass('transition-circle__circle-zoom__disappear')
-  $('.introduce').removeClass('introduce__show')
+  $('.animation-mask-section').css('display', 'none')
+  circleStop()
   /* 讓場館介紹回到 default 狀態 */
   whoActive = 'L-1'
   changeActive()
@@ -51,7 +50,6 @@ function closeDoor (target) {
   $('.left-door').addClass('left-door__active')
   setTimeout(() => {
     $('#index').css('display', 'none')
-    $('#introduce').css('display', 'block')
     openDoor()
   }, 500)
 }
@@ -60,19 +58,30 @@ function openDoor (target) {
   $('.right-door').removeClass('right-door__active')
   $('.left-door').removeClass('left-door__active')
   $('.transition-space').css('display', 'block')
-  $('.transition-circle').css('display', 'flex')
+  $('.animation-mask-section').css('display', 'flex')
   setTimeout(() => {
-    $('.transition-space').addClass('transition-space__none')
-    $('.transition-circle__circle-zoom').addClass('transition-circle__circle-zoom__disappear')
-    $('.introduce').addClass('introduce__show')
+    $('#introduce').css('display', 'block')
+    $('.animation-mask').addClass('animation-mask__show')
     watchTranslate()
   }, 4000)
 }
 
 function watchTranslate () {
-  const translate = document.querySelector('.transition-space__none')
+  const translate = document.querySelector('.animation-mask__show')
   translate.addEventListener('animationend', (() => {
-    $('.transition-space__none').css('display', 'none')
-    $('.transition-circle').css('display', 'none')
+    circleRotate()
   }))
+}
+
+/* 介紹頁右上角圓圈旋轉會遇到奇怪錯誤，第二次進入頁面，圖片會變模糊，因此改用動態加入動畫的方式讓其旋轉 */
+function circleRotate () {
+  $('.introduce__frame__circle-group__circle').addClass('introduce__frame__circle-group__circle__rotate')
+  $('.introduce__frame__circle-group__circle2').addClass('introduce__frame__circle-group__circle__rotate')
+  $('.introduce__frame__circle-group__circle3').addClass('introduce__frame__circle-group__circle__rotate')
+}
+
+function circleStop () {
+  $('.introduce__frame__circle-group__circle').removeClass('introduce__frame__circle-group__circle__rotate')
+  $('.introduce__frame__circle-group__circle2').removeClass('introduce__frame__circle-group__circle__rotate')
+  $('.introduce__frame__circle-group__circle3').removeClass('introduce__frame__circle-group__circle__rotate')
 }

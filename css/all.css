@@ -119,6 +119,68 @@ html, body {
           transform: translateX(0);
 }
 
+/* 過場遮罩 */
+.animation-mask-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: transparent;
+  z-index: 1000;
+}
+
+.animation-mask {
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.animation-mask__show {
+  width: 100vh;
+  height: 100vh;
+  -webkit-animation: zoom-in 6s forwards;
+          animation: zoom-in 6s forwards;
+}
+
+@-webkit-keyframes zoom-in {
+  0% {
+    -webkit-transform: scale(0.01);
+            transform: scale(0.01);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    border-radius: 0;
+    width: 100vw;
+  }
+}
+
+@keyframes zoom-in {
+  0% {
+    -webkit-transform: scale(0.01);
+            transform: scale(0.01);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    border-radius: 0;
+    width: 100vw;
+  }
+}
+
 .index {
   background-image: url("../images/index/bg-graidient.svg");
   background-size: cover;
@@ -1005,6 +1067,9 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: none;
   background-image: url("../images/introduce/background.svg");
   background-size: cover;
@@ -1012,12 +1077,7 @@ video::-webkit-media-controls-rewind-button {
   background-position: center center;
   width: 100vw;
   height: 100vh;
-  opacity: 0;
-}
-
-.introduce__show {
-  -webkit-animation: showIntroduce 8s forwards;
-          animation: showIntroduce 8s forwards;
+  z-index: 700;
 }
 
 .introduce__title {
@@ -1065,6 +1125,9 @@ video::-webkit-media-controls-rewind-button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.introduce__frame__circle-group__circle__rotate {
   -webkit-animation: circle-rotate 1.3s linear .2s infinite;
           animation: circle-rotate 1.3s linear .2s infinite;
 }
@@ -1077,8 +1140,6 @@ video::-webkit-media-controls-rewind-button {
   background-size: cover;
   background-position: center center;
   margin-top: 0.463vh;
-  -webkit-animation: circle-rotate 1.3s linear .2s infinite;
-          animation: circle-rotate 1.3s linear .2s infinite;
 }
 
 .introduce__frame__circle-group__circle3 {
@@ -1089,8 +1150,6 @@ video::-webkit-media-controls-rewind-button {
   background-size: cover;
   background-position: center center;
   margin-top: 0.463vh;
-  -webkit-animation: circle-rotate 1.3s linear .2s infinite;
-          animation: circle-rotate 1.3s linear .2s infinite;
 }
 
 .introduce__map-land {
@@ -1738,41 +1797,15 @@ video::-webkit-media-controls-rewind-button {
 
 /* 圓圈旋轉 */
 @-webkit-keyframes circle-rotate {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
 }
 @keyframes circle-rotate {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
-  }
-}
-
-/* 介紹頁出現動畫 */
-@-webkit-keyframes showIntroduce {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes showIntroduce {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }
 
@@ -1792,7 +1825,7 @@ video::-webkit-media-controls-rewind-button {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 500;
 }
 
 .transition-space::before {
@@ -1800,11 +1833,6 @@ video::-webkit-media-controls-rewind-button {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-}
-
-.transition-space__none {
-  -webkit-animation: zoom-opacity 8s forwards;
-          animation: zoom-opacity 8s forwards;
 }
 
 .scene {
@@ -1879,34 +1907,6 @@ video::-webkit-media-controls-rewind-button {
           transform: rotateX(180deg) translateZ(500px);
 }
 
-.transition-circle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1200;
-  display: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: transparent;
-}
-
-.transition-circle__circle-zoom {
-  background-color: black;
-  border-radius: 50%;
-}
-
-.transition-circle__circle-zoom__disappear {
-  -webkit-animation: zoom 8s forwards;
-          animation: zoom 8s forwards;
-  width: 100vh;
-  height: 100vh;
-}
-
 @-webkit-keyframes move {
   0% {
     -webkit-transform: translateZ(-500px) rotate(0deg);
@@ -1954,68 +1954,6 @@ video::-webkit-media-controls-rewind-button {
   75% {
     opacity: 1;
   }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes disappear {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes disappear {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes zoom {
-  0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-  }
-  50% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  100% {
-    border-radius: 0;
-    width: 100vw;
-    background: transparent;
-  }
-}
-
-@keyframes zoom {
-  0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-  }
-  50% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  100% {
-    border-radius: 0;
-    width: 100vw;
-    background: transparent;
-  }
-}
-
-@-webkit-keyframes zoom-opacity {
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes zoom-opacity {
   100% {
     opacity: 0;
   }

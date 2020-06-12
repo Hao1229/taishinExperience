@@ -47,3 +47,42 @@ html, body {
     transform: translateX(0);
   }
 }
+
+/* 過場遮罩 */
+.animation-mask-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  z-index: 1000;
+}
+
+.animation-mask {
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 50%;
+  &__show {
+    width: 100vh;
+    height: 100vh;
+    animation: zoom-in 6s forwards;
+  }
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.01);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    border-radius: 0;
+    width: 100vw;
+  }
+}
