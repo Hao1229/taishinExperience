@@ -316,7 +316,7 @@ function changeBoard () {
     case 'L-1':
       num = document.createTextNode('1')
       title = document.createTextNode('自動化服務區')
-      content = document.createTextNode('喚醒居家智能客服，即時匯率、個人化數位金融都有小幫手為你服務')
+      content = document.createTextNode('喚醒居家智能客服，即時匯率、個人化數位金融都有小幫手為你服務 喚醒居家智能客服，即時匯率、個人化數位金融都有小幫手為你服務 喚醒居家智能客服，即時匯率、個人化數位金融都有小幫手為你服務')
       break
     case 'L-2':
       num = document.createTextNode('2')
