@@ -66,37 +66,19 @@ html, body {
 .animation-mask {
   overflow: hidden;
   background-color: transparent;
-  border-radius: 50%;
   position: relative;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-  width: 0;
-  height: 0;
+  width: 100vw;
+  height: 100vh;
   &__show {
-    width: 100vh;
-    height: 100vh;
-    animation: zoom-in 6s forwards;
+    animation: zoom-in 4s forwards;
   }
 }
 
 @keyframes zoom-in {
   0% {
-    transform: scale(0.01);
-  }
-  // 50% {
-  //   transform: scale(2.1);
-  // }
-  90% {
-    transform: scale(1);
+    clip-path: circle(0%);
   }
   100% {
-    border-radius: 0;
-    width: 100vw;
+    clip-path: circle(75%);
   }
-  // 100% {
-  //   border-radius: 0;
-  //   width: 100vw;
-  //   transform: scale(1);
-  // }
 }
