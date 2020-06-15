@@ -85,20 +85,22 @@ $('.video-btn-three').click(function (e) {
 
 /* 輪播 */
 function boardActive () {
-  // $('.index__intro').removeClass('index__intro__active');
-  $('.index__board').addClass('index__board__active');
-  $('.index__board__video').addClass('index__board__video__active');
-  $('.index__board__light').addClass('index__board__light__active');
+  // $('.index__intro').removeClass('index__intro__active')
+  $('.index__board').addClass('index__board__active')
+  $('.index__board__video').addClass('index__board__video__active')
+  $('.index__board__right-light-base').addClass('index__board__right-light-base__active')
+  $('.index__board__right-light-head').addClass('index__board__right-light-head__active')
   setTimeout(() => {
     introActive()
   }, 2000)
 }
 
 function introActive () {
-  $('.index__board').removeClass('index__board__active');
-  $('.index__board__video').removeClass('index__board__video__active');
-  $('.index__board__light').removeClass('index__board__light__active');
-  // $('.index__intro').addClass('index__intro__active');
+  $('.index__board').removeClass('index__board__active')
+  $('.index__board__video').removeClass('index__board__video__active')
+  $('.index__board__right-light-base').removeClass('index__board__right-light-base__active')
+  $('.index__board__right-light-head').removeClass('index__board__right-light-head__active')
+  // $('.index__intro').addClass('index__intro__active')
   setTimeout(() => {
     boardActive()
   }, 2000)

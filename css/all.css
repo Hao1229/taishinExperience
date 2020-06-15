@@ -142,6 +142,9 @@ html, body {
   overflow: hidden;
   background-color: transparent;
   border-radius: 50%;
+  position: relative;
+  width: 0;
+  height: 0;
 }
 
 .animation-mask__show {
@@ -156,7 +159,7 @@ html, body {
     -webkit-transform: scale(0.01);
             transform: scale(0.01);
   }
-  50% {
+  90% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
@@ -171,7 +174,7 @@ html, body {
     -webkit-transform: scale(0.01);
             transform: scale(0.01);
   }
-  50% {
+  90% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
@@ -508,21 +511,49 @@ html, body {
           transform: rotate(34deg) skew(34deg, -4deg) translateX(-0.7032vw) translateY(3.936vh);
 }
 
-.index__board__light {
+.index__board__right-light-base {
   position: absolute;
-  top: 0;
-  left: -2.084vw;
-  width: 19.54vw;
-  height: 38.71vh;
-  background-image: url("../images/index/board-light.svg");
+  right: 3.125vw;
+  bottom: -3.565vh;
+  width: 0.756vw;
+  height: 1.482vh;
+  background-image: url("../images/index/light-rotate/light-base.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.index__board__light__active {
-  background-image: url("../images/index/board-light-active.svg");
-  top: 1.158vh;
+.index__board__right-light-base__active {
+  bottom: -2.315vh;
+}
+
+.index__board__right-light-head {
+  position: absolute;
+  bottom: -2.639vh;
+  right: 3.125vw;
+  width: 1.25vw;
+  height: 1.991vh;
+  background-image: url("../images/index/light-rotate/light-head-right.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.index__board__right-light-head__active {
+  bottom: -1.389vh;
+}
+
+.index__board__right-light-head::after {
+  content: '';
+  width: 9.64vw;
+  height: 20.65vh;
+  background-image: url("../images/index/light-rotate/spotlight-right.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0.926vh;
+  right: 0.7813vw;
 }
 
 .index__arrow-path {

@@ -67,6 +67,12 @@ html, body {
   overflow: hidden;
   background-color: transparent;
   border-radius: 50%;
+  position: relative;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  width: 0;
+  height: 0;
   &__show {
     width: 100vh;
     height: 100vh;
@@ -78,11 +84,19 @@ html, body {
   0% {
     transform: scale(0.01);
   }
-  50% {
+  // 50% {
+  //   transform: scale(2.1);
+  // }
+  90% {
     transform: scale(1);
   }
   100% {
     border-radius: 0;
     width: 100vw;
   }
+  // 100% {
+  //   border-radius: 0;
+  //   width: 100vw;
+  //   transform: scale(1);
+  // }
 }

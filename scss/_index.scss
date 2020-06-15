@@ -267,20 +267,49 @@
         transform: rotate(34deg) skew(34deg, -4deg) translateX(-0.7032vw) translateY(3.936vh);
       }
     }
-    &__light {
+    &__right-light-base {
       position: absolute;
-      top: 0;
-      left: -2.084vw;
-      width: 19.54vw;
-      height: 38.71vh;
-      background-image: url('../images/index/board-light.svg');
+      right: 3.125vw;
+      bottom: -3.565vh;
+      width: 0.756vw;
+      height: 1.482vh;
+      background-image: url('../images/index/light-rotate/light-base.svg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
       &__active {
-        background-image: url('../images/index/board-light-active.svg');
-        top: 1.158vh;
+        bottom: -2.315vh;
       }
+    }
+    &__right-light-head {
+      position: absolute;
+      bottom: -2.639vh;
+      right: 3.125vw;
+      width: 1.25vw;
+      height: 1.991vh;
+      background-image: url('../images/index/light-rotate/light-head-right.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      &__active {
+        bottom: -1.389vh;
+      }
+      &::after {
+        content: '';
+        width: 9.64vw;
+        height: 20.65vh;
+        background-image: url('../images/index/light-rotate/spotlight-right.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: absolute;
+        bottom: 0.926vh;
+        right: 0.7813vw;
+      }
+      // animation-name: light-rotate;
+      // animation-duration: 4s;
+      // animation-iteration-count: infinite;
+      // animation-direction: alternate;
     }
   }
   &__arrow-path {
