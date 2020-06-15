@@ -1205,19 +1205,19 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__left-section__three__title {
   background-color: #333333;
-  width: 1.615vw;
-  height: 1.615vw;
+  width: 2.084vw;
+  height: 2.084vw;
   border-radius: 50%;
   font-size: 1.042vw;
   color: white;
   position: absolute;
-  top: -1.16vh;
-  left: 0.131vw;
+  top: -3.241vh;
+  left: 0.1302vw;
 }
 
 .introduce__map-land__left-section__three__title__active {
-  top: -0.232vh;
-  left: 0.652vw;
+  top: -2.269vh;
+  left: 0.6511vw;
 }
 
 .introduce__map-land__left-section__three__active {
@@ -1242,14 +1242,13 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__left-section__two__title {
   background-color: #333333;
-  width: 1.615vw;
-  height: 1.615vw;
+  width: 2.084vw;
+  height: 2.084vw;
   border-radius: 50%;
   font-size: 1.042vw;
   color: white;
   position: absolute;
-  top: 0.232vh;
-  left: 0;
+  top: -2.315vh;
 }
 
 .introduce__map-land__left-section__two__active {
@@ -1270,14 +1269,14 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__left-section__one__title {
   background-color: #333333;
-  width: 1.615vw;
-  height: 1.615vw;
+  width: 2.084vw;
+  height: 2.084vw;
   border-radius: 50%;
   font-size: 1.042vw;
   color: white;
   position: absolute;
-  top: -1.389vh;
   left: 0;
+  top: -4.167vh;
 }
 
 .introduce__map-land__left-section__one__active {
@@ -1299,8 +1298,8 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__left-section__four__title {
   background-color: #333333;
-  width: 1.615vw;
-  height: 1.615vw;
+  width: 2.084vw;
+  height: 2.084vw;
   border-radius: 50%;
   font-size: 1.042vw;
   color: white;
@@ -1328,19 +1327,19 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__left-section__five__title {
   background-color: #333333;
-  width: 1.615vw;
-  height: 1.615vw;
+  width: 2.084vw;
+  height: 2.084vw;
   border-radius: 50%;
   font-size: 1.042vw;
   color: white;
   position: absolute;
-  bottom: -0.463vh;
-  left: 9.12vw;
+  bottom: -2.315vh;
+  left: 6.511vw;
 }
 
 .introduce__map-land__left-section__five__title__active {
-  bottom: -1.3vh;
-  left: 8.86vw;
+  bottom: -3.241vh;
+  left: 6.25vw;
 }
 
 .introduce__map-land__left-section__five__active {
@@ -1383,8 +1382,8 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__right-section__four__title {
   background-color: #808080;
-  width: 1.615vw;
-  height: 1.615vw;
+  width: 2.084vw;
+  height: 2.084vw;
   border-radius: 50%;
   font-size: 1.042vw;
   color: white;
@@ -1412,8 +1411,8 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__right-section__three__title {
   background-color: #808080;
-  width: 1.615vw;
-  height: 1.615vw;
+  width: 2.084vw;
+  height: 2.084vw;
   border-radius: 50%;
   font-size: 1.042vw;
   color: white;
@@ -1441,8 +1440,8 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__right-section__two__title {
   background-color: #808080;
-  width: 1.615vw;
-  height: 1.615vw;
+  width: 2.084vw;
+  height: 2.084vw;
   border-radius: 50%;
   font-size: 1.042vw;
   color: white;
@@ -1470,8 +1469,8 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__right-section__one__title {
   background-color: #808080;
-  width: 1.615vw;
-  height: 1.615vw;
+  width: 2.084vw;
+  height: 2.084vw;
   border-radius: 50%;
   font-size: 1.042vw;
   color: white;
@@ -1481,7 +1480,7 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__one__active {
-  background-image: url("../images/introduce/map-rightsection-one-active.svg");
+  background-image: url("../images/introduce/map-rightsection-one-active.png");
 }
 
 .introduce__map-land__right-section__five {
@@ -1499,8 +1498,8 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__right-section__five__title {
   background-color: #808080;
-  width: 1.615vw;
-  height: 1.615vw;
+  width: 2.084vw;
+  height: 2.084vw;
   border-radius: 50%;
   font-size: 1.042vw;
   color: white;
@@ -1510,7 +1509,7 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__five__active {
-  background-image: url("../images/introduce/map-rightsection-five-active.svg");
+  background-image: url("../images/introduce/map-rightsection-five-active.png");
 }
 
 .introduce__map-land__conference-room {

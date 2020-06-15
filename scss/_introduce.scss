@@ -99,17 +99,17 @@
         left: 2.61vw;
         &__title {
           background-color: #333333;
-          width: 1.615vw;
-          height: 1.615vw;
+          width: 2.084vw;
+          height: 2.084vw;
           border-radius: 50%;
           font-size: 1.042vw;
           color: white;
           position: absolute;
-          top: -1.16vh;
-          left: 0.131vw;
+          top: -3.241vh;
+          left: 0.1302vw;
           &__active {
-            top: -0.232vh;
-            left: 0.652vw;
+            top: -2.269vh;
+            left: 0.6511vw;
           }
         }
         &__active {
@@ -132,14 +132,13 @@
         left: 9.12vw;
         &__title {
           background-color: #333333;
-          width: 1.615vw;
-          height: 1.615vw;
+          width: 2.084vw;
+          height: 2.084vw;
           border-radius: 50%;
           font-size: 1.042vw;
           color: white;
           position: absolute;
-          top: 0.232vh;
-          left: 0;
+          top: -2.315vh;
         }
         &__active {
           background-image: url('../images/introduce/map-leftsection-two-active.svg');
@@ -157,14 +156,14 @@
         left: 16.67vw;
         &__title {
           background-color: #333333;
-          width: 1.615vw;
-          height: 1.615vw;
+          width: 2.084vw;
+          height: 2.084vw;
           border-radius: 50%;
           font-size: 1.042vw;
           color: white;
           position: absolute;
-          top: -1.389vh;
           left: 0;
+          top: -4.167vh;
         }
         &__active {
           background-image: url('../images/introduce/map-leftsection-one-active.svg');
@@ -183,8 +182,8 @@
         z-index: 2;
         &__title {
           background-color: #333333;
-          width: 1.615vw;
-          height: 1.615vw;
+          width: 2.084vw;
+          height: 2.084vw;
           border-radius: 50%;
           font-size: 1.042vw;
           color: white;
@@ -209,17 +208,17 @@
         z-index: 1;
         &__title {
           background-color: #333333;
-          width: 1.615vw;
-          height: 1.615vw;
+          width: 2.084vw;
+          height: 2.084vw;
           border-radius: 50%;
           font-size: 1.042vw;
           color: white;
           position: absolute;
-          bottom: -0.463vh;
-          left: 9.12vw;
+          bottom: -2.315vh;
+          left: 6.511vw;
           &__active {
-            bottom: -1.3vh;
-            left: 8.86vw;
+            bottom: -3.241vh;
+            left: 6.25vw;
           }
         }
         &__active {
@@ -258,8 +257,8 @@
         left: -4.17vw;
         &__title {
           background-color: #808080;
-          width: 1.615vw;
-          height: 1.615vw;
+          width: 2.084vw;
+          height: 2.084vw;
           border-radius: 50%;
           font-size: 1.042vw;
           color: white;
@@ -284,8 +283,8 @@
         z-index: 3;
         &__title {
           background-color: #808080;
-          width: 1.615vw;
-          height: 1.615vw;
+          width: 2.084vw;
+          height: 2.084vw;
           border-radius: 50%;
           font-size: 1.042vw;
           color: white;
@@ -310,8 +309,8 @@
         z-index: 3;
         &__title {
           background-color: #808080;
-          width: 1.615vw;
-          height: 1.615vw;
+          width: 2.084vw;
+          height: 2.084vw;
           border-radius: 50%;
           font-size: 1.042vw;
           color: white;
@@ -336,8 +335,8 @@
         z-index: 2;
         &__title {
           background-color: #808080;
-          width: 1.615vw;
-          height: 1.615vw;
+          width: 2.084vw;
+          height: 2.084vw;
           border-radius: 50%;
           font-size: 1.042vw;
           color: white;
@@ -346,7 +345,7 @@
           left: 2.61vw;
         }
         &__active {
-          background-image: url('../images/introduce/map-rightsection-one-active.svg');
+          background-image: url('../images/introduce/map-rightsection-one-active.png');
         }
       }
       &__five {
@@ -362,8 +361,8 @@
         z-index: 1;
         &__title {
           background-color: #808080;
-          width: 1.615vw;
-          height: 1.615vw;
+          width: 2.084vw;
+          height: 2.084vw;
           border-radius: 50%;
           font-size: 1.042vw;
           color: white;
@@ -372,7 +371,7 @@
           left: 6.25vw;
         }
         &__active {
-          background-image: url('../images/introduce/map-rightsection-five-active.svg');
+          background-image: url('../images/introduce/map-rightsection-five-active.png');
         }
       }
     }
