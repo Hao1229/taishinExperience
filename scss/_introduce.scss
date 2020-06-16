@@ -108,6 +108,7 @@
           top: -3.241vh;
           left: 0.1302vw;
           &__active {
+            background-color: #c10021;
             top: -2.269vh;
             left: 0.6511vw;
           }
@@ -139,6 +140,9 @@
           color: white;
           position: absolute;
           top: -2.315vh;
+          &__active {
+            background-color: #c10021;
+          }
         }
         &__active {
           background-image: url('../images/introduce/map-leftsection-two-active.svg');
@@ -164,6 +168,9 @@
           position: absolute;
           left: 0;
           top: -4.167vh;
+          &__active {
+            background-color: #c10021;
+          }
         }
         &__active {
           background-image: url('../images/introduce/map-leftsection-one-active.svg');
@@ -190,6 +197,9 @@
           position: absolute;
           bottom: -3.25vh;
           left: 4.95vw;
+          &__active {
+            background-color: #c10021;
+          }
         }
         &__active {
           background-image: url('../images/introduce/map-leftsection-four-active.svg');
@@ -219,6 +229,7 @@
           &__active {
             bottom: -3.241vh;
             left: 6.25vw;
+            background-color: #c10021;
           }
         }
         &__active {
@@ -265,6 +276,9 @@
           position: absolute;
           top: 0.926vh;
           left: -0.521vw;
+          &__active {
+            background-color: #c10021;
+          }
         }
         &__active {
           background-image: url('../images/introduce/map-rightsection-four-active.svg');
@@ -291,6 +305,9 @@
           position: absolute;
           top: 3.704vh;
           left: -1.3021vw;
+          &__active {
+            background-color: #c10021;
+          }
         }
         &__active {
           background-image: url('../images/introduce/map-rightsection-three-active.svg');
@@ -317,6 +334,9 @@
           position: absolute;
           top: 4.63vh;
           left: -1.042vw;
+          &__active {
+            background-color: #c10021;
+          }
         }
         &__active {
           background-image: url('../images/introduce/map-rightsection-two-active.svg');
@@ -343,6 +363,9 @@
           position: absolute;
           bottom: -1.389vh;
           left: 4.6875vw;
+          &__active {
+            background-color: #c10021;
+          }
         }
         &__active {
           background-image: url('../images/introduce/map-rightsection-one-active.png');
@@ -367,8 +390,11 @@
           font-size: 1.042vw;
           color: white;
           position: absolute;
-          top: -5.56vh;
-          left: 6.25vw;
+          top: -3.241vh;
+          left: 7.8125vw;
+          &__active {
+            background-color: #c10021;
+          }
         }
         &__active {
           background-image: url('../images/introduce/map-rightsection-five-active.png');
