@@ -459,7 +459,7 @@ function guideChange () {
       $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-4.png")')
       break
     case 'L-5':
-      $('.introduce__guide-line').css('width', '39.07vw')
+      $('.introduce__guide-line').css('width', '45vw')
       $('.introduce__guide-line').css('height', '1.44vh')
       $('.introduce__guide-line').css('right', '35.94vw')
       $('.introduce__guide-line').css('bottom', '34.491vh')
