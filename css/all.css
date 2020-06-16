@@ -173,6 +173,52 @@ html, body {
   }
 }
 
+/* 螢幕保護程式 */
+.screen-protect {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  background-image: url("../images/introduce/introduce-frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.screen-protect__back-btn {
+  background-image: url("../images/introduce/back-btn.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 26.07vw;
+  height: 10.19vh;
+  position: absolute;
+  bottom: 0;
+  left: 40vw;
+  z-index: 999;
+  color: transparent;
+}
+
+.screen-protect__back-btn:hover {
+  color: transparent;
+}
+
+.screen-protect__video {
+  display: none;
+  position: absolute;
+  z-index: 9999998;
+  width: 100%;
+  height: 100%;
+}
+
+.screen-protect__video video {
+  width: 100%;
+  height: 100%;
+}
+
 .index {
   background-image: url("../images/index/bg-graidient.svg");
   background-size: cover;

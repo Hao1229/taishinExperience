@@ -21,28 +21,51 @@ $('.introduce__back-btn').click(function (e) {
   guideChange()
 })
 
-/* introduce page 閒置回首頁處理 */
-if (url.pathname.indexOf('introduce') > -1) {
-  // idleTimer()
-}
+/* 閒置出現螢幕保護程式 */
+const protectVideo = document.getElementById('protect-video')
 
 function idleTimer () {
   let time
-  window.onload = resetTimer
 
   document.onmousemove = resetTimer
   document.onkeypress = resetTimer
 
-  function backIndex () {
-    window.location.href = `${url.protocol}//${url.host}/index.html`
+  function showProtect () {
+    $('#index').css('display', 'none')
+    $('#introduce').css('display', 'none')
+    $('.animation-mask').removeClass('animation-mask__show')
+    $('.transition-space').css('display', 'none')
+    $('.animation-mask-section').css('display', 'none')
+    $('.screen-protect').css('display', 'block')
+    $('.screen-protect__video').css('display', 'block')
+    protectVideo.play()
+    protectVideo.addEventListener('ended', removeProtect)
   }
 
   function resetTimer () {
-    console.log('重置')
     clearTimeout(time)
-    time = setTimeout(backIndex, 10000)
+    time = setTimeout(showProtect, 10000)
   }
+
+  resetTimer()
 }
+
+idleTimer()
+
+function removeProtect () {
+  $('#index').css('display', 'flex')
+  $('#introduce').css('display', 'none')
+  $('.screen-protect').css('display', 'none')
+  $('.screen-protect__video').css('display', 'none')
+  protectVideo.pause()
+  protectVideo.load()
+  idleTimer()
+}
+
+$('.screen-protect__back-btn').click(function (e) { 
+  e.preventDefault()
+  removeProtect()
+})
 
 /* 過場動畫 */
 function closeDoor (target) {
