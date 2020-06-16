@@ -431,74 +431,134 @@ $('.introduce__board__btn-left').click(function (e) {
 function guideChange () {
   switch (whoActive) {
     case 'L-1':
+      $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-1.png")')
       $('.introduce__guide-line').css('width', '37.95vw')
       $('.introduce__guide-line').css('height', '17.13vh')
-      $('.introduce__guide-line').css('right', '35.94vw')
-      $('.introduce__guide-line').css('bottom', '34.491vh')
-      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-1.png")')
+      $('.introduce__guide-line-section').css('width', '37.95vw')
+      $('.introduce__guide-line-section').css('height', '17.13vh')
+      $('.introduce__guide-line-section').css('right', '35.94vw')
+      $('.introduce__guide-line-section').css('bottom', '34.491vh')
+      setTimeout(() => {
+        $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
+      }, 300)
       break
     case 'L-2':
+      $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-2.png")')
       $('.introduce__guide-line').css('width', '45.58vw')
       $('.introduce__guide-line').css('height', '13.89vh')
-      $('.introduce__guide-line').css('right', '35.94vw')
-      $('.introduce__guide-line').css('bottom', '34.491vh')
-      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-2.png")')
+      $('.introduce__guide-line-section').css('width', '45.58vw')
+      $('.introduce__guide-line-section').css('height', '13.89vh')
+      $('.introduce__guide-line-section').css('right', '35.94vw')
+      $('.introduce__guide-line-section').css('bottom', '34.491vh')
+      setTimeout(() => {
+        $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
+      }, 300)
       break
     case 'L-3':
+      $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-3.png")')
       $('.introduce__guide-line').css('width', '52.09vw')
       $('.introduce__guide-line').css('height', '9.491vh')
-      $('.introduce__guide-line').css('right', '35.94vw')
-      $('.introduce__guide-line').css('bottom', '34.491vh')
-      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-3.png")')
+      $('.introduce__guide-line-section').css('width', '52.09vw')
+      $('.introduce__guide-line-section').css('height', '9.491vh')
+      $('.introduce__guide-line-section').css('right', '35.94vw')
+      $('.introduce__guide-line-section').css('bottom', '34.491vh')
+      setTimeout(() => {
+        $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
+      }, 300)
       break
     case 'L-4':
+      $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-4.png")')
       $('.introduce__guide-line').css('width', '46.875vw')
       $('.introduce__guide-line').css('height', '3.2vh')
-      $('.introduce__guide-line').css('right', '35.94vw')
-      $('.introduce__guide-line').css('bottom', '34.491vh')
-      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-4.png")')
+      $('.introduce__guide-line-section').css('width', '46.875vw')
+      $('.introduce__guide-line-section').css('height', '3.2vh')
+      $('.introduce__guide-line-section').css('right', '35.94vw')
+      $('.introduce__guide-line-section').css('bottom', '34.491vh')
+      setTimeout(() => {
+        $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
+      }, 300)
       break
     case 'L-5':
+      $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-5.png")')
       $('.introduce__guide-line').css('width', '45vw')
       $('.introduce__guide-line').css('height', '1.44vh')
-      $('.introduce__guide-line').css('right', '35.94vw')
-      $('.introduce__guide-line').css('bottom', '34.491vh')
-      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-5.png")')
+      $('.introduce__guide-line-section').css('width', '45vw')
+      $('.introduce__guide-line-section').css('height', '1.44vh')
+      $('.introduce__guide-line-section').css('right', '35.94vw')
+      $('.introduce__guide-line-section').css('bottom', '34.491vh')
+      setTimeout(() => {
+        $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
+      }, 300)
       break
     case 'R-1':
+      $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-1.png")')
       $('.introduce__guide-line').css('width', '19.54vw')
       $('.introduce__guide-line').css('height', '1.436vh')
-      $('.introduce__guide-line').css('bottom', '46.3vh')
-      $('.introduce__guide-line').css('right', '35.16vw')
-      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-1.png")')
+      $('.introduce__guide-line-section').css('width', '19.54vw')
+      $('.introduce__guide-line-section').css('height', '1.436vh')
+      $('.introduce__guide-line-section').css('right', '35.16vw')
+      $('.introduce__guide-line-section').css('bottom', '46.3vh')
+      setTimeout(() => {
+        $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
+      }, 300)
       break
     case 'R-2':
+      $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-2.png")')
       $('.introduce__guide-line').css('width', '25.27vw')
       $('.introduce__guide-line').css('height', '6.39vh')
-      $('.introduce__guide-line').css('right', '35.16vw')
-      $('.introduce__guide-line').css('bottom', '46.3vh')
-      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-2.png")')
+      $('.introduce__guide-line-section').css('width', '25.27vw')
+      $('.introduce__guide-line-section').css('height', '6.39vh')
+      $('.introduce__guide-line-section').css('right', '35.16vw')
+      $('.introduce__guide-line-section').css('bottom', '46.3vh')
+      setTimeout(() => {
+        $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
+      }, 300)
       break
     case 'R-3':
+      $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-3.png")')
       $('.introduce__guide-line').css('width', '28.65vw')
       $('.introduce__guide-line').css('height', '10.19vh')
-      $('.introduce__guide-line').css('right', '35.16vw')
-      $('.introduce__guide-line').css('bottom', '46.3vh')
-      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-3.png")')
+      $('.introduce__guide-line-section').css('width', '28.65vw')
+      $('.introduce__guide-line-section').css('height', '10.19vh')
+      $('.introduce__guide-line-section').css('right', '35.16vw')
+      $('.introduce__guide-line-section').css('bottom', '46.3vh')
+      setTimeout(() => {
+        $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
+      }, 300)
       break
     case 'R-4':
+      $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-4.png")')
       $('.introduce__guide-line').css('width', '28.65vw')
       $('.introduce__guide-line').css('height', '15.28vh')
-      $('.introduce__guide-line').css('right', '35.16vw')
-      $('.introduce__guide-line').css('bottom', '46.3vh')
-      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-4.png")')
+      $('.introduce__guide-line-section').css('width', '28.65vw')
+      $('.introduce__guide-line-section').css('height', '15.28vh')
+      $('.introduce__guide-line-section').css('right', '35.16vw')
+      $('.introduce__guide-line-section').css('bottom', '46.3vh')
+      setTimeout(() => {
+        $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
+      }, 300)
       break
     case 'R-5':
+      $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
+      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-5.png")')
       $('.introduce__guide-line').css('width', '11.98vw')
       $('.introduce__guide-line').css('height', '7.88vh')
-      $('.introduce__guide-line').css('right', '35.16vw')
-      $('.introduce__guide-line').css('bottom', '46.3vh')
-      $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-5.png")')
+      $('.introduce__guide-line-section').css('width', '11.98vw')
+      $('.introduce__guide-line-section').css('height', '7.88vh')
+      $('.introduce__guide-line-section').css('right', '35.16vw')
+      $('.introduce__guide-line-section').css('bottom', '46.3vh')
+      setTimeout(() => {
+        $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
+      }, 300)
       break
   }
 }

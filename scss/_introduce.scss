@@ -593,12 +593,22 @@
       }
     }
   }
-  &__guide-line {
+  &__guide-line-section {
     position: absolute;
-    background-repeat: no-repeat;
-    background-size: cover;
     z-index: 10;
-    // transition: all 2s;
+    overflow: hidden;
+  }
+  &__guide-line-mask {
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    &__active {
+      animation: growLine 3s linear forwards;
+    }
+  }
+  &__guide-line {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
   }
   &__dodge-left {
     width: 0.521vw;
@@ -663,5 +673,15 @@ video::-webkit-media-controls-rewind-button {
 @keyframes circle-rotate {
   100% {
     transform: rotate(360deg);
+  }
+}
+
+/* grow line animation */
+@keyframes growLine {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
   }
 }

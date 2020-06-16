@@ -1768,11 +1768,26 @@ video::-webkit-media-controls-rewind-button {
   outline: none;
 }
 
-.introduce__guide-line {
+.introduce__guide-line-section {
   position: absolute;
-  background-repeat: no-repeat;
-  background-size: cover;
   z-index: 10;
+  overflow: hidden;
+}
+
+.introduce__guide-line-mask {
+  height: 100%;
+  width: 0;
+  overflow: hidden;
+}
+
+.introduce__guide-line-mask__active {
+  -webkit-animation: growLine 3s linear forwards;
+          animation: growLine 3s linear forwards;
+}
+
+.introduce__guide-line {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .introduce__dodge-left {
@@ -1860,6 +1875,24 @@ video::-webkit-media-controls-rewind-button {
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+  }
+}
+
+/* grow line animation */
+@-webkit-keyframes growLine {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes growLine {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
   }
 }
 
