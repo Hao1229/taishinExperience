@@ -92,30 +92,20 @@ html, body {
   top: 0;
   left: 0;
   z-index: 9999999;
-  background-image: url('../images/introduce/introduce-frame.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  &__back-btn {
-    background-image: url('../images/introduce/back-btn.svg');
+  &__hint {
+    background-image: url('../images/screen-saver.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 26.07vw;
-    height: 10.19vh;
+    width: 100vw;
+    height: 11.58vh;
     position: absolute;
     bottom: 0;
-    left: 40vw;
-    z-index: 999;
-    color: transparent;
-    &:hover {
-      color: transparent;
-    }
+    left: 0;
+    right: 0;
   }
   &__video {
     display: none;
-    position: absolute;
-    z-index: 9999998;
     width: 100%;
     height: 100%;
     video {

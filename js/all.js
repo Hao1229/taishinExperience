@@ -24,33 +24,32 @@ $('.introduce__back-btn').click(function (e) {
 /* 閒置出現螢幕保護程式 */
 const protectVideo = document.getElementById('protect-video')
 
-function idleTimer () {
-  let time
+let time
 
-  document.onmousemove = resetTimer
-  document.onkeypress = resetTimer
+document.addEventListener('mousemove', resetTimer)
+document.addEventListener('keypress', resetTimer)
 
-  function showProtect () {
-    $('#index').css('display', 'none')
-    $('#introduce').css('display', 'none')
-    $('.animation-mask').removeClass('animation-mask__show')
-    $('.transition-space').css('display', 'none')
-    $('.animation-mask-section').css('display', 'none')
-    $('.screen-protect').css('display', 'block')
-    $('.screen-protect__video').css('display', 'block')
-    protectVideo.play()
-    protectVideo.addEventListener('ended', removeProtect)
-  }
-
-  function resetTimer () {
-    clearTimeout(time)
-    time = setTimeout(showProtect, 10000)
-  }
-
-  resetTimer()
+function showProtect () {
+  $('#index').css('display', 'none')
+  $('#introduce').css('display', 'none')
+  $('.animation-mask').removeClass('animation-mask__show')
+  $('.transition-space').css('display', 'none')
+  $('.animation-mask-section').css('display', 'none')
+  $('.screen-protect').css('display', 'block')
+  $('.screen-protect__video').css('display', 'block')
+  protectVideo.play()
+  document.removeEventListener('mousemove', resetTimer)
+  document.removeEventListener('keypress', resetTimer)
+  protectVideo.addEventListener('ended', removeProtect)
 }
 
-idleTimer()
+function resetTimer () {
+  console.log('重置')
+  clearTimeout(time)
+  time = setTimeout(showProtect, 10000)
+}
+
+resetTimer()
 
 function removeProtect () {
   $('#index').css('display', 'flex')
@@ -59,10 +58,12 @@ function removeProtect () {
   $('.screen-protect__video').css('display', 'none')
   protectVideo.pause()
   protectVideo.load()
-  idleTimer()
+  document.addEventListener('mousemove', resetTimer)
+  document.addEventListener('keypress', resetTimer)
+  resetTimer()
 }
 
-$('.screen-protect__back-btn').click(function (e) { 
+$('.screen-protect').click(function (e) { 
   e.preventDefault()
   removeProtect()
 })
@@ -93,6 +94,7 @@ function watchTranslate () {
   const translate = document.querySelector('.animation-mask__show')
   translate.addEventListener('animationend', (() => {
     circleRotate()
+    resetTimer()
   }))
 }
 

@@ -9,6 +9,9 @@ const popupVideoThree = document.getElementById('film-three')
 
 $('#lifestyle-link').click(function (e) { 
   e.preventDefault()
+  clearTimeout(time)
+  document.removeEventListener('mousemove', resetTimer)
+  document.removeEventListener('keypress', resetTimer)
   $('#video-popup').modal('show')
   $('.video-btn-one').addClass('video-btn-one__active')
   $('.video-btn-two').removeClass('video-btn-two__active')
@@ -33,6 +36,9 @@ $('#video-popup').on('hidden.bs.modal', function (e) {
   popupVideoTwo.load()
   popupVideoThree.pause()
   popupVideoThree.load()
+  resetTimer()
+  document.onmousemove = resetTimer
+  document.onkeypress = resetTimer
 })
 
 $('.video-btn-one').click(function (e) { 
