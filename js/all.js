@@ -1,6 +1,4 @@
 /* 介紹頁與首頁間跳轉處理 */
-const url = window.location
-
 $('#introduce-link').click(function (e) { 
   e.preventDefault()
   closeDoor('introduce')
@@ -44,7 +42,6 @@ function showProtect () {
 }
 
 function resetTimer () {
-  console.log('重置')
   clearTimeout(time)
   time = setTimeout(showProtect, 10000)
 }
@@ -79,15 +76,18 @@ function closeDoor (target) {
 }
 
 function openDoor (target) {
+  const video = document.querySelector('.transition-video')
+  video.load()
   $('.right-door').removeClass('right-door__active')
   $('.left-door').removeClass('left-door__active')
   $('.transition-space').css('display', 'block')
   $('.animation-mask-section').css('display', 'flex')
+  video.play()
   setTimeout(() => {
     $('#introduce').css('display', 'block')
     $('.animation-mask').addClass('animation-mask__show')
     watchTranslate()
-  }, 4000)
+  }, 5500)
 }
 
 function watchTranslate () {

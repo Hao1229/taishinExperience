@@ -1950,11 +1950,9 @@ video::-webkit-media-controls-rewind-button {
   z-index: 500;
 }
 
-.transition-space::before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+.transition-space video {
+  width: 100vw;
+  height: 100vh;
 }
 
 .scene {

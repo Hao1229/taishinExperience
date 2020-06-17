@@ -15,11 +15,15 @@
   left: 0;
   right: 0;
   z-index: 500;
-  &::before {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+  // &::before {
+  //   content: '';
+  //   display: inline-block;
+  //   height: 100%;
+  //   vertical-align: middle;
+  // }
+  video {
+    width: 100vw;
+    height: 100vh;
   }
 }
 
