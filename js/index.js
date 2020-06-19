@@ -30,6 +30,8 @@ $('#video-popup').modal({
 $('#video-popup').modal('hide')
 
 $('#video-popup').on('hidden.bs.modal', function (e) {
+  $('.index__video-popup__video-list-section').removeClass('index__video-popup__video-list-section__active')
+  $('.index__video-popup__video-list').removeClass('index__video-popup__video-list__active')
   popupVideo.pause()
   popupVideo.load()
   popupVideoTwo.pause()
@@ -87,6 +89,15 @@ $('.video-btn-three').click(function (e) {
   popupVideoTwo.load()
   popupVideoThree.load()
   popupVideoThree.play()
+})
+
+/* 影片 list */
+$('.video-btn-list').click(function (e) { 
+  e.preventDefault()
+  $('.index__video-popup__video-list-section').toggleClass('index__video-popup__video-list-section__active')
+  setTimeout(() => {
+    $('.index__video-popup__video-list').toggleClass('index__video-popup__video-list__active')
+  }, 300)
 })
 
 /* 輪播 */
