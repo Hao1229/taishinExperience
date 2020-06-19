@@ -770,12 +770,44 @@ html, body {
   border: none;
 }
 
+.index__video-popup__video-title-section {
+  position: absolute;
+  top: 6.95vh;
+  left: 15.24vw;
+  width: 58.94vw;
+  height: 6.019vh;
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.3021vw;
+  z-index: 2;
+}
+
+.index__video-popup__video-icon {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.651vw 0 0.651vw 1.128vw;
+  margin-right: 1.042vw;
+  border-color: transparent transparent transparent white;
+}
+
+.index__video-popup__video-title {
+  font-size: 1.5625vw;
+}
+
 .index__video-popup__video {
   position: absolute;
-  top: 8.34vh;
-  left: 15.24vw;
-  width: 59.09vw;
-  height: 59.09vh;
+  top: 10.19vh;
+  left: 15.625vw;
+  width: 58.05vw;
+  height: 57.32vh;
+  z-index: 1;
 }
 
 .index__video-popup #film-two, .index__video-popup #film-three {
@@ -851,6 +883,10 @@ html, body {
 
 .index__video-popup__button-group .video-btn-three__active {
   background-image: url("../images/index/videoBtn-active.svg");
+}
+
+.index__video-popup__button-group .video-btn-list {
+  background-image: url("../images/index/video-btn-list.svg");
 }
 
 .index__video-popup__upline {

@@ -460,12 +460,37 @@
       background-color: transparent;
       border: none;
     }
+    &__video-title-section {
+      position: absolute;
+      top: 6.95vh;
+      left: 15.24vw;
+      width: 58.94vw;
+      height: 6.019vh;
+      background-color: black;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding-left: 1.3021vw;
+      z-index: 2;
+    }
+    &__video-icon {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0.651vw 0 0.651vw 1.128vw;
+      margin-right: 1.042vw;
+      border-color: transparent transparent transparent white
+    }
+    &__video-title {
+      font-size: 1.5625vw;
+    }
     &__video {
       position: absolute;
-      top: 8.34vh;
-      left: 15.24vw;
-      width: 59.09vw;
-      height: 59.09vh;
+      top: 10.19vh;
+      left: 15.625vw;
+      width: 58.05vw;
+      height: 57.32vh;
+      z-index: 1;
     }
     #film-two, #film-three {
       display: none;
@@ -527,6 +552,9 @@
         &__active {
           background-image: url('../images/index/videoBtn-active.svg');
         }
+      }
+      .video-btn-list {
+        background-image: url('../images/index/video-btn-list.svg');
       }
     }
     &__upline {

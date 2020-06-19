@@ -43,10 +43,10 @@ function showProtect () {
 
 function resetTimer () {
   clearTimeout(time)
-  time = setTimeout(showProtect, 20000)
+  time = setTimeout(showProtect, 200000)
 }
 
-resetTimer()
+// resetTimer()
 
 function removeProtect () {
   $('#index').css('display', 'flex')
