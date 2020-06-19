@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="35" viewBox="0 0 166 35">
+    <defs>
+        <path id="prefix__a" d="M0 -0.001L165.307 -0.001 165.307 34.097 0 34.097z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="prefix__b" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <text fill="#FFF" font-family="NotoSansCJKtc-Black, Noto Sans CJK TC" font-size="35.66" font-weight="700" letter-spacing=".1" mask="url(#prefix__b)">
+            <tspan x="0" y="30">MORE</tspan>
+        </text>
+        <path fill="#FFF" d="M165.307 18.315c0 8.717-7.066 15.782-15.783 15.782-8.716 0-15.782-7.065-15.782-15.782 0-8.717 7.066-15.783 15.782-15.783 8.717 0 15.783 7.066 15.783 15.783" mask="url(#prefix__b)"/>
+        <path fill="#000" d="M138.302 11L149.94 22.092 160.746 11z" mask="url(#prefix__b)" transform="matrix(1 0 0 -1 0 33.092)"/>
+    </g>
+</svg>

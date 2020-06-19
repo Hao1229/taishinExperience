@@ -802,6 +802,7 @@ html, body {
   transition: transform .5s;
   transition: transform .5s, -webkit-transform .5s;
   padding: 2.23vh 1.964vw;
+  overflow-y: scroll;
 }
 
 .index__video-popup__video-list__active {
@@ -833,10 +834,20 @@ html, body {
   background-repeat: no-repeat;
 }
 
+.index__video-popup__video-list__more-btn__active span {
+  background-image: url("../images/index/videoBtn-more-active.svg");
+}
+
 .index__video-popup__video-list__list__content {
   margin-top: 2.315vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: 35.42vh;
+  overflow-y: hidden;
+}
+
+.index__video-popup__video-list__list__content__active {
+  height: auto;
 }
 
 .index__video-popup__video-list__list__content__item {
@@ -847,15 +858,42 @@ html, body {
   height: 10.84vh;
   margin-bottom: 6.95vh;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .index__video-popup__video-list__list__content__item p {
   position: absolute;
   bottom: -6.019vh;
   height: 5.093vh;
+  line-height: 1.5;
   left: 0;
   color: white;
   font-size: 0.9375vw;
+}
+
+.index__video-popup__video-list__list__content__item span {
+  color: white;
+  background-color: black;
+  width: 2.53vw;
+  height: 1.95vh;
+  font-size: 0.78125vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .index__video-popup__video-list__list__content__item-1 {
@@ -868,6 +906,20 @@ html, body {
 
 .index__video-popup__video-list__list__content__item-3 {
   background-image: url("../images/index/popup-demo-3.jpeg");
+}
+
+.index__video-popup__video-list-sort {
+  position: relative;
+}
+
+.index__video-popup__video-list-sort::after {
+  content: '';
+  position: absolute;
+  bottom: -3.704vh;
+  left: 0;
+  width: 35.24vw;
+  height: 0.139vh;
+  background-color: #989898;
 }
 
 .index__video-popup__video-title-section {

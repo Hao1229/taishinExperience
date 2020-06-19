@@ -482,6 +482,7 @@
       background-color: #333333;
       transition: transform .5s;
       padding: 2.23vh 1.964vw;
+      overflow-y: scroll;
       &__active {
         transform: translateX(0);
       }
@@ -501,11 +502,21 @@
           background-position: center center;
           background-repeat: no-repeat;
         }
+        &__active {
+          span {
+            background-image: url('../images/index/videoBtn-more-active.svg');
+          }
+        }
       }
       &__list {
         &__content {
           margin-top: 2.315vh;
           flex-wrap: wrap;
+          height: 35.42vh;
+          overflow-y: hidden;
+          &__active {
+            height: auto;
+          }
           &__item {
             background-size: cover;
             background-repeat: no-repeat;
@@ -514,13 +525,27 @@
             height: 10.84vh;
             margin-bottom: 6.95vh;
             position: relative;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
             p {
               position: absolute;
               bottom: -6.019vh;
               height: 5.093vh;
+              line-height: 1.5;
               left: 0;
               color: white;
               font-size: 0.9375vw;
+            }
+            span {
+              color: white;
+              background-color: black;
+              width: 2.53vw;
+              height: 1.95vh;
+              font-size: 0.78125vw;
+              display: flex;
+              justify-content: center;
+              align-items: center;
             }
           }
           &__item-1 {
@@ -533,6 +558,18 @@
             background-image: url('../images/index/popup-demo-3.jpeg');
           }
         }
+      }
+    }
+    &__video-list-sort {
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -3.704vh;
+        left: 0;
+        width: 35.24vw;
+        height: 0.139vh;
+        background-color: #989898;
       }
     }
     &__video-title-section {

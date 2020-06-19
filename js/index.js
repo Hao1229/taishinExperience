@@ -32,6 +32,8 @@ $('#video-popup').modal('hide')
 $('#video-popup').on('hidden.bs.modal', function (e) {
   $('.index__video-popup__video-list-section').removeClass('index__video-popup__video-list-section__active')
   $('.index__video-popup__video-list').removeClass('index__video-popup__video-list__active')
+  $('.index__video-popup__video-list__list__content').removeClass('index__video-popup__video-list__list__content__active')
+  $('.index__video-popup__video-list__more-btn').removeClass('index__video-popup__video-list__more-btn__active')
   popupVideo.pause()
   popupVideo.load()
   popupVideoTwo.pause()
@@ -94,10 +96,18 @@ $('.video-btn-three').click(function (e) {
 /* 影片 list */
 $('.video-btn-list').click(function (e) { 
   e.preventDefault()
+  $('.index__video-popup__video-list__list__content').removeClass('index__video-popup__video-list__list__content__active')
+  $('.index__video-popup__video-list__more-btn').removeClass('index__video-popup__video-list__more-btn__active')
   $('.index__video-popup__video-list-section').toggleClass('index__video-popup__video-list-section__active')
   setTimeout(() => {
     $('.index__video-popup__video-list').toggleClass('index__video-popup__video-list__active')
   }, 300)
+})
+
+$('.index__video-popup__video-list__more-btn').click(function (e) { 
+  e.preventDefault()
+  $('.index__video-popup__video-list__list__content').toggleClass('index__video-popup__video-list__list__content__active')
+  $('.index__video-popup__video-list__more-btn').toggleClass('index__video-popup__video-list__more-btn__active')
 })
 
 /* 輪播 */
