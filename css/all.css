@@ -87,8 +87,8 @@ html, body {
   top: 0;
   left: 0;
   z-index: 99999;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
   -webkit-transform: translateX(-66.54vw);
           transform: translateX(-66.54vw);
 }
@@ -111,8 +111,8 @@ html, body {
   top: 0;
   right: 0;
   z-index: 99999;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
   -webkit-transform: translateX(50.03vw);
           transform: translateX(50.03vw);
 }

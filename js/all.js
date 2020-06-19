@@ -72,7 +72,7 @@ function closeDoor (target) {
   setTimeout(() => {
     $('#index').css('display', 'none')
     openDoor()
-  }, 500)
+  }, 1000)
 }
 
 function openDoor (target) {
