@@ -15,17 +15,185 @@
   left: 0;
   right: 0;
   z-index: 500;
-  // &::before {
-  //   content: '';
-  //   display: inline-block;
-  //   height: 100%;
-  //   vertical-align: middle;
-  // }
   video {
     width: 100vw;
     height: 100vh;
   }
 }
+
+.transition-circle-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 23.89vw;
+  height: 23.89vw;
+  background-image: url('../images/transition/transition-circle-1.svg');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.transition-circle-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  background-image: url('../images/transition/transition-circle-2.svg');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: circle-rotate 2s linear .2s infinite, rotateShow-2 2s linear forwards;
+}
+
+.transition-circle-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  background-image: url('../images/transition/transition-circle-3.svg');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: circle-rotate 2s linear .2s infinite, rotateShow-3 3s linear forwards;
+}
+
+.transition-circle-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  background-image: url('../images/transition/transition-circle-4.svg');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: circle-rotate 2s linear .2s infinite, rotateShow-4 5s linear forwards;
+}
+
+.transition-circle-5 {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url('../images/transition/transition-circle-5.svg');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: circle-rotate 2s linear .2s infinite, rotateShow-5 8s linear forwards;
+}
+
+.transition-column {
+  position: absolute;
+  bottom: 10.65vh;
+  left: 5.105vw;
+  width: 21.12vw;
+  height: 12.92vh;
+  background-image: url('../images/transition/transition-column.svg');
+  background-size: 50% auto;
+  background-position: center center;
+  background-repeat: repeat;
+  animation: columnShow 10s linear forwards;
+}
+
+/* 動畫年份 */
+$one-second: 0.001s;
+$easing: cubic-bezier(1,0,1,0);
+
+$digit-height: 18.52vh;
+
+.digit {
+  display: inline-block;
+  font-size: 18.52vh;
+  color: white;
+  height: $digit-height;
+  line-height: 1;
+  text-shadow: 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+}
+
+.time-part-wrapper {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: RoboTo;
+}
+
+.time-part {
+  width: 8.86vw;
+  text-align: center;
+  height: $digit-height;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: -0.131vw;
+  box-sizing: border-box;
+  border-color: transparent;
+  
+  .digit-wrapper {
+    text-shadow: none;
+    animation-timing-function: $easing;
+  }
+
+  &.seconds {
+    &.tens .digit-wrapper {
+      animation-name: seconds-tens;
+      animation-duration: $one-second * 10 * 6 * 10 * 3;
+      animation-iteration-count: 1;
+    }
+    &.ones .digit-wrapper {
+      animation-name: seconds-ones;
+      animation-duration: $one-second * 10 * 6 * 10;
+      animation-iteration-count: 3;
+    }
+  }
+}
+
+@keyframes seconds-tens {
+  $step: (100 / 3);
+  $progress: 0%;
+  $translate: -$digit-height;
+  @while $progress < 100 {
+    #{$progress} { transform: translateY($translate); }
+    $progress: $progress + $step;
+    $translate: $translate - $digit-height;
+  }
+}
+
+@keyframes seconds-ones {
+  $step: (100 / 10);
+  $progress: 0%;
+  $translate: 0;
+  @while $progress < 100 {
+    #{$progress} { transform: translateY($translate); }
+    $progress: $progress + $step;
+    $translate: $translate - $digit-height;
+  }
+}
+
+/* 動畫年份 end */
 
 .scene{
   display: inline-block;
@@ -106,5 +274,86 @@
   }
   100%{
     opacity: 0;
+  }
+}
+
+@keyframes rotateShow-5 {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  50% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  100% {
+    width: 87.11vw;
+    height: 154.87vh;
+  }
+}
+
+@keyframes rotateShow-4 {
+  0% {
+    width: 0;
+    height: 0;
+  }
+
+  50% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  100% {
+    width: 59.48vw;
+    height: 107.88vh;
+  }
+}
+
+@keyframes rotateShow-3 {
+  0% {
+    width: 0;
+    height: 0;
+  }
+
+  50% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  100% {
+    width: 52.48vw;
+    height: 93.34vh;
+  }
+}
+
+@keyframes rotateShow-2 {
+  0% {
+    width: 0;
+    height: 0;
+  }
+
+  100% {
+    width: 40.58vw;
+    height: 72.69vh;
+  }
+}
+
+@keyframes columnShow {
+  0% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
   }
 }

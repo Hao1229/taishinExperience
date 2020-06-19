@@ -2,6 +2,10 @@
   font-family: NotoSansTC;
   src: url('../fonts/Noto_Sans_TC/NotoSansTC-Bold.otf') format('opentype')
 }
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/Roboto/Roboto-Medium.ttf') format('opentype')
+}
 @import './reset';
 @import './global';
 @import './index';
