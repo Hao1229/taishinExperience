@@ -2064,7 +2064,7 @@ video::-webkit-media-controls-rewind-button {
   color: white;
   height: 18.52vh;
   line-height: 1;
-  text-shadow: 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  text-shadow: 0 0 0.78125vw #FF1177, 0 0 0.521vw #FF1177, 0 0 0.521vw #FF1177, 0 0 0.261vw #FF1177, 0 0 1.3021vw #FF1177;
 }
 
 .time-part-wrapper {
@@ -2085,13 +2085,15 @@ video::-webkit-media-controls-rewind-button {
       -ms-flex-align: center;
           align-items: center;
   font-family: RoboTo;
+  width: 52.09vw;
+  height: 18.52vh;
+  overflow: hidden;
 }
 
 .time-part {
   width: 8.86vw;
   text-align: center;
   height: 18.52vh;
-  overflow: hidden;
   display: inline-block;
   margin-left: -0.131vw;
   -webkit-box-sizing: border-box;
@@ -2108,8 +2110,8 @@ video::-webkit-media-controls-rewind-button {
 .time-part.seconds.tens .digit-wrapper {
   -webkit-animation-name: seconds-tens;
           animation-name: seconds-tens;
-  -webkit-animation-duration: 1.8s;
-          animation-duration: 1.8s;
+  -webkit-animation-duration: 5.4s;
+          animation-duration: 5.4s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
 }
@@ -2117,8 +2119,8 @@ video::-webkit-media-controls-rewind-button {
 .time-part.seconds.ones .digit-wrapper {
   -webkit-animation-name: seconds-ones;
           animation-name: seconds-ones;
-  -webkit-animation-duration: 0.6s;
-          animation-duration: 0.6s;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
   -webkit-animation-iteration-count: 3;
           animation-iteration-count: 3;
 }
@@ -2240,6 +2242,148 @@ video::-webkit-media-controls-rewind-button {
 }
 
 /* 動畫年份 end */
+/* 小數字跳動 */
+.time-decorate-wrapper {
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  top: 32.55vh;
+  right: 3.99vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: RoboTo;
+  overflow: hidden;
+}
+
+.time-decorate {
+  width: 8.86vw;
+  text-align: center;
+  height: 100px;
+  display: inline-block;
+  margin-left: -0.131vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-color: transparent;
+}
+
+.time-decorate .digit-decorate-wrapper {
+  text-shadow: none;
+  -webkit-animation-timing-function: cubic-bezier(1, 0, 1, 0);
+          animation-timing-function: cubic-bezier(1, 0, 1, 0);
+}
+
+.time-decorate.seconds.ones .digit-decorate-wrapper {
+  -webkit-animation-name: seconds-ones-decorate;
+          animation-name: seconds-ones-decorate;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.digit-decorate {
+  display: inline-block;
+  font-size: 100px;
+  color: white;
+  height: 100px;
+  line-height: 1;
+  text-shadow: 0 0 0.78125vw #FF1177, 0 0 0.521vw #FF1177, 0 0 0.521vw #FF1177, 0 0 0.261vw #FF1177, 0 0 1.3021vw #FF1177;
+}
+
+@-webkit-keyframes seconds-ones-decorate {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  10% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  20% {
+    -webkit-transform: translateY(-300px);
+            transform: translateY(-300px);
+  }
+  30% {
+    -webkit-transform: translateY(-400px);
+            transform: translateY(-400px);
+  }
+  40% {
+    -webkit-transform: translateY(-500px);
+            transform: translateY(-500px);
+  }
+  50% {
+    -webkit-transform: translateY(-600px);
+            transform: translateY(-600px);
+  }
+  60% {
+    -webkit-transform: translateY(-700px);
+            transform: translateY(-700px);
+  }
+  70% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+  80% {
+    -webkit-transform: translateY(-900px);
+            transform: translateY(-900px);
+  }
+  90% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+  }
+}
+
+@keyframes seconds-ones-decorate {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  10% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  20% {
+    -webkit-transform: translateY(-300px);
+            transform: translateY(-300px);
+  }
+  30% {
+    -webkit-transform: translateY(-400px);
+            transform: translateY(-400px);
+  }
+  40% {
+    -webkit-transform: translateY(-500px);
+            transform: translateY(-500px);
+  }
+  50% {
+    -webkit-transform: translateY(-600px);
+            transform: translateY(-600px);
+  }
+  60% {
+    -webkit-transform: translateY(-700px);
+            transform: translateY(-700px);
+  }
+  70% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+  80% {
+    -webkit-transform: translateY(-900px);
+            transform: translateY(-900px);
+  }
+  90% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+  }
+}
+
+/* 小數字跳動 end */
 .scene {
   display: inline-block;
   vertical-align: middle;

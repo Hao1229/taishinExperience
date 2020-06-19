@@ -114,7 +114,7 @@
 }
 
 /* 動畫年份 */
-$one-second: 0.001s;
+$one-second: 0.003s;
 $easing: cubic-bezier(1,0,1,0);
 
 $digit-height: 18.52vh;
@@ -125,7 +125,7 @@ $digit-height: 18.52vh;
   color: white;
   height: $digit-height;
   line-height: 1;
-  text-shadow: 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  text-shadow: 0 0 0.78125vw #FF1177, 0 0 0.521vw #FF1177, 0 0 0.521vw #FF1177, 0 0 0.261vw #FF1177, 0 0 1.3021vw #FF1177;
 }
 
 .time-part-wrapper {
@@ -140,13 +140,15 @@ $digit-height: 18.52vh;
   justify-content: center;
   align-items: center;
   font-family: RoboTo;
+  width: 52.09vw;
+  height: 18.52vh;
+  overflow: hidden;
 }
 
 .time-part {
   width: 8.86vw;
   text-align: center;
   height: $digit-height;
-  overflow: hidden;
   display: inline-block;
   margin-left: -0.131vw;
   box-sizing: border-box;
@@ -194,6 +196,69 @@ $digit-height: 18.52vh;
 }
 
 /* 動畫年份 end */
+
+
+/* 小數字跳動 */
+$digit-decorate-height: 100px;
+$decorate-second: 0.01s;
+
+.time-decorate-wrapper {
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  top: 32.55vh;
+  right: 3.99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: RoboTo;
+  overflow: hidden;
+}
+
+.time-decorate {
+  width: 8.86vw;
+  text-align: center;
+  height: $digit-decorate-height;
+  display: inline-block;
+  margin-left: -0.131vw;
+  box-sizing: border-box;
+  border-color: transparent;
+  
+  .digit-decorate-wrapper {
+    text-shadow: none;
+    animation-timing-function: $easing;
+  }
+
+  &.seconds {
+    &.ones .digit-decorate-wrapper {
+      animation-name: seconds-ones-decorate;
+      animation-duration: $decorate-second * 10 * 6 * 10;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+
+.digit-decorate {
+  display: inline-block;
+  font-size: 100px;
+  color: white;
+  height: $digit-decorate-height;
+  line-height: 1;
+  text-shadow: 0 0 0.78125vw #FF1177, 0 0 0.521vw #FF1177, 0 0 0.521vw #FF1177, 0 0 0.261vw #FF1177, 0 0 1.3021vw #FF1177;
+}
+
+@keyframes seconds-ones-decorate {
+  $step: (100 / 10);
+  $progress: 0%;
+  $translate: -$digit-decorate-height;
+  @while $progress < 100 {
+    #{$progress} { transform: translateY($translate); }
+    $progress: $progress + $step;
+    $translate: $translate - $digit-decorate-height;
+  }
+}
+
+/* 小數字跳動 end */
 
 .scene{
   display: inline-block;
