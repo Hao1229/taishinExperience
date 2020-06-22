@@ -1110,6 +1110,10 @@ html, body {
   display: inline;
 }
 
+#video-popup {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 /* 指針動畫 */
 @-webkit-keyframes pointer-rotate {
   100% {
@@ -2009,8 +2013,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__guide-line-mask__active {
-  -webkit-animation: growLine 3s linear forwards;
-          animation: growLine 3s linear forwards;
+  -webkit-animation: growLine 1s linear forwards;
+          animation: growLine 1s linear forwards;
 }
 
 .introduce__guide-line {

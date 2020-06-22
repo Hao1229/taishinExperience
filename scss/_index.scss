@@ -729,6 +729,10 @@
   }
 }
 
+#video-popup {
+  background-color: rgba($color: #000000, $alpha: 0.8);
+}
+
 /* 指針動畫 */
 // Doc: https://cssanimation.rocks/clocks/
 @keyframes pointer-rotate {
