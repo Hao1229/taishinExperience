@@ -9,7 +9,7 @@ const popupVideoThree = document.getElementById('film-three')
 
 $('#lifestyle-link').click(function (e) { 
   e.preventDefault()
-  clearTimeout(time)
+  resetTimer(true)
   document.removeEventListener('mousemove', resetTimer)
   document.removeEventListener('keypress', resetTimer)
   $('#video-popup').modal('show')

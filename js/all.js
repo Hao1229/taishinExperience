@@ -1,11 +1,12 @@
 /* 介紹頁與首頁間跳轉處理 */
 $('#introduce-link').click(function (e) { 
   e.preventDefault()
+  setDefault()
+  resetTimer(true)
   closeDoor('introduce')
 })
 
-$('.introduce__back-btn').click(function (e) { 
-  e.preventDefault()
+function setDefault () {
   $('#index').css('display', 'flex')
   $('#introduce').css('display', 'none')
   $('.animation-mask').removeClass('animation-mask__show')
@@ -22,6 +23,11 @@ $('.introduce__back-btn').click(function (e) {
   whoActive = 'L-1'
   changeActive()
   changeBoard()
+}
+
+$('.introduce__back-btn').click(function (e) { 
+  e.preventDefault()
+  setDefault()
 })
 
 /* 閒置出現螢幕保護程式 */
@@ -46,12 +52,14 @@ function showProtect () {
   protectVideo.addEventListener('ended', removeProtect)
 }
 
-function resetTimer () {
+function resetTimer (clear) {
   clearTimeout(time)
-  time = setTimeout(showProtect, 200000)
+  if (!clear) {
+    time = setTimeout(showProtect, 20000)
+  }
 }
 
-// resetTimer()
+resetTimer()
 
 function removeProtect () {
   $('#index').css('display', 'flex')
@@ -129,6 +137,7 @@ function watchTimerEnd () {
   timer.addEventListener('animationend', (() => {
     setTimeout(() => {
       $('.time-part-wrapper').css('display', 'none')
+      $('.time-part-wrapper').removeClass('time-part-wrapper__active')
       $('.transition-circle-1').removeClass('transition-circle-1__active')
       $('.transition-circle-2').removeClass('transition-circle-2__active')
       $('.transition-circle-3').removeClass('transition-circle-3__active')
