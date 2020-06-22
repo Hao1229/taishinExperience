@@ -562,5 +562,3 @@ function guideChange () {
       break
   }
 }
-
-guideChange()
