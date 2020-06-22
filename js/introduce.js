@@ -19,12 +19,12 @@ $('#left-link-3').click(function (e) {
   guideChange()
 })
 
-$('.introduce__map-land__left-section__three').hover(function () {
-    $('.introduce__map-land__left-section__three').css('z-index', '100')
-  }, function () {
-    $('.introduce__map-land__left-section__three').css('z-index', 'initial')
-  }
-)
+// $('.introduce__map-land__left-section__three').hover(function () {
+//     $('.introduce__map-land__left-section__three').css('z-index', '100')
+//   }, function () {
+//     $('.introduce__map-land__left-section__three').css('z-index', 'initial')
+//   }
+// )
 
 // 左 2
 $('.introduce__map-land__left-section__two').click(function (e) { 
@@ -43,12 +43,12 @@ $('#left-link-2').click(function (e) {
   guideChange()
 })
 
-$('.introduce__map-land__left-section__two').hover(function () {
-    $('.introduce__map-land__left-section__two').css('z-index', '100')
-  }, function () {
-    $('.introduce__map-land__left-section__two').css('z-index', 'initial')
-  }
-)
+// $('.introduce__map-land__left-section__two').hover(function () {
+//     $('.introduce__map-land__left-section__two').css('z-index', '100')
+//   }, function () {
+//     $('.introduce__map-land__left-section__two').css('z-index', 'initial')
+//   }
+// )
 
 // 左 1
 $('.introduce__map-land__left-section__one').click(function (e) { 
@@ -67,12 +67,12 @@ $('#left-link-1').click(function (e) {
   guideChange()
 })
 
-$('.introduce__map-land__left-section__one').hover(function () {
-    $('.introduce__map-land__left-section__one').css('z-index', '100')
-  }, function () {
-    $('.introduce__map-land__left-section__one').css('z-index', 'initial')
-  }
-)
+// $('.introduce__map-land__left-section__one').hover(function () {
+//     $('.introduce__map-land__left-section__one').css('z-index', '100')
+//   }, function () {
+//     $('.introduce__map-land__left-section__one').css('z-index', 'initial')
+//   }
+// )
 
 // 左 4
 $('.introduce__map-land__left-section__four').click(function (e) { 
@@ -91,12 +91,12 @@ $('#left-link-4').click(function (e) {
   guideChange()
 })
 
-$('.introduce__map-land__left-section__four').hover(function () {
-    $('.introduce__map-land__left-section__four').css('z-index', '100')
-  }, function () {
-    $('.introduce__map-land__left-section__four').css('z-index', 'initial')
-  }
-)
+// $('.introduce__map-land__left-section__four').hover(function () {
+//     $('.introduce__map-land__left-section__four').css('z-index', '100')
+//   }, function () {
+//     $('.introduce__map-land__left-section__four').css('z-index', 'initial')
+//   }
+// )
 
 // 左 5
 $('.introduce__map-land__left-section__five').click(function (e) { 
@@ -115,12 +115,12 @@ $('#left-link-5').click(function (e) {
   guideChange()
 })
 
-$('.introduce__map-land__left-section__five').hover(function () {
-    $('.introduce__map-land__left-section__five').css('z-index', '100')
-  }, function () {
-    $('.introduce__map-land__left-section__five').css('z-index', 'initial')
-  }
-)
+// $('.introduce__map-land__left-section__five').hover(function () {
+//     $('.introduce__map-land__left-section__five').css('z-index', '100')
+//   }, function () {
+//     $('.introduce__map-land__left-section__five').css('z-index', 'initial')
+//   }
+// )
 
 // 右 4
 $('.introduce__map-land__right-section__four').click(function (e) { 
@@ -437,7 +437,7 @@ function guideChange () {
       $('.introduce__guide-line').css('height', '17.13vh')
       $('.introduce__guide-line-section').css('width', '37.95vw')
       $('.introduce__guide-line-section').css('height', '17.13vh')
-      $('.introduce__guide-line-section').css('right', '35.94vw')
+      $('.introduce__guide-line-section').css('right', '38.28vw')
       $('.introduce__guide-line-section').css('bottom', '34.491vh')
       setTimeout(() => {
         $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
@@ -450,7 +450,7 @@ function guideChange () {
       $('.introduce__guide-line').css('height', '13.89vh')
       $('.introduce__guide-line-section').css('width', '45.58vw')
       $('.introduce__guide-line-section').css('height', '13.89vh')
-      $('.introduce__guide-line-section').css('right', '35.94vw')
+      $('.introduce__guide-line-section').css('right', '38.16vw')
       $('.introduce__guide-line-section').css('bottom', '34.491vh')
       setTimeout(() => {
         $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
@@ -463,7 +463,7 @@ function guideChange () {
       $('.introduce__guide-line').css('height', '9.491vh')
       $('.introduce__guide-line-section').css('width', '52.09vw')
       $('.introduce__guide-line-section').css('height', '9.491vh')
-      $('.introduce__guide-line-section').css('right', '35.94vw')
+      $('.introduce__guide-line-section').css('right', '38.29vw')
       $('.introduce__guide-line-section').css('bottom', '34.491vh')
       setTimeout(() => {
         $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
@@ -476,7 +476,7 @@ function guideChange () {
       $('.introduce__guide-line').css('height', '3.2vh')
       $('.introduce__guide-line-section').css('width', '46.875vw')
       $('.introduce__guide-line-section').css('height', '3.2vh')
-      $('.introduce__guide-line-section').css('right', '35.94vw')
+      $('.introduce__guide-line-section').css('right', '38.29vw')
       $('.introduce__guide-line-section').css('bottom', '34.491vh')
       setTimeout(() => {
         $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
@@ -485,12 +485,12 @@ function guideChange () {
     case 'L-5':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
       $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/left-guide-5.png")')
-      $('.introduce__guide-line').css('width', '45vw')
+      $('.introduce__guide-line').css('width', '39.85vw')
       $('.introduce__guide-line').css('height', '1.44vh')
-      $('.introduce__guide-line-section').css('width', '45vw')
+      $('.introduce__guide-line-section').css('width', '39.85vw')
       $('.introduce__guide-line-section').css('height', '1.44vh')
-      $('.introduce__guide-line-section').css('right', '35.94vw')
-      $('.introduce__guide-line-section').css('bottom', '34.491vh')
+      $('.introduce__guide-line-section').css('right', '38.55vw')
+      $('.introduce__guide-line-section').css('bottom', '36.12vh')
       setTimeout(() => {
         $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
       }, 300)
@@ -502,7 +502,7 @@ function guideChange () {
       $('.introduce__guide-line').css('height', '1.436vh')
       $('.introduce__guide-line-section').css('width', '19.54vw')
       $('.introduce__guide-line-section').css('height', '1.436vh')
-      $('.introduce__guide-line-section').css('right', '35.16vw')
+      $('.introduce__guide-line-section').css('right', '37.76vw')
       $('.introduce__guide-line-section').css('bottom', '46.3vh')
       setTimeout(() => {
         $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
@@ -515,7 +515,7 @@ function guideChange () {
       $('.introduce__guide-line').css('height', '6.39vh')
       $('.introduce__guide-line-section').css('width', '25.27vw')
       $('.introduce__guide-line-section').css('height', '6.39vh')
-      $('.introduce__guide-line-section').css('right', '35.16vw')
+      $('.introduce__guide-line-section').css('right', '37.76vw')
       $('.introduce__guide-line-section').css('bottom', '46.3vh')
       setTimeout(() => {
         $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
@@ -528,7 +528,7 @@ function guideChange () {
       $('.introduce__guide-line').css('height', '10.19vh')
       $('.introduce__guide-line-section').css('width', '28.65vw')
       $('.introduce__guide-line-section').css('height', '10.19vh')
-      $('.introduce__guide-line-section').css('right', '35.16vw')
+      $('.introduce__guide-line-section').css('right', '37.76vw')
       $('.introduce__guide-line-section').css('bottom', '46.3vh')
       setTimeout(() => {
         $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
@@ -541,7 +541,7 @@ function guideChange () {
       $('.introduce__guide-line').css('height', '15.28vh')
       $('.introduce__guide-line-section').css('width', '28.65vw')
       $('.introduce__guide-line-section').css('height', '15.28vh')
-      $('.introduce__guide-line-section').css('right', '35.16vw')
+      $('.introduce__guide-line-section').css('right', '37.76vw')
       $('.introduce__guide-line-section').css('bottom', '46.3vh')
       setTimeout(() => {
         $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')
@@ -554,7 +554,7 @@ function guideChange () {
       $('.introduce__guide-line').css('height', '7.88vh')
       $('.introduce__guide-line-section').css('width', '11.98vw')
       $('.introduce__guide-line-section').css('height', '7.88vh')
-      $('.introduce__guide-line-section').css('right', '35.16vw')
+      $('.introduce__guide-line-section').css('right', '37.76vw')
       $('.introduce__guide-line-section').css('bottom', '46.3vh')
       setTimeout(() => {
         $('.introduce__guide-line-mask').addClass('introduce__guide-line-mask__active')

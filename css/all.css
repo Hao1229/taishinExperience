@@ -1448,7 +1448,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__left-section__three__title__active {
-  background-color: #c10021;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
+  background: linear-gradient(#f5515f, #9f041b);
   top: -2.269vh;
   left: 0.6511vw;
 }
@@ -1458,6 +1459,7 @@ video::-webkit-media-controls-rewind-button {
   height: calc(17.04vh * 0.95);
   top: 5.1vh;
   left: 2.084vw;
+  z-index: 100;
   background-image: url("../images/introduce/map-leftsection-three-active.svg");
 }
 
@@ -1485,10 +1487,12 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__left-section__two__title__active {
-  background-color: #c10021;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
+  background: linear-gradient(#f5515f, #9f041b);
 }
 
 .introduce__map-land__left-section__two__active {
+  z-index: 100;
   background-image: url("../images/introduce/map-leftsection-two-active.svg");
 }
 
@@ -1517,10 +1521,12 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__left-section__one__title__active {
-  background-color: #c10021;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
+  background: linear-gradient(#f5515f, #9f041b);
 }
 
 .introduce__map-land__left-section__one__active {
+  z-index: 100;
   background-image: url("../images/introduce/map-leftsection-one-active.svg");
 }
 
@@ -1534,7 +1540,6 @@ video::-webkit-media-controls-rewind-button {
   position: absolute;
   top: 18.06vh;
   left: 6.52vw;
-  z-index: 2;
 }
 
 .introduce__map-land__left-section__four__title {
@@ -1550,10 +1555,12 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__left-section__four__title__active {
-  background-color: #c10021;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
+  background: linear-gradient(#f5515f, #9f041b);
 }
 
 .introduce__map-land__left-section__four__active {
+  z-index: 100;
   background-image: url("../images/introduce/map-leftsection-four-active.svg");
 }
 
@@ -1567,7 +1574,6 @@ video::-webkit-media-controls-rewind-button {
   position: absolute;
   top: 10.65vh;
   left: 13.03vw;
-  z-index: 1;
 }
 
 .introduce__map-land__left-section__five__title {
@@ -1585,13 +1591,15 @@ video::-webkit-media-controls-rewind-button {
 .introduce__map-land__left-section__five__title__active {
   bottom: -3.241vh;
   left: 6.25vw;
-  background-color: #c10021;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
+  background: linear-gradient(#f5515f, #9f041b);
 }
 
 .introduce__map-land__left-section__five__active {
   width: calc(14.82vw * 0.9);
   height: calc(18.52vh * 0.9);
   left: 13.29vw;
+  z-index: 100;
   background-image: url("../images/introduce/map-leftsection-five-active.svg");
 }
 
@@ -1639,10 +1647,12 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__four__title__active {
-  background-color: #c10021;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
+  background: linear-gradient(#f5515f, #9f041b);
 }
 
 .introduce__map-land__right-section__four__active {
+  z-index: 100;
   background-image: url("../images/introduce/map-rightsection-four-active.svg");
 }
 
@@ -1656,7 +1666,6 @@ video::-webkit-media-controls-rewind-button {
   position: absolute;
   top: 15.28vh;
   left: -3.65vw;
-  z-index: 3;
 }
 
 .introduce__map-land__right-section__three__title {
@@ -1672,10 +1681,12 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__three__title__active {
-  background-color: #c10021;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
+  background: linear-gradient(#f5515f, #9f041b);
 }
 
 .introduce__map-land__right-section__three__active {
+  z-index: 100;
   background-image: url("../images/introduce/map-rightsection-three-active.svg");
 }
 
@@ -1689,7 +1700,6 @@ video::-webkit-media-controls-rewind-button {
   position: absolute;
   top: 20.38vh;
   left: -1.18vw;
-  z-index: 3;
 }
 
 .introduce__map-land__right-section__two__title {
@@ -1705,10 +1715,12 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__two__title__active {
-  background-color: #c10021;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
+  background: linear-gradient(#f5515f, #9f041b);
 }
 
 .introduce__map-land__right-section__two__active {
+  z-index: 100;
   background-image: url("../images/introduce/map-rightsection-two-active.svg");
 }
 
@@ -1722,7 +1734,6 @@ video::-webkit-media-controls-rewind-button {
   position: absolute;
   top: 21.3vh;
   left: 0.782vw;
-  z-index: 2;
 }
 
 .introduce__map-land__right-section__one__title {
@@ -1738,10 +1749,12 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__one__title__active {
-  background-color: #c10021;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
+  background: linear-gradient(#f5515f, #9f041b);
 }
 
 .introduce__map-land__right-section__one__active {
+  z-index: 100;
   background-image: url("../images/introduce/map-rightsection-one-active.png");
 }
 
@@ -1755,7 +1768,6 @@ video::-webkit-media-controls-rewind-button {
   position: absolute;
   top: 4.63vh;
   left: 0.782vw;
-  z-index: 1;
 }
 
 .introduce__map-land__right-section__five__title {
@@ -1771,10 +1783,12 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__five__title__active {
-  background-color: #c10021;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
+  background: linear-gradient(#f5515f, #9f041b);
 }
 
 .introduce__map-land__right-section__five__active {
+  z-index: 100;
   background-image: url("../images/introduce/map-rightsection-five-active.png");
 }
 
@@ -1929,7 +1943,7 @@ video::-webkit-media-controls-rewind-button {
   background-position: center center;
   position: absolute;
   top: 20.84vh;
-  right: 3.39vw;
+  right: 5.99vw;
   padding-top: 6.95vh;
   padding-left: 4.69vw;
 }
@@ -2002,7 +2016,7 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__guide-line-section {
   position: absolute;
-  z-index: 10;
+  z-index: 99;
   overflow: hidden;
 }
 

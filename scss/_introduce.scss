@@ -108,7 +108,7 @@
           top: -3.241vh;
           left: 0.1302vw;
           &__active {
-            background-color: #c10021;
+            background: linear-gradient(#f5515f, #9f041b);
             top: -2.269vh;
             left: 0.6511vw;
           }
@@ -118,6 +118,7 @@
           height: calc(17.04vh * 0.95);
           top: 5.1vh;
           left: 2.084vw;
+          z-index: 100;
           background-image: url('../images/introduce/map-leftsection-three-active.svg');
         }
       }
@@ -141,10 +142,11 @@
           position: absolute;
           top: -2.315vh;
           &__active {
-            background-color: #c10021;
+            background: linear-gradient(#f5515f, #9f041b);
           }
         }
         &__active {
+          z-index: 100;
           background-image: url('../images/introduce/map-leftsection-two-active.svg');
         }
       }
@@ -169,10 +171,11 @@
           left: 0;
           top: -4.167vh;
           &__active {
-            background-color: #c10021;
+            background: linear-gradient(#f5515f, #9f041b);
           }
         }
         &__active {
+          z-index: 100;
           background-image: url('../images/introduce/map-leftsection-one-active.svg');
         }
       }
@@ -186,7 +189,6 @@
         position: absolute;
         top: 18.06vh;
         left: 6.52vw;
-        z-index: 2;
         &__title {
           background-color: #333333;
           width: 2.084vw;
@@ -198,10 +200,11 @@
           bottom: -3.25vh;
           left: 4.95vw;
           &__active {
-            background-color: #c10021;
+            background: linear-gradient(#f5515f, #9f041b);
           }
         }
         &__active {
+          z-index: 100;
           background-image: url('../images/introduce/map-leftsection-four-active.svg');
         }
       }
@@ -215,7 +218,6 @@
         position: absolute;
         top: 10.65vh;
         left: 13.03vw;
-        z-index: 1;
         &__title {
           background-color: #333333;
           width: 2.084vw;
@@ -229,13 +231,14 @@
           &__active {
             bottom: -3.241vh;
             left: 6.25vw;
-            background-color: #c10021;
+            background: linear-gradient(#f5515f, #9f041b);
           }
         }
         &__active {
           width: calc(14.82vw * 0.9);
           height: calc(18.52vh * 0.9);
           left: 13.29vw;
+          z-index: 100;
           background-image: url('../images/introduce/map-leftsection-five-active.svg');
         }
       }
@@ -277,10 +280,11 @@
           top: 0.926vh;
           left: -0.521vw;
           &__active {
-            background-color: #c10021;
+            background: linear-gradient(#f5515f, #9f041b);
           }
         }
         &__active {
+          z-index: 100;
           background-image: url('../images/introduce/map-rightsection-four-active.svg');
         }
       }
@@ -294,7 +298,6 @@
         position: absolute;
         top: 15.28vh;
         left: -3.65vw;
-        z-index: 3;
         &__title {
           background-color: #808080;
           width: 2.084vw;
@@ -306,10 +309,11 @@
           top: 3.704vh;
           left: -1.3021vw;
           &__active {
-            background-color: #c10021;
+            background: linear-gradient(#f5515f, #9f041b);
           }
         }
         &__active {
+          z-index: 100;
           background-image: url('../images/introduce/map-rightsection-three-active.svg');
         }
       }
@@ -323,7 +327,6 @@
         position: absolute;
         top: 20.38vh;
         left: -1.18vw;
-        z-index: 3;
         &__title {
           background-color: #808080;
           width: 2.084vw;
@@ -335,10 +338,11 @@
           top: 4.63vh;
           left: -1.042vw;
           &__active {
-            background-color: #c10021;
+            background: linear-gradient(#f5515f, #9f041b);
           }
         }
         &__active {
+          z-index: 100;
           background-image: url('../images/introduce/map-rightsection-two-active.svg');
         }
       }
@@ -352,7 +356,6 @@
         position: absolute;
         top: 21.3vh;
         left: 0.782vw;
-        z-index: 2;
         &__title {
           background-color: #808080;
           width: 2.084vw;
@@ -364,10 +367,11 @@
           bottom: -1.389vh;
           left: 4.6875vw;
           &__active {
-            background-color: #c10021;
+            background: linear-gradient(#f5515f, #9f041b);
           }
         }
         &__active {
+          z-index: 100;
           background-image: url('../images/introduce/map-rightsection-one-active.png');
         }
       }
@@ -381,7 +385,6 @@
         position: absolute;
         top: 4.63vh;
         left: 0.782vw;
-        z-index: 1;
         &__title {
           background-color: #808080;
           width: 2.084vw;
@@ -393,10 +396,11 @@
           top: -3.241vh;
           left: 7.8125vw;
           &__active {
-            background-color: #c10021;
+            background: linear-gradient(#f5515f, #9f041b);
           }
         }
         &__active {
+          z-index: 100;
           background-image: url('../images/introduce/map-rightsection-five-active.png');
         }
       }
@@ -532,7 +536,7 @@
     background-position: center center;
     position: absolute;
     top: 20.84vh;
-    right: 3.39vw;
+    right: 5.99vw;
     padding-top: 6.95vh;
     padding-left: 4.69vw;
     &__title {
@@ -595,7 +599,7 @@
   }
   &__guide-line-section {
     position: absolute;
-    z-index: 10;
+    z-index: 99;
     overflow: hidden;
   }
   &__guide-line-mask {
