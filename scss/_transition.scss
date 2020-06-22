@@ -51,7 +51,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   &__active {
-    animation: rotate 2s linear .2s infinite, rotateShow-2 5s linear forwards;
+    animation: rotate 2s linear .2s infinite, rotateShow-2 4s linear forwards;
   }
 }
 
@@ -68,7 +68,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   &__active {
-    animation: rotate 2s linear .2s infinite, rotateShow-3 5s linear forwards;
+    animation: rotate 2s linear .2s infinite, rotateShow-3 4s linear forwards;
   }
 }
 
@@ -85,7 +85,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   &__active {
-    animation: rotate 2s linear .2s infinite, rotateShow-4 5s linear forwards;
+    animation: rotate 2s linear .2s infinite, rotateShow-4 4s linear forwards;
   }
 }
 
@@ -102,7 +102,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   &__active {
-    animation: rotate 2s linear .2s infinite, rotateShow-5 5s linear forwards;
+    animation: rotate 2s linear .2s infinite, rotateShow-5 4s linear forwards;
   }
 }
 
@@ -120,7 +120,7 @@
 }
 
 /* 動畫年份 */
-$one-second: 0.001s;
+$one-second: 0.002s;
 $easing: cubic-bezier(1,0,1,0);
 
 $digit-height: 18.52vh;
@@ -147,7 +147,7 @@ $digit-height: 18.52vh;
   width: 0;
   overflow: hidden;
   &__active {
-    animation: yearShow 8s forwards;
+    animation: yearShow 5s forwards;
   }
 }
 

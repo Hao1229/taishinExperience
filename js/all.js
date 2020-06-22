@@ -143,9 +143,11 @@ function watchTimerEnd () {
       $('.transition-circle-3').removeClass('transition-circle-3__active')
       $('.transition-circle-4').removeClass('transition-circle-4__active')
       $('.transition-circle-5').removeClass('transition-circle-5__active')
-      $('#introduce').css('display', 'block')
-      $('.animation-mask').addClass('animation-mask__show')
-      watchTranslate()
+      setTimeout(() => {
+        $('#introduce').css('display', 'block')
+        $('.animation-mask').addClass('animation-mask__show')
+        watchTranslate()
+      }, 1000)
     }, 1000)
   }))
 }

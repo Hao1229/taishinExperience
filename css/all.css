@@ -1822,7 +1822,7 @@ video::-webkit-media-controls-rewind-button {
   height: 100%;
   background-color: rgba(128, 128, 128, 0.5);
   position: absolute;
-  right: -0.782vw;
+  right: -1.433vw;
   top: 0;
 }
 
@@ -2202,8 +2202,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .transition-circle-2__active {
-  -webkit-animation: rotate 2s linear .2s infinite, rotateShow-2 5s linear forwards;
-          animation: rotate 2s linear .2s infinite, rotateShow-2 5s linear forwards;
+  -webkit-animation: rotate 2s linear .2s infinite, rotateShow-2 4s linear forwards;
+          animation: rotate 2s linear .2s infinite, rotateShow-2 4s linear forwards;
 }
 
 .transition-circle-3 {
@@ -2222,8 +2222,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .transition-circle-3__active {
-  -webkit-animation: rotate 2s linear .2s infinite, rotateShow-3 5s linear forwards;
-          animation: rotate 2s linear .2s infinite, rotateShow-3 5s linear forwards;
+  -webkit-animation: rotate 2s linear .2s infinite, rotateShow-3 4s linear forwards;
+          animation: rotate 2s linear .2s infinite, rotateShow-3 4s linear forwards;
 }
 
 .transition-circle-4 {
@@ -2242,8 +2242,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .transition-circle-4__active {
-  -webkit-animation: rotate 2s linear .2s infinite, rotateShow-4 5s linear forwards;
-          animation: rotate 2s linear .2s infinite, rotateShow-4 5s linear forwards;
+  -webkit-animation: rotate 2s linear .2s infinite, rotateShow-4 4s linear forwards;
+          animation: rotate 2s linear .2s infinite, rotateShow-4 4s linear forwards;
 }
 
 .transition-circle-5 {
@@ -2262,8 +2262,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .transition-circle-5__active {
-  -webkit-animation: rotate 2s linear .2s infinite, rotateShow-5 5s linear forwards;
-          animation: rotate 2s linear .2s infinite, rotateShow-5 5s linear forwards;
+  -webkit-animation: rotate 2s linear .2s infinite, rotateShow-5 4s linear forwards;
+          animation: rotate 2s linear .2s infinite, rotateShow-5 4s linear forwards;
 }
 
 .transition-column {
@@ -2312,8 +2312,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .time-part-wrapper__active {
-  -webkit-animation: yearShow 8s forwards;
-          animation: yearShow 8s forwards;
+  -webkit-animation: yearShow 5s forwards;
+          animation: yearShow 5s forwards;
 }
 
 .time-part {
@@ -2343,8 +2343,8 @@ video::-webkit-media-controls-rewind-button {
           transform: translateY(0);
   -webkit-animation-name: seconds-tens;
           animation-name: seconds-tens;
-  -webkit-animation-duration: 1.8s;
-          animation-duration: 1.8s;
+  -webkit-animation-duration: 3.6s;
+          animation-duration: 3.6s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
 }
@@ -2352,8 +2352,8 @@ video::-webkit-media-controls-rewind-button {
 .time-part.seconds.ones .digit-wrapper__active {
   -webkit-animation-name: seconds-ones;
           animation-name: seconds-ones;
-  -webkit-animation-duration: 0.6s;
-          animation-duration: 0.6s;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
   -webkit-animation-iteration-count: 3;
           animation-iteration-count: 3;
 }
