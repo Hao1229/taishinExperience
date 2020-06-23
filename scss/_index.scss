@@ -306,10 +306,6 @@
         bottom: 0.926vh;
         right: 0.7813vw;
       }
-      // animation-name: light-rotate;
-      // animation-duration: 4s;
-      // animation-iteration-count: infinite;
-      // animation-direction: alternate;
     }
   }
   &__arrow-path {
@@ -477,7 +473,7 @@
     }
     &__video-list-transform {
       transform: translateX(40.06vw);
-      transition: transform .5s;
+      transition: all .5s;
       &__active {
         transform: translateX(0);
       }

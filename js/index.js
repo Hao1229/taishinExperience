@@ -34,6 +34,7 @@ $('#video-popup').on('hidden.bs.modal', function (e) {
   $('.index__video-popup__video-list-transform').removeClass('index__video-popup__video-list-transform__active')
   $('.index__video-popup__video-list__list__content').removeClass('index__video-popup__video-list__list__content__active')
   $('.index__video-popup__video-list__more-btn').removeClass('index__video-popup__video-list__more-btn__active')
+  showList = false
   popupVideo.pause()
   popupVideo.load()
   popupVideoTwo.pause()
@@ -99,14 +100,34 @@ $('.video-btn-three').click(function (e) {
 })
 
 /* 影片 list */
+let showList = false
+
+function handlePopupList () {
+  if (!showList) {
+    $('.index__video-popup__video-list-section').addClass('index__video-popup__video-list-section__active')
+    setTimeout(() => {
+      $('.index__video-popup__video-list-transform').addClass('index__video-popup__video-list-transform__active')
+    }, 300)
+    showList = true
+  } else {
+    $('.index__video-popup__video-list-transform').removeClass('index__video-popup__video-list-transform__active')
+    setTimeout(() => {
+      $('.index__video-popup__video-list-section').removeClass('index__video-popup__video-list-section__active')
+    }, 500)
+    showList = false
+  }
+}
+
 $('.video-btn-list').click(function (e) { 
   e.preventDefault()
   $('.index__video-popup__video-list__list__content').removeClass('index__video-popup__video-list__list__content__active')
   $('.index__video-popup__video-list__more-btn').removeClass('index__video-popup__video-list__more-btn__active')
-  $('.index__video-popup__video-list-section').toggleClass('index__video-popup__video-list-section__active')
-  setTimeout(() => {
-    $('.index__video-popup__video-list-transform').toggleClass('index__video-popup__video-list-transform__active')
-  }, 300)
+  handlePopupList()
+})
+
+$('.index__video-popup__video-list__collapse').click(function (e) { 
+  e.preventDefault()
+  handlePopupList()
 })
 
 $('.index__video-popup__video-list__more-btn').click(function (e) { 

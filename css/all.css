@@ -794,10 +794,8 @@ html, body {
 .index__video-popup__video-list-transform {
   -webkit-transform: translateX(40.06vw);
           transform: translateX(40.06vw);
-  -webkit-transition: -webkit-transform .5s;
-  transition: -webkit-transform .5s;
-  transition: transform .5s;
-  transition: transform .5s, -webkit-transform .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .index__video-popup__video-list-transform__active {
