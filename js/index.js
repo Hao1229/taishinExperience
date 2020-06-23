@@ -56,8 +56,10 @@ $('#video-popup').click(function (e) {
   resetTimer(true)
 })
 
-$('.video-btn-one').click(function (e) { 
+$('.video-btn-one').click(function (e) {
   e.preventDefault()
+  const btn = document.querySelector('.video-btn-one')
+  document.querySelector('.index__video-popup__video-title').textContent = btn.textContent
   $(this).addClass('video-btn-one__active')
   $('.video-btn-two').removeClass('video-btn-two__active')
   $('.video-btn-three').removeClass('video-btn-three__active')
@@ -74,6 +76,8 @@ $('.video-btn-one').click(function (e) {
 
 $('.video-btn-two').click(function (e) { 
   e.preventDefault()
+  const btn = document.querySelector('.video-btn-two')
+  document.querySelector('.index__video-popup__video-title').textContent = btn.textContent
   $(this).addClass('video-btn-two__active')
   $('.video-btn-one').removeClass('video-btn-one__active')
   $('.video-btn-three').removeClass('video-btn-three__active')
@@ -90,6 +94,8 @@ $('.video-btn-two').click(function (e) {
 
 $('.video-btn-three').click(function (e) { 
   e.preventDefault()
+  const btn = document.querySelector('.video-btn-three')
+  document.querySelector('.index__video-popup__video-title').textContent = btn.textContent
   $(this).addClass('video-btn-three__active')
   $('.video-btn-two').removeClass('video-btn-two__active')
   $('.video-btn-one').removeClass('video-btn-one__active')
@@ -150,24 +156,43 @@ $('#activity-video .index__video-popup__video-list__more-btn').click(function (e
 
 /* 影片總覽影片縮圖點擊換片 */
 const hotFilmList = [
-  'mov_bbb.mp4',
-  'trailer.mp4',
-  'View_From_A_Blue_Moon_Trailer-576p.mp4'
+  {
+    title: '台新公司簡介1',
+    url: 'mov_bbb.mp4'
+  },
+  {
+    title: '台新公司簡介2',
+    url: 'trailer.mp4'
+  },
+  {
+    title: '台新公司簡介3',
+    url: 'View_From_A_Blue_Moon_Trailer-576p.mp4'
+  }
 ]
 
 function changeHotSource (num, param) {
-  $('#film-one > source').attr('src', `./video/${hotFilmList[num - 1]}`)
+  $('#film-one > source').attr('src', `./video/${hotFilmList[num - 1].url}`)
+  document.querySelector('.index__video-popup__video-title').textContent = hotFilmList[num - 1].title
+  document.querySelector('.video-btn-one').textContent = hotFilmList[num - 1].title
 
   if (num === hotFilmList.length) {
-    $('#film-two > source').attr('src', `./video/${hotFilmList[0]}`)
-    $('#film-three > source').attr('src', `./video/${hotFilmList[1]}`)
+    $('#film-two > source').attr('src', `./video/${hotFilmList[0].url}`)
+    $('#film-three > source').attr('src', `./video/${hotFilmList[1].url}`)
+    document.querySelector('.video-btn-two').textContent = hotFilmList[0].title
+    document.querySelector('.video-btn-three').textContent = hotFilmList[1].title
+
   } else if (num === hotFilmList.length - 1) {
-    $('#film-two > source').attr('src', `./video/${hotFilmList[num]}`)
-    $('#film-three > source').attr('src', `./video/${hotFilmList[0]}`)
+    $('#film-two > source').attr('src', `./video/${hotFilmList[num].url}`)
+    $('#film-three > source').attr('src', `./video/${hotFilmList[0].url}`)
+    document.querySelector('.video-btn-two').textContent = hotFilmList[num].title
+    document.querySelector('.video-btn-three').textContent = hotFilmList[0].title
   } else {
-    $('#film-two > source').attr('src', `./video/${hotFilmList[num]}`)
-    $('#film-three > source').attr('src', `./video/${hotFilmList[num + 1]}`)
+    $('#film-two > source').attr('src', `./video/${hotFilmList[num].url}`)
+    $('#film-three > source').attr('src', `./video/${hotFilmList[num + 1].url}`)
+    document.querySelector('.video-btn-two').textContent = hotFilmList[num].title
+    document.querySelector('.video-btn-three').textContent = hotFilmList[num + 1].title
   }
+
   popupVideo.pause()
   popupVideo.load()
   popupVideoTwo.pause()
