@@ -144,7 +144,9 @@ $digit-height: 18.52vh;
   justify-content: center;
   align-items: center;
   font-family: RoboTo;
-  width: 0;
+  width: 52.09vw;
+  height: 18.52vh;
+  opacity: 0;
   overflow: hidden;
   &__active {
     animation: yearShow 5s forwards;
@@ -159,7 +161,6 @@ $digit-height: 18.52vh;
   margin-left: -0.131vw;
   box-sizing: border-box;
   border-color: transparent;
-  
   .digit-wrapper {
     text-shadow: none;
     animation-timing-function: $easing;
@@ -443,11 +444,12 @@ $decorate-second: 0.01s;
 
 @keyframes yearShow {
   0% {
-    width: 0;
+    transform: translate(-50%, -50%) scale(0);
   }
 
   100% {
-    width: calc(6.86vw * 4);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
   }
 }
 

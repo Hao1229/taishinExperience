@@ -2307,7 +2307,9 @@ video::-webkit-media-controls-rewind-button {
       -ms-flex-align: center;
           align-items: center;
   font-family: RoboTo;
-  width: 0;
+  width: 52.09vw;
+  height: 18.52vh;
+  opacity: 0;
   overflow: hidden;
 }
 
@@ -2897,19 +2899,25 @@ video::-webkit-media-controls-rewind-button {
 
 @-webkit-keyframes yearShow {
   0% {
-    width: 0;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
   }
   100% {
-    width: calc(6.86vw * 4);
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
   }
 }
 
 @keyframes yearShow {
   0% {
-    width: 0;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
   }
   100% {
-    width: calc(6.86vw * 4);
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
   }
 }
 
