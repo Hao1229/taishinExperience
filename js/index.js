@@ -7,12 +7,7 @@ const popupVideo = document.getElementById('film-one')
 const popupVideoTwo = document.getElementById('film-two')
 const popupVideoThree = document.getElementById('film-three')
 
-$('#lifestyle-link').click(function (e) { 
-  e.preventDefault()
-  resetTimer(true)
-  document.removeEventListener('mousemove', resetTimer)
-  document.removeEventListener('keypress', resetTimer)
-  $('#video-popup').modal('show')
+function videoPopDefault () {
   $('.video-btn-one').addClass('video-btn-one__active')
   $('.video-btn-two').removeClass('video-btn-two__active')
   $('.video-btn-three').removeClass('video-btn-three__active')
@@ -22,6 +17,16 @@ $('#lifestyle-link').click(function (e) {
   setTimeout(() => {
     popupVideo.play()
   }, 1000)
+}
+
+$('#lifestyle-link').click(function (e) { 
+  e.preventDefault()
+  resetTimer(true)
+  document.removeEventListener('mousemove', resetTimer)
+  document.removeEventListener('keypress', resetTimer)
+  $('#video-popup').modal('show')
+  changeHotSource(1, 'default')
+  videoPopDefault()
 })
 
 $('#video-popup').modal({
@@ -142,6 +147,56 @@ $('#activity-video .index__video-popup__video-list__more-btn').click(function (e
   $('#activity-video .index__video-popup__video-list__list__content').toggleClass('index__video-popup__video-list__list__content__active')
   $('#activity-video .index__video-popup__video-list__more-btn').toggleClass('index__video-popup__video-list__more-btn__active')
 })
+
+/* 影片總覽影片縮圖點擊換片 */
+const hotFilmList = [
+  'mov_bbb.mp4',
+  'trailer.mp4',
+  'View_From_A_Blue_Moon_Trailer-576p.mp4'
+]
+
+function changeHotSource (num, param) {
+  $('#film-one > source').attr('src', `./video/${hotFilmList[num - 1]}`)
+
+  if (num === hotFilmList.length) {
+    $('#film-two > source').attr('src', `./video/${hotFilmList[0]}`)
+    $('#film-three > source').attr('src', `./video/${hotFilmList[1]}`)
+  } else if (num === hotFilmList.length - 1) {
+    $('#film-two > source').attr('src', `./video/${hotFilmList[num]}`)
+    $('#film-three > source').attr('src', `./video/${hotFilmList[0]}`)
+  } else {
+    $('#film-two > source').attr('src', `./video/${hotFilmList[num]}`)
+    $('#film-three > source').attr('src', `./video/${hotFilmList[num + 1]}`)
+  }
+  popupVideo.pause()
+  popupVideo.load()
+  popupVideoTwo.pause()
+  popupVideoTwo.load()
+  popupVideoThree.pause()
+  popupVideoThree.load()
+  if (!param) {
+    handlePopupList()
+  }
+  videoPopDefault()
+}
+
+$('#hot-video-1').click(function (e) {
+  e.preventDefault()
+  changeHotSource(1)
+})
+
+$('#hot-video-2').click(function (e) {
+  e.preventDefault()
+  changeHotSource(2)
+})
+
+$('#hot-video-3').click(function (e) {
+  e.preventDefault()
+  changeHotSource(3)
+})
+
+
+
 
 /* 輪播 */
 function boardActive () {
