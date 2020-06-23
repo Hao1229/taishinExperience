@@ -56,8 +56,11 @@ function showProtect () {
 
 function resetTimer (clear) {
   clearTimeout(time)
+  if (typeof(clear) === 'object') {
+    clear = false
+  }
   if (!clear) {
-    time = setTimeout(showProtect, 20000)
+    time = setTimeout(showProtect, 10000)
   }
 }
 
