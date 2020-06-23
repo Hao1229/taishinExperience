@@ -33,9 +33,7 @@
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  &__active {
-    animation: rotateShow-1 2s linear forwards;
-  }
+  animation: rotateShow-1 2s linear 2s forwards;
 }
 
 .transition-circle-2 {
@@ -50,9 +48,7 @@
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  &__active {
-    animation: rotate 2s linear .2s infinite, rotateShow-2 4s linear forwards;
-  }
+  animation: rotate 2s linear .2s infinite, rotateShow-2 4s ease-in 4s;
 }
 
 .transition-circle-3 {
@@ -67,9 +63,7 @@
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  &__active {
-    animation: rotate 2s linear .2s infinite, rotateShow-3 4s linear forwards;
-  }
+  animation: rotate 2s linear .2s infinite, rotateShow-3 4s ease-in 4s;
 }
 
 .transition-circle-4 {
@@ -84,9 +78,7 @@
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  &__active {
-    animation: rotate 2s linear .2s infinite, rotateShow-4 4s linear forwards;
-  }
+  animation: rotate 2s linear .2s infinite, rotateShow-4 4s ease-in 4s;
 }
 
 .transition-circle-5 {
@@ -101,9 +93,7 @@
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  &__active {
-    animation: rotate 2s linear .2s infinite, rotateShow-5 4s linear forwards;
-  }
+  animation: rotate 2s linear .2s infinite, rotateShow-5 4s ease-in 4s;
 }
 
 .transition-column {
@@ -117,9 +107,7 @@
   background-size: 50% auto;
   background-position: center center;
   background-repeat: repeat;
-  &__active {
-    animation: columnShow 3s linear forwards;
-  }
+  animation: columnShow 3s ease-in 6s;
 }
 
 .transition-number {
@@ -133,9 +121,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   position: absolute;
-  &__active {
-    animation: numberShow 5s linear forwards;
-  }
+  animation: numberShow 4s ease-in 6s;
 }
 
 /* 動畫年份 */
@@ -167,9 +153,7 @@ $digit-height: 18.52vh;
   height: 18.52vh;
   opacity: 0;
   overflow: hidden;
-  &__active {
-    animation: yearShow 8s forwards;
-  }
+  animation: yearShow 8s forwards 2s;
 }
 
 .time-part {
@@ -383,6 +367,7 @@ $decorate-second: 0.01s;
   100% {
     width: 23.89vw;
     height: 23.89vw;
+    display: none;
   }
 }
 
@@ -400,6 +385,7 @@ $decorate-second: 0.01s;
   100% {
     width: calc(87.11vw * 2);
     height: calc(154.87vh * 2);
+    display: none;
   }
 }
 
@@ -416,6 +402,7 @@ $decorate-second: 0.01s;
   100% {
     width: calc(59.48vw * 3);
     height: calc(107.88vh * 3);
+    display: none;
   }
 }
 
@@ -432,6 +419,7 @@ $decorate-second: 0.01s;
   100% {
     width: calc(52.48vw * 4);
     height: calc(93.34vh * 4);
+    display: none;
   }
 }
 
@@ -444,6 +432,7 @@ $decorate-second: 0.01s;
   100% {
     width: calc(40.58vw * 4);
     height: calc(72.69vh * 4);
+    display: none;
   }
 }
 
@@ -465,6 +454,7 @@ $decorate-second: 0.01s;
   100% {
     top: 105vh;
     left: -5vw;
+    display: none;
   }
 }
 
@@ -486,6 +476,7 @@ $decorate-second: 0.01s;
   100% {
     top: 31.49vh;
     left: 105vw;
+    display: none;
   }
 }
 

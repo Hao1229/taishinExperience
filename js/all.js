@@ -13,9 +13,8 @@ function setDefault () {
   $('.transition-space').css('display', 'none')
   $('.animation-mask-section').css('display', 'none')
   $('.time-part-wrapper').css('display', 'flex')
+  $('.transition-circle-1').css('display', 'block')
   $('.digit-wrapper').removeClass('digit-wrapper__active')
-  $('.transition-column').removeClass('transition-column__active')
-  $('.transition-number').removeClass('transition-number__active')
   $('.tens').removeClass('tens__active')
   $('.ones').removeClass('ones__active')
   $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
@@ -60,7 +59,7 @@ function resetTimer (clear) {
     clear = false
   }
   if (!clear) {
-    time = setTimeout(showProtect, 10000)
+    time = setTimeout(showProtect, 15000)
   }
 }
 
@@ -102,20 +101,8 @@ function openDoor (target) {
   $('.animation-mask-section').css('display', 'flex')
   // video.play()
   setTimeout(() => {
-    $('.transition-circle-1').addClass('transition-circle-1__active')
-    $('.time-part-wrapper').addClass('time-part-wrapper__active')
-    setTimeout(() => {
-      $('.transition-circle-2').addClass('transition-circle-2__active')
-      $('.transition-circle-3').addClass('transition-circle-3__active')
-      $('.transition-circle-4').addClass('transition-circle-4__active')
-      $('.transition-circle-5').addClass('transition-circle-5__active')
-      setTimeout(() => {
-        timerRun()
-        $('.transition-column').addClass('transition-column__active')
-        $('.transition-number').addClass('transition-number__active')
-      }, 2000)
-    }, 2000)
-  }, 2000)
+    timerRun()
+  }, 6000)
 }
 
 let isMaskEnd = false
@@ -127,6 +114,7 @@ function watchTranslate () {
       circleRotate()
       resetTimer()
       guideChange()
+      $('.transition-space').css('display', 'none')
       isMaskEnd = true
     }
   }))
@@ -144,17 +132,10 @@ function watchTimerEnd () {
   timer.addEventListener('animationend', (() => {
     setTimeout(() => {
       $('.time-part-wrapper').css('display', 'none')
-      $('.time-part-wrapper').removeClass('time-part-wrapper__active')
-      $('.transition-circle-1').removeClass('transition-circle-1__active')
-      $('.transition-circle-2').removeClass('transition-circle-2__active')
-      $('.transition-circle-3').removeClass('transition-circle-3__active')
-      $('.transition-circle-4').removeClass('transition-circle-4__active')
-      $('.transition-circle-5').removeClass('transition-circle-5__active')
-      setTimeout(() => {
-        $('#introduce').css('display', 'block')
-        $('.animation-mask').addClass('animation-mask__show')
-        watchTranslate()
-      }, 1000)
+      $('.transition-circle-1').css('display', 'none')
+      $('#introduce').css('display', 'block')
+      $('.animation-mask').addClass('animation-mask__show')
+      watchTranslate()
     }, 1000)
   }))
 }

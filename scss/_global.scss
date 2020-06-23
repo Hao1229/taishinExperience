@@ -70,7 +70,7 @@ html, body {
   width: 100vw;
   height: 100vh;
   &__show {
-    animation: zoom-in 4s forwards;
+    animation: zoom-in 2s ease-in forwards;
   }
 }
 
