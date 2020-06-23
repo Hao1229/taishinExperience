@@ -923,6 +923,11 @@ html, body {
 
 .index__video-popup__video-list-sort {
   position: relative;
+  margin-top: 150px;
+}
+
+.index__video-popup__video-list-sort:first-child {
+  margin-top: 0;
 }
 
 .index__video-popup__video-list-sort::after {

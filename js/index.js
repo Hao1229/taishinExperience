@@ -108,6 +108,7 @@ function handlePopupList () {
     setTimeout(() => {
       $('.index__video-popup__video-list-transform').addClass('index__video-popup__video-list-transform__active')
     }, 300)
+    $('.index__video-popup__video-list').animate({ scrollTop: 0 }, 0)
     showList = true
   } else {
     $('.index__video-popup__video-list-transform').removeClass('index__video-popup__video-list-transform__active')
@@ -130,10 +131,16 @@ $('.index__video-popup__video-list__collapse').click(function (e) {
   handlePopupList()
 })
 
-$('.index__video-popup__video-list__more-btn').click(function (e) { 
+$('#hot-video .index__video-popup__video-list__more-btn').click(function (e) { 
   e.preventDefault()
-  $('.index__video-popup__video-list__list__content').toggleClass('index__video-popup__video-list__list__content__active')
-  $('.index__video-popup__video-list__more-btn').toggleClass('index__video-popup__video-list__more-btn__active')
+  $('#hot-video .index__video-popup__video-list__list__content').toggleClass('index__video-popup__video-list__list__content__active')
+  $('#hot-video .index__video-popup__video-list__more-btn').toggleClass('index__video-popup__video-list__more-btn__active')
+})
+
+$('#activity-video .index__video-popup__video-list__more-btn').click(function (e) { 
+  e.preventDefault()
+  $('#activity-video .index__video-popup__video-list__list__content').toggleClass('index__video-popup__video-list__list__content__active')
+  $('#activity-video .index__video-popup__video-list__more-btn').toggleClass('index__video-popup__video-list__more-btn__active')
 })
 
 /* 輪播 */

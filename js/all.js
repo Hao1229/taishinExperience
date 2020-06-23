@@ -59,7 +59,7 @@ function resetTimer (clear) {
     clear = false
   }
   if (!clear) {
-    time = setTimeout(showProtect, 150000)
+    time = setTimeout(showProtect, 15000)
   }
 }
 

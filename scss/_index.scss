@@ -571,6 +571,10 @@
     }
     &__video-list-sort {
       position: relative;
+      margin-top: 150px;
+      &:first-child {
+        margin-top: 0;
+      }
       &::after {
         content: '';
         position: absolute;
