@@ -6,6 +6,7 @@ boradVideo.play()
 const popupVideo = document.getElementById('film-one')
 const popupVideoTwo = document.getElementById('film-two')
 const popupVideoThree = document.getElementById('film-three')
+const popupVideoFour = document.getElementById('film-four')
 
 function videoPopDefault () {
   $('.video-btn-one').addClass('video-btn-one__active')
@@ -14,6 +15,7 @@ function videoPopDefault () {
   $('#film-one').css('display', 'block')
   $('#film-two').css('display', 'none')
   $('#film-three').css('display', 'none')
+  $('#film-four').css('display', 'none')
   setTimeout(() => {
     popupVideo.play()
   }, 1000)
@@ -25,7 +27,6 @@ $('#lifestyle-link').click(function (e) {
   document.removeEventListener('mousemove', resetTimer)
   document.removeEventListener('keypress', resetTimer)
   $('#video-popup').modal('show')
-  changeHotSource(1, 'default')
   videoPopDefault()
 })
 
@@ -66,12 +67,15 @@ $('.video-btn-one').click(function (e) {
   $('#film-one').css('display', 'block')
   $('#film-two').css('display', 'none')
   $('#film-three').css('display', 'none')
+  $('#film-four').css('display', 'none')
   popupVideoTwo.pause()
   popupVideoTwo.load()
   popupVideoThree.pause()
   popupVideoThree.load()
   popupVideo.load()
   popupVideo.play()
+  popupVideoFour.pause()
+  popupVideoFour.load()
 })
 
 $('.video-btn-two').click(function (e) { 
@@ -84,12 +88,15 @@ $('.video-btn-two').click(function (e) {
   $('#film-one').css('display', 'none')
   $('#film-two').css('display', 'block')
   $('#film-three').css('display', 'none')
+  $('#film-four').css('display', 'none')
   popupVideo.pause()
   popupVideo.load()
   popupVideoThree.pause()
   popupVideoThree.load()
   popupVideoTwo.load()
   popupVideoTwo.play()
+  popupVideoFour.pause()
+  popupVideoFour.load()
 })
 
 $('.video-btn-three').click(function (e) { 
@@ -102,12 +109,15 @@ $('.video-btn-three').click(function (e) {
   $('#film-one').css('display', 'none')
   $('#film-two').css('display', 'none')
   $('#film-three').css('display', 'block')
+  $('#film-four').css('display', 'none')
   popupVideo.pause()
   popupVideo.load()
   popupVideoTwo.pause()
   popupVideoTwo.load()
   popupVideoThree.load()
   popupVideoThree.play()
+  popupVideoFour.pause()
+  popupVideoFour.load()
 })
 
 /* 影片 list */
@@ -170,39 +180,27 @@ const hotFilmList = [
   }
 ]
 
-function changeHotSource (num, param) {
-  $('#film-one > source').attr('src', `./video/${hotFilmList[num - 1].url}`)
+function changeHotSource (num) {
+  $('#film-four > source').attr('src', `./video/${hotFilmList[num - 1].url}`)
   document.querySelector('.index__video-popup__video-title').textContent = hotFilmList[num - 1].title
-  document.querySelector('.video-btn-one').textContent = hotFilmList[num - 1].title
 
-  if (num === hotFilmList.length) {
-    $('#film-two > source').attr('src', `./video/${hotFilmList[0].url}`)
-    $('#film-three > source').attr('src', `./video/${hotFilmList[1].url}`)
-    document.querySelector('.video-btn-two').textContent = hotFilmList[0].title
-    document.querySelector('.video-btn-three').textContent = hotFilmList[1].title
-
-  } else if (num === hotFilmList.length - 1) {
-    $('#film-two > source').attr('src', `./video/${hotFilmList[num].url}`)
-    $('#film-three > source').attr('src', `./video/${hotFilmList[0].url}`)
-    document.querySelector('.video-btn-two').textContent = hotFilmList[num].title
-    document.querySelector('.video-btn-three').textContent = hotFilmList[0].title
-  } else {
-    $('#film-two > source').attr('src', `./video/${hotFilmList[num].url}`)
-    $('#film-three > source').attr('src', `./video/${hotFilmList[num + 1].url}`)
-    document.querySelector('.video-btn-two').textContent = hotFilmList[num].title
-    document.querySelector('.video-btn-three').textContent = hotFilmList[num + 1].title
-  }
-
+  $('#film-one').css('display', 'none')
+  $('#film-two').css('display', 'none')
+  $('#film-three').css('display', 'none')
+  $('#film-four').css('display', 'block')
   popupVideo.pause()
   popupVideo.load()
   popupVideoTwo.pause()
   popupVideoTwo.load()
   popupVideoThree.pause()
   popupVideoThree.load()
-  if (!param) {
-    handlePopupList()
-  }
-  videoPopDefault()
+  popupVideoFour.pause()
+  popupVideoFour.load()
+  popupVideoFour.play()
+  handlePopupList()
+  $('.video-btn-one').removeClass('video-btn-one__active')
+  $('.video-btn-two').removeClass('video-btn-two__active')
+  $('.video-btn-three').removeClass('video-btn-three__active')
 }
 
 $('#hot-video-1').click(function (e) {
