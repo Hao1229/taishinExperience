@@ -31,7 +31,7 @@ $('#video-popup').modal('hide')
 
 $('#video-popup').on('hidden.bs.modal', function (e) {
   $('.index__video-popup__video-list-section').removeClass('index__video-popup__video-list-section__active')
-  $('.index__video-popup__video-list').removeClass('index__video-popup__video-list__active')
+  $('.index__video-popup__video-list-transform').removeClass('index__video-popup__video-list-transform__active')
   $('.index__video-popup__video-list__list__content').removeClass('index__video-popup__video-list__list__content__active')
   $('.index__video-popup__video-list__more-btn').removeClass('index__video-popup__video-list__more-btn__active')
   popupVideo.pause()
@@ -43,6 +43,11 @@ $('#video-popup').on('hidden.bs.modal', function (e) {
   resetTimer()
   document.onmousemove = resetTimer
   document.onkeypress = resetTimer
+})
+
+$('#video-popup').click(function (e) { 
+  e.preventDefault()
+  resetTimer(true)
 })
 
 $('.video-btn-one').click(function (e) { 
@@ -100,7 +105,7 @@ $('.video-btn-list').click(function (e) {
   $('.index__video-popup__video-list__more-btn').removeClass('index__video-popup__video-list__more-btn__active')
   $('.index__video-popup__video-list-section').toggleClass('index__video-popup__video-list-section__active')
   setTimeout(() => {
-    $('.index__video-popup__video-list').toggleClass('index__video-popup__video-list__active')
+    $('.index__video-popup__video-list-transform').toggleClass('index__video-popup__video-list-transform__active')
   }, 300)
 })
 
