@@ -575,8 +575,8 @@
     &__video-title-section {
       position: absolute;
       top: 6.95vh;
-      left: 15.24vw;
-      width: 58.94vw;
+      left: 15.625vw;
+      width: 58.672vw;
       height: 6.019vh;
       background-color: black;
       color: white;
@@ -598,10 +598,10 @@
     }
     &__video {
       position: absolute;
-      top: 10.19vh;
-      left: 15.625vw;
       width: 58.05vw;
       height: 57.32vh;
+      top: 6.95vh;
+      left: 15.89vw;
       z-index: 1;
     }
     #film-two, #film-three {
@@ -632,12 +632,12 @@
     }
     &__button-group {
       position: absolute;
-      bottom: 6.02vh;
-      left: 15.11vw;
+      bottom: 9.26vh;
+      left: 16.41vw;
       button {
         width: 13.021vw;
         height: 5.56vh;
-        margin-right: 1.172vw;
+        margin-right: 0.521vw;
         background-color: transparent;
         border: none;
         background-repeat: no-repeat;
@@ -666,6 +666,7 @@
         }
       }
       .video-btn-list {
+        margin-left: 2.84vw;
         background-image: url('../images/index/video-btn-list.svg');
       }
     }
@@ -677,8 +678,8 @@
       background-repeat: no-repeat;
       background-position: center center;
       position: absolute;
-      top: 3.241vh;
-      left: 8.594vw;
+      top: 2.315vh;
+      left: 8.855vw;
       display:inline-flex;
       filter: brightness(300%);
       overflow: hidden;
@@ -696,17 +697,6 @@
       display:inline-flex;
       filter: brightness(300%);
       overflow: hidden;
-    }
-    &__bottomline {
-      width: 7.27vw;
-      height: 5.33vh;
-      background-image: url('../images/index/popup-bottom-left.svg');
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      position: absolute;
-      bottom: 1.39vh;
-      left: -0.261vw;
     }
     &__dodge {
       background: radial-gradient(circle,white,red 35%) center / 25% 25%;

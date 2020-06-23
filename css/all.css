@@ -925,8 +925,8 @@ html, body {
 .index__video-popup__video-title-section {
   position: absolute;
   top: 6.95vh;
-  left: 15.24vw;
-  width: 58.94vw;
+  left: 15.625vw;
+  width: 58.672vw;
   height: 6.019vh;
   background-color: black;
   color: white;
@@ -955,10 +955,10 @@ html, body {
 
 .index__video-popup__video {
   position: absolute;
-  top: 10.19vh;
-  left: 15.625vw;
   width: 58.05vw;
   height: 57.32vh;
+  top: 6.95vh;
+  left: 15.89vw;
   z-index: 1;
 }
 
@@ -994,14 +994,14 @@ html, body {
 
 .index__video-popup__button-group {
   position: absolute;
-  bottom: 6.02vh;
-  left: 15.11vw;
+  bottom: 9.26vh;
+  left: 16.41vw;
 }
 
 .index__video-popup__button-group button {
   width: 13.021vw;
   height: 5.56vh;
-  margin-right: 1.172vw;
+  margin-right: 0.521vw;
   background-color: transparent;
   border: none;
   background-repeat: no-repeat;
@@ -1038,6 +1038,7 @@ html, body {
 }
 
 .index__video-popup__button-group .video-btn-list {
+  margin-left: 2.84vw;
   background-image: url("../images/index/video-btn-list.svg");
 }
 
@@ -1049,8 +1050,8 @@ html, body {
   background-repeat: no-repeat;
   background-position: center center;
   position: absolute;
-  top: 3.241vh;
-  left: 8.594vw;
+  top: 2.315vh;
+  left: 8.855vw;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1076,18 +1077,6 @@ html, body {
   -webkit-filter: brightness(300%);
           filter: brightness(300%);
   overflow: hidden;
-}
-
-.index__video-popup__bottomline {
-  width: 7.27vw;
-  height: 5.33vh;
-  background-image: url("../images/index/popup-bottom-left.svg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1.39vh;
-  left: -0.261vw;
 }
 
 .index__video-popup__dodge {
