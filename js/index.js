@@ -47,6 +47,8 @@ $('#video-popup').on('hidden.bs.modal', function (e) {
   popupVideoTwo.load()
   popupVideoThree.pause()
   popupVideoThree.load()
+  popupVideoFour.pause()
+  popupVideoFour.load()
   resetTimer()
   document.onmousemove = resetTimer
   document.onkeypress = resetTimer
