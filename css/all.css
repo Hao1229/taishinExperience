@@ -2268,16 +2268,40 @@ video::-webkit-media-controls-rewind-button {
 
 .transition-column {
   position: absolute;
-  bottom: 10.65vh;
-  left: 5.105vw;
   width: 21.12vw;
   height: 12.92vh;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
   background-image: url("../images/transition/transition-column.svg");
   background-size: 50% auto;
   background-position: center center;
   background-repeat: repeat;
-  -webkit-animation: columnShow 10s linear forwards;
-          animation: columnShow 10s linear forwards;
+}
+
+.transition-column__active {
+  -webkit-animation: columnShow 3s linear forwards;
+          animation: columnShow 3s linear forwards;
+}
+
+.transition-number {
+  width: 16.28vw;
+  height: 19.31vh;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  background-image: url("../images/transition/transition-number.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+}
+
+.transition-number__active {
+  -webkit-animation: numberShow 5s linear forwards;
+          animation: numberShow 5s linear forwards;
 }
 
 /* 動畫年份 */
@@ -2314,8 +2338,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .time-part-wrapper__active {
-  -webkit-animation: yearShow 5s forwards;
-          animation: yearShow 5s forwards;
+  -webkit-animation: yearShow 8s forwards;
+          animation: yearShow 8s forwards;
 }
 
 .time-part {
@@ -2875,25 +2899,85 @@ video::-webkit-media-controls-rewind-button {
 
 @-webkit-keyframes columnShow {
   0% {
-    opacity: 0;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
   }
-  90% {
-    opacity: 0;
+  50% {
+    -webkit-transform: translate(-50%, -50%) scale(0.5);
+            transform: translate(-50%, -50%) scale(0.5);
+  }
+  70% {
+    top: 76.44vh;
+    left: 5.105vw;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   100% {
-    opacity: 1;
+    top: 105vh;
+    left: -5vw;
   }
 }
 
 @keyframes columnShow {
   0% {
-    opacity: 0;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
   }
-  90% {
-    opacity: 0;
+  50% {
+    -webkit-transform: translate(-50%, -50%) scale(0.5);
+            transform: translate(-50%, -50%) scale(0.5);
+  }
+  70% {
+    top: 76.44vh;
+    left: 5.105vw;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   100% {
-    opacity: 1;
+    top: 105vh;
+    left: -5vw;
+  }
+}
+
+@-webkit-keyframes numberShow {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
+  }
+  50% {
+    -webkit-transform: translate(-50%, -50%) scale(0.5);
+            transform: translate(-50%, -50%) scale(0.5);
+  }
+  70% {
+    left: 79.74vw;
+    top: 32.55vh;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    top: 31.49vh;
+    left: 105vw;
+  }
+}
+
+@keyframes numberShow {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
+  }
+  50% {
+    -webkit-transform: translate(-50%, -50%) scale(0.5);
+            transform: translate(-50%, -50%) scale(0.5);
+  }
+  70% {
+    left: 79.74vw;
+    top: 32.55vh;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    top: 31.49vh;
+    left: 105vw;
   }
 }
 

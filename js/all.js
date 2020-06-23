@@ -14,6 +14,8 @@ function setDefault () {
   $('.animation-mask-section').css('display', 'none')
   $('.time-part-wrapper').css('display', 'flex')
   $('.digit-wrapper').removeClass('digit-wrapper__active')
+  $('.transition-column').removeClass('transition-column__active')
+  $('.transition-number').removeClass('transition-number__active')
   $('.tens').removeClass('tens__active')
   $('.ones').removeClass('ones__active')
   $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
@@ -106,6 +108,8 @@ function openDoor (target) {
       $('.transition-circle-5').addClass('transition-circle-5__active')
       setTimeout(() => {
         timerRun()
+        $('.transition-column').addClass('transition-column__active')
+        $('.transition-number').addClass('transition-number__active')
       }, 2000)
     }, 2000)
   }, 2000)
