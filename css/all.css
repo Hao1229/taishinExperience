@@ -1436,7 +1436,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__left-section__three__title {
-  background-color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, from(#656665), to(#333));
+  background: linear-gradient(#656665, #333);
   width: 2.084vw;
   height: 2.084vw;
   border-radius: 50%;
@@ -1476,7 +1477,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__left-section__two__title {
-  background-color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, from(#656665), to(#333));
+  background: linear-gradient(#656665, #333);
   width: 2.084vw;
   height: 2.084vw;
   border-radius: 50%;
@@ -1509,7 +1511,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__left-section__one__title {
-  background-color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, from(#656665), to(#333));
+  background: linear-gradient(#656665, #333);
   width: 2.084vw;
   height: 2.084vw;
   border-radius: 50%;
@@ -1543,7 +1546,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__left-section__four__title {
-  background-color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, from(#656665), to(#333));
+  background: linear-gradient(#656665, #333);
   width: 2.084vw;
   height: 2.084vw;
   border-radius: 50%;
@@ -1577,7 +1581,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__left-section__five__title {
-  background-color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, from(#656665), to(#333));
+  background: linear-gradient(#656665, #333);
   width: 2.084vw;
   height: 2.084vw;
   border-radius: 50%;
@@ -1636,7 +1641,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__four__title {
-  background-color: #808080;
+  background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#828282));
+  background: linear-gradient(#999, #828282);
   width: 2.084vw;
   height: 2.084vw;
   border-radius: 50%;
@@ -1670,7 +1676,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__three__title {
-  background-color: #808080;
+  background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#828282));
+  background: linear-gradient(#999, #828282);
   width: 2.084vw;
   height: 2.084vw;
   border-radius: 50%;
@@ -1704,7 +1711,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__two__title {
-  background-color: #808080;
+  background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#828282));
+  background: linear-gradient(#999, #828282);
   width: 2.084vw;
   height: 2.084vw;
   border-radius: 50%;
@@ -1738,7 +1746,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__one__title {
-  background-color: #808080;
+  background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#828282));
+  background: linear-gradient(#999, #828282);
   width: 2.084vw;
   height: 2.084vw;
   border-radius: 50%;
@@ -1772,7 +1781,8 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__five__title {
-  background-color: #808080;
+  background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#828282));
+  background: linear-gradient(#999, #828282);
   width: 2.084vw;
   height: 2.084vw;
   border-radius: 50%;
