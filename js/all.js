@@ -12,11 +12,6 @@ function setDefault () {
   $('.animation-mask').removeClass('animation-mask__show')
   $('.transition-space').css('display', 'none')
   $('.animation-mask-section').css('display', 'none')
-  $('.time-part-wrapper').css('display', 'flex')
-  $('.transition-circle-1').css('display', 'block')
-  $('.digit-wrapper').removeClass('digit-wrapper__active')
-  $('.tens').removeClass('tens__active')
-  $('.ones').removeClass('ones__active')
   $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
   isMaskEnd = false
   circleStop()
@@ -93,16 +88,18 @@ function closeDoor (target) {
 }
 
 function openDoor (target) {
-  // const video = document.querySelector('.transition-video')
-  // video.load()
+  const video = document.querySelector('.transition-video')
+  video.load()
   $('.right-door').removeClass('right-door__active')
   $('.left-door').removeClass('left-door__active')
   $('.transition-space').css('display', 'block')
   $('.animation-mask-section').css('display', 'flex')
-  // video.play()
+  video.play()
   setTimeout(() => {
-    timerRun()
-  }, 6000)
+    $('.animation-mask').addClass('animation-mask__show')
+    $('#introduce').css('display', 'block')
+    watchTranslate()
+  }, 9000)
 }
 
 let isMaskEnd = false
@@ -117,26 +114,6 @@ function watchTranslate () {
       $('.transition-space').css('display', 'none')
       isMaskEnd = true
     }
-  }))
-}
-
-function timerRun () {
-  $('.digit-wrapper').addClass('digit-wrapper__active')
-  $('.tens').addClass('tens__active')
-  $('.ones').addClass('ones__active')
-  watchTimerEnd()
-}
-
-function watchTimerEnd () {
-  const timer = document.querySelector('.tens')
-  timer.addEventListener('animationend', (() => {
-    setTimeout(() => {
-      $('.time-part-wrapper').css('display', 'none')
-      $('.transition-circle-1').css('display', 'none')
-      $('#introduce').css('display', 'block')
-      $('.animation-mask').addClass('animation-mask__show')
-      watchTranslate()
-    }, 1000)
   }))
 }
 
