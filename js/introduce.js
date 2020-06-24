@@ -498,9 +498,9 @@ function guideChange () {
     case 'R-1':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
       $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-1.png")')
-      $('.introduce__guide-line').css('width', '12.54vw')
+      $('.introduce__guide-line').css('width', '11.54vw')
       $('.introduce__guide-line').css('height', '1.436vh')
-      $('.introduce__guide-line-section').css('width', '12.54vw')
+      $('.introduce__guide-line-section').css('width', '11.54vw')
       $('.introduce__guide-line-section').css('height', '1.436vh')
       $('.introduce__guide-line-section').css('right', '37.76vw')
       $('.introduce__guide-line-section').css('bottom', '46.3vh')
@@ -524,10 +524,10 @@ function guideChange () {
     case 'R-3':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
       $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-3.png")')
-      $('.introduce__guide-line').css('width', '24.65vw')
-      $('.introduce__guide-line').css('height', '10.19vh')
-      $('.introduce__guide-line-section').css('width', '24.65vw')
-      $('.introduce__guide-line-section').css('height', '10.19vh')
+      $('.introduce__guide-line').css('width', '26.65vw')
+      $('.introduce__guide-line').css('height', '9.19vh')
+      $('.introduce__guide-line-section').css('width', '26.65vw')
+      $('.introduce__guide-line-section').css('height', '9.19vh')
       $('.introduce__guide-line-section').css('right', '37.76vw')
       $('.introduce__guide-line-section').css('bottom', '46.3vh')
       setTimeout(() => {
@@ -537,10 +537,10 @@ function guideChange () {
     case 'R-4':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
       $('.introduce__guide-line').css('background-image', 'url("../images/introduce/guide/right-guide-4.png")')
-      $('.introduce__guide-line').css('width', '26.65vw')
-      $('.introduce__guide-line').css('height', '14.28vh')
-      $('.introduce__guide-line-section').css('width', '26.65vw')
-      $('.introduce__guide-line-section').css('height', '14.28vh')
+      $('.introduce__guide-line').css('width', '27.65vw')
+      $('.introduce__guide-line').css('height', '16.28vh')
+      $('.introduce__guide-line-section').css('width', '27.65vw')
+      $('.introduce__guide-line-section').css('height', '16.28vh')
       $('.introduce__guide-line-section').css('right', '37.76vw')
       $('.introduce__guide-line-section').css('bottom', '46.3vh')
       setTimeout(() => {
