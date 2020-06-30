@@ -1484,15 +1484,14 @@ video::-webkit-media-controls-rewind-button {
 .introduce__map-land__left-section__three__title__active {
   background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
   background: linear-gradient(#f5515f, #9f041b);
-  top: -2.269vh;
-  left: 0.6511vw;
+  top: -2.315vh;
 }
 
 .introduce__map-land__left-section__three__active {
   width: calc(10.42vw * 0.95);
   height: calc(17.04vh * 0.95);
-  top: 5.1vh;
-  left: 2.084vw;
+  top: 5.093vh;
+  left: 2.6042vw;
   z-index: 100;
   background-image: url("../images/introduce/map-leftsection-three-active.svg");
 }

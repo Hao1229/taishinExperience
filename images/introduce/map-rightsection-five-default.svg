@@ -149,11 +149,11 @@
         <path id="prefix__go" d="M0.413 2.085L22.529 8.211 24.869 6.991 2.181 0.962z"/>
         <path id="prefix__gr" d="M.255 9.771c-.139.349.037.742.387.872L5.383 12.4c.568.21 1.182-.174 1.242-.776L7.639 1.428 3.945.481l-3.69 9.29z"/>
         <path id="prefix__gu" d="M0.935 0.669L12.414 0.669 12.414 86.029 0.935 86.029z"/>
-        <linearGradient id="prefix__b" x1="74.366%" x2="40.497%" y1="-3.928%" y2="71.033%">
+        <linearGradient id="prefix__b" x1="67.507%" x2="43.172%" y1="-3.928%" y2="71.033%">
             <stop offset="0%" stop-color="gray"/>
             <stop offset="100%" stop-color="#666"/>
         </linearGradient>
-        <linearGradient id="prefix__e" x1="49.421%" x2="51.139%" y1="-88.99%" y2="354.712%">
+        <linearGradient id="prefix__e" x1="49.421%" x2="51.139%" y1="45.966%" y2="58.845%">
             <stop offset="0%" stop-color="#646664"/>
             <stop offset="100%" stop-color="#4D4D4D"/>
         </linearGradient>
@@ -161,11 +161,11 @@
             <stop offset="0%" stop-color="#F0233D"/>
             <stop offset="100%" stop-color="#FF7979"/>
         </linearGradient>
-        <linearGradient id="prefix__w" x1="38.408%" x2="57.146%" y1="-5.299%" y2="86.91%">
+        <linearGradient id="prefix__w" x1="44.752%" x2="53.235%" y1="-5.299%" y2="86.91%">
             <stop offset="0%" stop-color="#646664"/>
             <stop offset="100%" stop-color="#333"/>
         </linearGradient>
-        <linearGradient id="prefix__z" x1="38.613%" x2="56.723%" y1="-5.459%" y2="87.044%">
+        <linearGradient id="prefix__z" x1="44.446%" x2="53.279%" y1="-5.459%" y2="87.044%">
             <stop offset="0%" stop-color="#979797"/>
             <stop offset="100%" stop-color="#E4E4E4"/>
         </linearGradient>
@@ -361,7 +361,7 @@
             <stop offset="0%" stop-color="#979797"/>
             <stop offset="100%" stop-color="#E4E4E4"/>
         </linearGradient>
-        <linearGradient id="prefix__eu" x1="224.618%" x2="54.518%" y1="19.784%" y2="49.488%">
+        <linearGradient id="prefix__eu" x1="50.151%" x2="50.004%" y1="19.784%" y2="49.488%">
             <stop offset="0%" stop-color="#979797"/>
             <stop offset="100%" stop-color="#E4E4E4"/>
         </linearGradient>
@@ -369,31 +369,31 @@
             <stop offset="0%" stop-color="#979797"/>
             <stop offset="100%" stop-color="#E4E4E4"/>
         </linearGradient>
-        <linearGradient id="prefix__eA" x1="20.324%" x2="103.624%" y1="20.098%" y2="102.907%">
+        <linearGradient id="prefix__eA" x1="42.668%" x2="63.248%" y1="20.098%" y2="102.907%">
             <stop offset="0%" stop-color="#F0233D"/>
             <stop offset="100%" stop-color="#FF7979"/>
         </linearGradient>
-        <linearGradient id="prefix__eD" x1="224.615%" x2="54.514%" y1="19.784%" y2="49.488%">
+        <linearGradient id="prefix__eD" x1="50.151%" x2="50.004%" y1="19.784%" y2="49.488%">
             <stop offset="0%" stop-color="gray"/>
             <stop offset="100%" stop-color="#666"/>
         </linearGradient>
-        <linearGradient id="prefix__eG" x1="52.908%" x2="49.758%" y1="24.084%" y2="49.486%">
+        <linearGradient id="prefix__eG" x1="52.908%" x2="49.758%" y1="35.904%" y2="49.72%">
             <stop offset="0%" stop-color="gray"/>
             <stop offset="100%" stop-color="#666"/>
         </linearGradient>
-        <linearGradient id="prefix__eJ" x1="50.813%" x2="50.056%" y1="35.094%" y2="50.06%">
+        <linearGradient id="prefix__eJ" x1="50.813%" x2="50.056%" y1="48.652%" y2="50.005%">
             <stop offset="0%" stop-color="gray"/>
             <stop offset="100%" stop-color="#666"/>
         </linearGradient>
-        <linearGradient id="prefix__eM" x1="60.495%" x2="54.668%" y1="14.272%" y2="45.746%">
+        <linearGradient id="prefix__eM" x1="58.658%" x2="53.851%" y1="14.272%" y2="45.746%">
             <stop offset="0%" stop-color="gray"/>
             <stop offset="100%" stop-color="#666"/>
         </linearGradient>
-        <linearGradient id="prefix__eP" x1="52.026%" x2="50.085%" y1="24.53%" y2="50.918%">
+        <linearGradient id="prefix__eP" x1="52.026%" x2="50.085%" y1="45.125%" y2="50.176%">
             <stop offset="0%" stop-color="gray"/>
             <stop offset="100%" stop-color="#666"/>
         </linearGradient>
-        <linearGradient id="prefix__eS" x1="38.444%" x2="70.532%" y1="-2.472%" y2="143.236%">
+        <linearGradient id="prefix__eS" x1="38.444%" x2="70.532%" y1="39.821%" y2="68.086%">
             <stop offset="0%" stop-color="gray"/>
             <stop offset="100%" stop-color="#666"/>
         </linearGradient>
@@ -409,7 +409,7 @@
             <stop offset="0%" stop-color="#979797"/>
             <stop offset="100%" stop-color="#E4E4E4"/>
         </linearGradient>
-        <linearGradient id="prefix__fe" x1="42.003%" x2="55.904%" y1="-7.202%" y2="88.049%">
+        <linearGradient id="prefix__fe" x1="42.98%" x2="55.182%" y1="-7.202%" y2="88.049%">
             <stop offset="0%" stop-color="#646664"/>
             <stop offset="100%" stop-color="#333"/>
         </linearGradient>
@@ -449,7 +449,7 @@
             <stop offset="0%" stop-color="#646664"/>
             <stop offset="100%" stop-color="#333"/>
         </linearGradient>
-        <linearGradient id="prefix__fI" x1="16.202%" x2="121.595%" y1="154.141%" y2="-111.407%">
+        <linearGradient id="prefix__fI" x1="36.985%" x2="77.57%" y1="154.141%" y2="-111.407%">
             <stop offset="0%" stop-color="#979797"/>
             <stop offset="100%" stop-color="#E4E4E4"/>
         </linearGradient>
@@ -457,7 +457,7 @@
             <stop offset="0%" stop-color="#979797"/>
             <stop offset="100%" stop-color="#E4E4E4"/>
         </linearGradient>
-        <linearGradient id="prefix__fO" x1="42.005%" x2="55.905%" y1="-7.205%" y2="88.054%">
+        <linearGradient id="prefix__fO" x1="42.98%" x2="55.184%" y1="-7.205%" y2="88.054%">
             <stop offset="0%" stop-color="#646664"/>
             <stop offset="100%" stop-color="#333"/>
         </linearGradient>
@@ -497,7 +497,7 @@
             <stop offset="0%" stop-color="#646664"/>
             <stop offset="100%" stop-color="#333"/>
         </linearGradient>
-        <linearGradient id="prefix__gs" x1="16.194%" x2="121.602%" y1="154.144%" y2="-111.417%">
+        <linearGradient id="prefix__gs" x1="36.984%" x2="77.568%" y1="154.144%" y2="-111.417%">
             <stop offset="0%" stop-color="#979797"/>
             <stop offset="100%" stop-color="#E4E4E4"/>
         </linearGradient>
@@ -779,7 +779,7 @@
             <path fill="#FFF" d="M411.068 373.136c0 1.096-3.474 1.984-7.759 1.984s-7.759-.888-7.759-1.984c0-1.097 3.474-1.985 7.76-1.985 4.284 0 7.758.888 7.758 1.985" transform="translate(29 29) translate(234 27.462)"/>
             <path fill="#1A1A1A" d="M435.959 339.916s.38 2.009 1.852 2.5c0 0 6.714 4.502 9.806 2.685 3.092-1.818-8.05-6.397-11.658-5.185" transform="translate(29 29) translate(234 27.462)"/>
             <path fill="gray" d="M413.501 334.788s3.84.376 7.08-1.434c3.24-1.808 9.636-5.907 13.834-5.603 4.197.305-.427-2.107-.427-2.107l-10.914 2.209s-9.22 3.404-9.573 6.935" transform="translate(29 29) translate(234 27.462)"/>
-            <path fill="#1A1A1A" d="M435.959 339.916s4.491-1.55 7.338 4.28c2.846 5.831 7.068 10.55 7.45 10.537.382-.012 5.808-7.39 2.56-11.41-3.248-4.018-13.497-5.275-17.348-3.406" transform="translate(29 29) translate(234 27.462)"/>
+            <path fill="#1A1A1A" d="M435.959 339.916s4.491-1.55 7.338 4.28c2.846 5.831 7.068 10.55 7.45 10.538.382-.013 5.808-7.39 2.56-11.41-3.248-4.02-13.497-5.276-17.348-3.408" transform="translate(29 29) translate(234 27.462)"/>
             <path fill="#1A1A1A" d="M439.736 340.287s-37.377 24.178-38.245 42.357l3.631-.735s-5.928-13.57 35.227-41.223l-.613-.4z" transform="translate(29 29) translate(234 27.462)"/>
             <path fill="gray" d="M412.252 359.918s-12.229 11.042-13.184 24.37l3.263-.662s.328-12.303 11.028-23.375l-1.107-.333z" transform="translate(29 29) translate(234 27.462)"/>
             <path fill="gray" d="M417.716 353.604s-1.566-.772-.743-1.771c.822-1 8.096-3.049 11.75 1.081 3.656 4.128-2.795 10.56-2.795 10.56s-8.355-2.346-11.322-2.449c-2.97-.104-4.184-3.574-2.356-6.57 1.828-2.997 5.466-.851 5.466-.851" transform="translate(29 29) translate(234 27.462)"/>
@@ -795,7 +795,7 @@
             <path fill="#1A1A1A" d="M391.513 350.369s16.2 30.995 6.89 46.632l-2.622-2.617s14.049 1.757-5-44.021l.732.006z" transform="translate(29 29) translate(234 27.462)"/>
             <path fill="#FFF" d="M411.068 401.167c0 1.097-3.474 1.985-7.759 1.985s-7.759-.888-7.759-1.985c0-1.096 3.474-1.984 7.76-1.984 4.284 0 7.758.888 7.758 1.984" transform="translate(29 29) translate(234 27.462)"/>
             <path fill="#FFF" d="M403.31 375.12c-4.285 0-7.76-.888-7.76-1.983v28.03h15.519v-28.03c0 1.095-3.474 1.984-7.76 1.984" transform="translate(29 29) translate(234 27.462)"/>
-            <path stroke="gray" d="M119.198 107.844v19.7" transform="translate(29 29) translate(234 27.462)"/>
+            <path stroke="gray" d="M119.198 107.844L119.198 127.544" transform="translate(29 29) translate(234 27.462)"/>
             <path fill="#000" d="M1.353 75.106v-2.287c-.08.817-.07 1.574 0 2.287" transform="translate(29 29) translate(234 27.462)"/>
             <path fill="#B2B2B2" d="M27.593.383L17.799 8.48c36.212 1.952 120.97 24.712 162.38 42.67 4.392 1.875 8.615 3.88 12.615 6.03l8.716-6.045S141.493 16.165 27.593.383" transform="translate(29 29) translate(234 27.462)"/>
             <path fill="#B2B2B2" d="M17.757 8.514c32.583 2.042 36.254 1.918.042-.034l-.042.034z" transform="translate(29 29) translate(234 27.462)"/>
@@ -810,284 +810,284 @@
             <mask id="prefix__bt" fill="#fff">
                 <use xlink:href="#prefix__bs"/>
             </mask>
-            <path stroke="gray" d="M3.382 6.24v19.7" mask="url(#prefix__bt)"/>
+            <path stroke="gray" d="M3.382 6.24L3.382 25.94" mask="url(#prefix__bt)"/>
             <mask id="prefix__bv" fill="#fff">
                 <use xlink:href="#prefix__bu"/>
             </mask>
-            <path stroke="gray" d="M6.89 8.646v19.699" mask="url(#prefix__bv)"/>
+            <path stroke="gray" d="M6.891 8.646L6.891 28.345" mask="url(#prefix__bv)"/>
             <mask id="prefix__bx" fill="#fff">
                 <use xlink:href="#prefix__bw"/>
             </mask>
-            <path stroke="gray" d="M10.51 9.93v19.7" mask="url(#prefix__bx)"/>
+            <path stroke="gray" d="M10.51 9.929L10.51 29.629" mask="url(#prefix__bx)"/>
             <mask id="prefix__bz" fill="#fff">
                 <use xlink:href="#prefix__by"/>
             </mask>
-            <path stroke="gray" d="M14.06.497v29.7" mask="url(#prefix__bz)"/>
+            <path stroke="gray" d="M14.06 0.497L14.06 30.197" mask="url(#prefix__bz)"/>
             <mask id="prefix__bB" fill="#fff">
                 <use xlink:href="#prefix__bA"/>
             </mask>
-            <path stroke="gray" d="M17.634 1.262v29.7" mask="url(#prefix__bB)"/>
+            <path stroke="gray" d="M17.634 1.262L17.634 30.962" mask="url(#prefix__bB)"/>
             <mask id="prefix__bD" fill="#fff">
                 <use xlink:href="#prefix__bC"/>
             </mask>
-            <path stroke="gray" d="M21.208 2.028v29.7" mask="url(#prefix__bD)"/>
+            <path stroke="gray" d="M21.208 2.028L21.208 31.728" mask="url(#prefix__bD)"/>
             <mask id="prefix__bF" fill="#fff">
                 <use xlink:href="#prefix__bE"/>
             </mask>
-            <path stroke="gray" d="M24.782 2.793v29.7" mask="url(#prefix__bF)"/>
+            <path stroke="gray" d="M24.782 2.793L24.782 32.493" mask="url(#prefix__bF)"/>
             <mask id="prefix__bH" fill="#fff">
                 <use xlink:href="#prefix__bG"/>
             </mask>
-            <path stroke="gray" d="M28.358 3.56v29.7" mask="url(#prefix__bH)"/>
+            <path stroke="gray" d="M28.358 3.559L28.358 33.259" mask="url(#prefix__bH)"/>
             <mask id="prefix__bJ" fill="#fff">
                 <use xlink:href="#prefix__bI"/>
             </mask>
-            <path stroke="gray" d="M31.932 4.325v29.7" mask="url(#prefix__bJ)"/>
+            <path stroke="gray" d="M31.932 4.325L31.932 34.025" mask="url(#prefix__bJ)"/>
             <mask id="prefix__bL" fill="#fff">
                 <use xlink:href="#prefix__bK"/>
             </mask>
-            <path stroke="gray" d="M35.506 5.09v29.7" mask="url(#prefix__bL)"/>
+            <path stroke="gray" d="M35.506 5.09L35.506 34.79" mask="url(#prefix__bL)"/>
             <mask id="prefix__bN" fill="#fff">
                 <use xlink:href="#prefix__bM"/>
             </mask>
-            <path stroke="gray" d="M39.08 5.856v29.7" mask="url(#prefix__bN)"/>
+            <path stroke="gray" d="M39.08 5.856L39.08 35.556" mask="url(#prefix__bN)"/>
             <mask id="prefix__bP" fill="#fff">
                 <use xlink:href="#prefix__bO"/>
             </mask>
-            <path stroke="gray" d="M42.655 6.622v29.7" mask="url(#prefix__bP)"/>
+            <path stroke="gray" d="M42.655 6.622L42.655 36.322" mask="url(#prefix__bP)"/>
             <mask id="prefix__bR" fill="#fff">
                 <use xlink:href="#prefix__bQ"/>
             </mask>
-            <path stroke="gray" d="M46.23 7.387v29.7" mask="url(#prefix__bR)"/>
+            <path stroke="gray" d="M46.23 7.387L46.23 37.087" mask="url(#prefix__bR)"/>
             <mask id="prefix__bT" fill="#fff">
                 <use xlink:href="#prefix__bS"/>
             </mask>
-            <path stroke="gray" d="M49.804 8.153v29.7" mask="url(#prefix__bT)"/>
+            <path stroke="gray" d="M49.804 8.153L49.804 37.853" mask="url(#prefix__bT)"/>
             <mask id="prefix__bV" fill="#fff">
                 <use xlink:href="#prefix__bU"/>
             </mask>
-            <path stroke="gray" d="M53.378 8.918v29.7" mask="url(#prefix__bV)"/>
+            <path stroke="gray" d="M53.378 8.918L53.378 38.618" mask="url(#prefix__bV)"/>
             <mask id="prefix__bX" fill="#fff">
                 <use xlink:href="#prefix__bW"/>
             </mask>
-            <path stroke="gray" d="M56.953 9.684v29.7" mask="url(#prefix__bX)"/>
+            <path stroke="gray" d="M56.953 9.684L56.953 39.383" mask="url(#prefix__bX)"/>
             <mask id="prefix__bZ" fill="#fff">
                 <use xlink:href="#prefix__bY"/>
             </mask>
-            <path stroke="gray" d="M60.527 10.45v29.699" mask="url(#prefix__bZ)"/>
+            <path stroke="gray" d="M60.527 10.45L60.527 40.149" mask="url(#prefix__bZ)"/>
             <mask id="prefix__cb" fill="#fff">
                 <use xlink:href="#prefix__ca"/>
             </mask>
-            <path stroke="gray" d="M64.102 11.215v29.7" mask="url(#prefix__cb)"/>
+            <path stroke="gray" d="M64.102 11.215L64.102 40.914" mask="url(#prefix__cb)"/>
             <g>
                 <mask id="prefix__cd" fill="#fff">
                     <use xlink:href="#prefix__cc"/>
                 </mask>
-                <path stroke="gray" d="M67.676 11.98v29.7" mask="url(#prefix__cd)"/>
+                <path stroke="gray" d="M67.676 11.981L67.676 41.68" mask="url(#prefix__cd)"/>
             </g>
             <g>
                 <mask id="prefix__cf" fill="#fff">
                     <use xlink:href="#prefix__ce"/>
                 </mask>
-                <path stroke="gray" d="M71.25 12.747v29.699" mask="url(#prefix__cf)"/>
+                <path stroke="gray" d="M71.25 12.747L71.25 42.446" mask="url(#prefix__cf)"/>
             </g>
             <g>
                 <mask id="prefix__ch" fill="#fff">
                     <use xlink:href="#prefix__cg"/>
                 </mask>
-                <path stroke="gray" d="M74.825 13.512v29.7" mask="url(#prefix__ch)"/>
+                <path stroke="gray" d="M74.825 13.512L74.825 43.211" mask="url(#prefix__ch)"/>
             </g>
             <g>
                 <mask id="prefix__cj" fill="#fff">
                     <use xlink:href="#prefix__ci"/>
                 </mask>
-                <path stroke="gray" d="M78.4 14.278v29.699" mask="url(#prefix__cj)"/>
+                <path stroke="gray" d="M78.399 14.278L78.399 43.977" mask="url(#prefix__cj)"/>
             </g>
             <g>
                 <mask id="prefix__cl" fill="#fff">
                     <use xlink:href="#prefix__ck"/>
                 </mask>
-                <path stroke="gray" d="M81.974 15.043v29.7" mask="url(#prefix__cl)"/>
+                <path stroke="gray" d="M81.974 15.043L81.974 44.742" mask="url(#prefix__cl)"/>
             </g>
             <g>
                 <mask id="prefix__cn" fill="#fff">
                     <use xlink:href="#prefix__cm"/>
                 </mask>
-                <path stroke="gray" d="M85.548 15.81v29.698" mask="url(#prefix__cn)"/>
+                <path stroke="gray" d="M85.548 15.809L85.548 45.508" mask="url(#prefix__cn)"/>
             </g>
             <g>
                 <mask id="prefix__cp" fill="#fff">
                     <use xlink:href="#prefix__co"/>
                 </mask>
-                <path stroke="gray" d="M89.123 16.575v29.699" mask="url(#prefix__cp)"/>
+                <path stroke="gray" d="M89.123 16.575L89.123 46.274" mask="url(#prefix__cp)"/>
             </g>
             <g>
                 <mask id="prefix__cr" fill="#fff">
                     <use xlink:href="#prefix__cq"/>
                 </mask>
-                <path stroke="gray" d="M92.697 17.34v29.7" mask="url(#prefix__cr)"/>
+                <path stroke="gray" d="M92.697 17.34L92.697 47.039" mask="url(#prefix__cr)"/>
             </g>
             <g>
                 <mask id="prefix__ct" fill="#fff">
                     <use xlink:href="#prefix__cs"/>
                 </mask>
-                <path stroke="gray" d="M96.272 18.106v29.699" mask="url(#prefix__ct)"/>
+                <path stroke="gray" d="M96.272 18.106L96.272 47.805" mask="url(#prefix__ct)"/>
             </g>
             <g>
                 <mask id="prefix__cv" fill="#fff">
                     <use xlink:href="#prefix__cu"/>
                 </mask>
-                <path stroke="gray" d="M99.846 18.872V48.57" mask="url(#prefix__cv)"/>
+                <path stroke="gray" d="M99.846 18.872L99.846 48.571" mask="url(#prefix__cv)"/>
             </g>
             <g>
                 <mask id="prefix__cx" fill="#fff">
                     <use xlink:href="#prefix__cw"/>
                 </mask>
-                <path stroke="gray" d="M103.42 19.637v29.7" mask="url(#prefix__cx)"/>
+                <path stroke="gray" d="M103.421 19.637L103.421 49.336" mask="url(#prefix__cx)"/>
             </g>
             <g>
                 <mask id="prefix__cz" fill="#fff">
                     <use xlink:href="#prefix__cy"/>
                 </mask>
-                <path stroke="gray" d="M106.995 20.403v29.699" mask="url(#prefix__cz)"/>
+                <path stroke="gray" d="M106.995 20.403L106.995 50.102" mask="url(#prefix__cz)"/>
             </g>
             <g>
                 <mask id="prefix__cB" fill="#fff">
                     <use xlink:href="#prefix__cA"/>
                 </mask>
-                <path stroke="gray" d="M110.57 21.168v29.7" mask="url(#prefix__cB)"/>
+                <path stroke="gray" d="M110.569 21.168L110.569 50.867" mask="url(#prefix__cB)"/>
             </g>
             <g>
                 <mask id="prefix__cD" fill="#fff">
                     <use xlink:href="#prefix__cC"/>
                 </mask>
-                <path stroke="gray" d="M114.331 23.042v29.7" mask="url(#prefix__cD)"/>
+                <path stroke="gray" d="M114.331 23.042L114.331 52.741" mask="url(#prefix__cD)"/>
             </g>
             <g>
                 <mask id="prefix__cF" fill="#fff">
                     <use xlink:href="#prefix__cE"/>
                 </mask>
-                <path stroke="gray" d="M118.198 28.606v23.938" mask="url(#prefix__cF)"/>
+                <path stroke="gray" d="M118.198 28.606L118.198 52.544" mask="url(#prefix__cF)"/>
             </g>
             <g>
                 <mask id="prefix__cH" fill="#fff">
                     <use xlink:href="#prefix__cG"/>
                 </mask>
-                <path stroke="gray" d="M183.232 52.11V76.05" mask="url(#prefix__cH)"/>
+                <path stroke="gray" d="M183.232 52.111L183.232 76.049" mask="url(#prefix__cH)"/>
             </g>
             <g>
                 <mask id="prefix__cJ" fill="#fff">
                     <use xlink:href="#prefix__cI"/>
                 </mask>
-                <path stroke="gray" d="M187.395 52.11V76.05" mask="url(#prefix__cJ)"/>
+                <path stroke="gray" d="M187.395 52.111L187.395 76.049" mask="url(#prefix__cJ)"/>
             </g>
             <g>
                 <mask id="prefix__cL" fill="#fff">
                     <use xlink:href="#prefix__cK"/>
                 </mask>
-                <path stroke="gray" d="M191.794 52.11V76.05" mask="url(#prefix__cL)"/>
+                <path stroke="gray" d="M191.794 52.111L191.794 76.049" mask="url(#prefix__cL)"/>
             </g>
             <g>
                 <mask id="prefix__cN" fill="#fff">
                     <use xlink:href="#prefix__cM"/>
                 </mask>
-                <path stroke="gray" d="M122.233 30.725v23.938" mask="url(#prefix__cN)"/>
+                <path stroke="gray" d="M122.233 30.725L122.233 54.663" mask="url(#prefix__cN)"/>
             </g>
             <g>
                 <mask id="prefix__cP" fill="#fff">
                     <use xlink:href="#prefix__cO"/>
                 </mask>
-                <path stroke="gray" d="M125.792 32.2v23.938" mask="url(#prefix__cP)"/>
+                <path stroke="gray" d="M125.792 32.2L125.792 56.138" mask="url(#prefix__cP)"/>
             </g>
             <g>
                 <mask id="prefix__cR" fill="#fff">
                     <use xlink:href="#prefix__cQ"/>
                 </mask>
-                <path stroke="gray" d="M129.35 33.674v23.938" mask="url(#prefix__cR)"/>
+                <path stroke="gray" d="M129.351 33.674L129.351 57.612" mask="url(#prefix__cR)"/>
             </g>
             <g>
                 <mask id="prefix__cT" fill="#fff">
                     <use xlink:href="#prefix__cS"/>
                 </mask>
-                <path stroke="gray" d="M132.91 35.149v23.938" mask="url(#prefix__cT)"/>
+                <path stroke="gray" d="M132.91 35.149L132.91 59.087" mask="url(#prefix__cT)"/>
             </g>
             <g>
                 <mask id="prefix__cV" fill="#fff">
                     <use xlink:href="#prefix__cU"/>
                 </mask>
-                <path stroke="gray" d="M136.47 36.623v23.939" mask="url(#prefix__cV)"/>
+                <path stroke="gray" d="M136.47 36.623L136.47 60.562" mask="url(#prefix__cV)"/>
             </g>
             <g>
                 <mask id="prefix__cX" fill="#fff">
                     <use xlink:href="#prefix__cW"/>
                 </mask>
-                <path stroke="gray" d="M140.028 38.097v23.94" mask="url(#prefix__cX)"/>
+                <path stroke="gray" d="M140.028 38.097L140.028 62.036" mask="url(#prefix__cX)"/>
             </g>
             <g>
                 <mask id="prefix__cZ" fill="#fff">
                     <use xlink:href="#prefix__cY"/>
                 </mask>
-                <path stroke="gray" d="M143.588 39.572V63.51" mask="url(#prefix__cZ)"/>
+                <path stroke="gray" d="M143.588 39.572L143.588 63.51" mask="url(#prefix__cZ)"/>
             </g>
             <g>
                 <mask id="prefix__db" fill="#fff">
                     <use xlink:href="#prefix__da"/>
                 </mask>
-                <path stroke="gray" d="M147.147 41.046v23.938" mask="url(#prefix__db)"/>
+                <path stroke="gray" d="M147.147 41.046L147.147 64.984" mask="url(#prefix__db)"/>
             </g>
             <g>
                 <mask id="prefix__dd" fill="#fff">
                     <use xlink:href="#prefix__dc"/>
                 </mask>
-                <path stroke="gray" d="M150.706 42.521v23.938" mask="url(#prefix__dd)"/>
+                <path stroke="gray" d="M150.706 42.521L150.706 66.459" mask="url(#prefix__dd)"/>
             </g>
             <g>
                 <mask id="prefix__df" fill="#fff">
                     <use xlink:href="#prefix__de"/>
                 </mask>
-                <path stroke="gray" d="M154.266 43.996v23.938" mask="url(#prefix__df)"/>
+                <path stroke="gray" d="M154.266 43.996L154.266 67.934" mask="url(#prefix__df)"/>
             </g>
             <g>
                 <mask id="prefix__dh" fill="#fff">
                     <use xlink:href="#prefix__dg"/>
                 </mask>
-                <path stroke="gray" d="M157.824 45.47v23.938" mask="url(#prefix__dh)"/>
+                <path stroke="gray" d="M157.824 45.47L157.824 69.408" mask="url(#prefix__dh)"/>
             </g>
             <g>
                 <mask id="prefix__dj" fill="#fff">
                     <use xlink:href="#prefix__di"/>
                 </mask>
-                <path stroke="gray" d="M161.384 46.944v23.938" mask="url(#prefix__dj)"/>
+                <path stroke="gray" d="M161.384 46.944L161.384 70.882" mask="url(#prefix__dj)"/>
             </g>
             <g>
                 <mask id="prefix__dl" fill="#fff">
                     <use xlink:href="#prefix__dk"/>
                 </mask>
-                <path stroke="gray" d="M164.943 48.418v23.938" mask="url(#prefix__dl)"/>
+                <path stroke="gray" d="M164.943 48.418L164.943 72.356" mask="url(#prefix__dl)"/>
             </g>
             <g>
                 <mask id="prefix__dn" fill="#fff">
                     <use xlink:href="#prefix__dm"/>
                 </mask>
-                <path stroke="gray" d="M168.502 49.893v23.938" mask="url(#prefix__dn)"/>
+                <path stroke="gray" d="M168.502 49.893L168.502 73.831" mask="url(#prefix__dn)"/>
             </g>
             <g>
                 <mask id="prefix__dp" fill="#fff">
                     <use xlink:href="#prefix__do"/>
                 </mask>
-                <path stroke="gray" d="M172.062 51.368v23.938" mask="url(#prefix__dp)"/>
+                <path stroke="gray" d="M172.062 51.368L172.062 75.306" mask="url(#prefix__dp)"/>
             </g>
             <g>
                 <mask id="prefix__dr" fill="#fff">
                     <use xlink:href="#prefix__dq"/>
                 </mask>
-                <path stroke="gray" d="M175.62 52.842V76.78" mask="url(#prefix__dr)"/>
+                <path stroke="gray" d="M175.62 52.842L175.62 76.78" mask="url(#prefix__dr)"/>
             </g>
             <g>
                 <mask id="prefix__dt" fill="#fff">
                     <use xlink:href="#prefix__ds"/>
                 </mask>
-                <path stroke="gray" d="M179.18 54.316v23.939" mask="url(#prefix__dt)"/>
+                <path stroke="gray" d="M179.18 54.316L179.18 78.255" mask="url(#prefix__dt)"/>
             </g>
         </g>
         <path fill="#706F6F" d="M245.265 112.168c122.682 17.876 146.409 38.531 168.915 46.286 4.557 1.57 9.608.073 12.58-3.722 4.533-5.787 2.417-14.278-4.284-17.3-58.788-26.523-156.38-45.363-175.876-46.488-3.545-.204-6.955 1.383-9.091 4.22-5.077 6.74-1.382 15.674 7.756 17.004" transform="translate(29 29)"/>
@@ -1169,7 +1169,7 @@
             <path fill="#1A1A1A" d="M38.19 8.045c.144-.045 4.748-.999 4.5 0-.25 1-2.15 7.3-3.6 9.048-1.45 1.75-2.15 11.197-2.6 13.896-.449 2.7 1.7 9.448-.35 9.348-2.048-.1-13.896-2.649-18.694-2.6-4.799.05-16.896.7-16.596-.899.3-1.6 4.55-5.449 4.5-6.299-.051-.849 4.049-22.643 3.947-23.943-.099-1.3 2.4-.1 3.2.7.8.8 11.198 5.298 25.694.75" transform="translate(29 29) translate(111 61.462)"/>
             <path stroke="#CBCBCB" stroke-linecap="round" d="M22.87 10.23s-2.063.075-3.075 2.063M19.25 9.536s-2.063.074-3.074 2.06M38.003 17.86s-.287 1.369-2.687 2.344c-2.399.974-8.547 5.023-8.547 5.023M37.75 21.543s-.034 1.511-2.434 2.485c-.503.204-1.169.543-1.908.952M5.29 30.78s.71.909 1.36 1.709" transform="translate(29 29) translate(111 61.462)"/>
             <path fill="#E5E5E5" d="M416.297 189.558l-53.112-26.343v85.057l.056.032c-.317 3.474.709 7.106 3.315 10.04L392.62 287.7c3.508 3.951 9.015 5.46 14.046 3.847l.354-.113c6.065-1.944 9.482-7.579 9.267-13.256l.01.006v-88.625z" transform="translate(29 29) translate(111 61.462)"/>
-            <path stroke="#FFF" stroke-linecap="round" stroke-width=".75" d="M365.032 176.293v72.852M367.95 179.438v72.852M370.865 182.583v72.852M373.782 185.727v72.852M376.7 188.873v72.851M379.616 192.017v72.852M382.532 195.162v72.852M385.45 198.306v72.852M388.366 201.452v72.85M391.283 204.596v72.852M394.2 207.74v72.853M397.116 210.885v72.852M400.817 211.723v71.541M405.17 211.723v71.541M410.082 210.007v71.541M413.537 207.074v71.542" transform="translate(29 29) translate(111 61.462)"/>
+            <path stroke="#FFF" stroke-linecap="round" stroke-width=".75" d="M365.032 176.293L365.032 249.145M367.949 179.438L367.949 252.29M370.865 182.583L370.865 255.435M373.782 185.727L373.782 258.579M376.699 188.873L376.699 261.724M379.616 192.017L379.616 264.869M382.532 195.162L382.532 268.014M385.449 198.306L385.449 271.158M388.366 201.452L388.366 274.303M391.283 204.596L391.283 277.448M394.199 207.741L394.199 280.593M397.116 210.885L397.116 283.737M400.817 211.723L400.817 283.264M405.171 211.723L405.171 283.264M410.082 210.007L410.082 281.548M413.537 207.074L413.537 278.616" transform="translate(29 29) translate(111 61.462)"/>
         </g>
         <g transform="translate(29 29) translate(474 221.462)">
             <mask id="prefix__ed" fill="#fff">
