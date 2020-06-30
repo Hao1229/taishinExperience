@@ -1650,6 +1650,12 @@ video::-webkit-media-controls-rewind-button {
   z-index: 150;
 }
 
+@media (max-width: 3839px) {
+  .introduce__map-land__your-place {
+    background-image: url("../images/introduce/your-place-web.svg");
+  }
+}
+
 .introduce__map-land__right-section {
   max-width: 50%;
   position: absolute;
@@ -1776,6 +1782,12 @@ video::-webkit-media-controls-rewind-button {
   z-index: 101;
 }
 
+@media (max-width: 3839px) {
+  .introduce__map-land__right-section__one {
+    background-image: url("../images/introduce/map-rightsection-one-default-web.png");
+  }
+}
+
 .introduce__map-land__right-section__one__title {
   background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#828282));
   background: linear-gradient(#999, #828282);
@@ -1796,6 +1808,12 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__right-section__one__active {
   background-image: url("../images/introduce/map-rightsection-one-active.png");
+}
+
+@media (max-width: 3839px) {
+  .introduce__map-land__right-section__one__active {
+    background-image: url("../images/introduce/map-rightsection-one-active-web.png");
+  }
 }
 
 .introduce__map-land__right-section__five {

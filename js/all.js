@@ -16,7 +16,11 @@ function setDefault () {
   isMaskEnd = false
   circleStop()
   /* 讓場館介紹回到 default 狀態 */
-  whoActive = 'L-1'
+  if (window.innerWidth < 3840) {
+    whoActive = 'R-1'
+  } else {
+    whoActive = 'L-1'
+  }
   changeActive()
   changeBoard()
 }

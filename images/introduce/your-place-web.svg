@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="380" height="301" viewBox="0 0 380 301">
+    <defs>
+        <path id="prefix__a" d="M0 0.826L379.54 0.826 379.54 229.348 0 229.348z"/>
+        <path id="prefix__c" d="M0 0.333L160.793 0.333 160.793 191 0 191z"/>
+        <path id="prefix__e" d="M0.612 19.705L0.612 25.47 59.971 6.299 59.971 0.245z"/>
+        <path id="prefix__h" d="M0.775 20.282L0.775 26.046 60.135 6.876 60.135 0.821z"/>
+        <path id="prefix__k" d="M0.55 0.449L65.54 0.449 65.54 22.928 0.55 22.928z"/>
+        <path id="prefix__m" d="M0.788 0.095L61.54 0.095 61.54 75.118 0.788 75.118z"/>
+        <linearGradient id="prefix__f" x1="-.001%" x2="100%" y1="50.002%" y2="50.002%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#4D4D4D"/>
+        </linearGradient>
+        <linearGradient id="prefix__i" x1=".001%" x2="100%" y1="50.003%" y2="50.003%">
+            <stop offset="0%" stop-color="#646664"/>
+            <stop offset="100%" stop-color="#4D4D4D"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#E5E5E5" d="M160.793 229.523L160.793 243.174 379.541 175.671 379.541 165.746z" transform="translate(0 57)"/>
+        <g transform="translate(0 57) translate(0 .174)">
+            <mask id="prefix__b" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <path fill="#F1F1F1" d="M167.624.826L0 52.333l160.793 177.015 218.747-63.776c-.122-.164-42.293-81.894-211.916-164.746" mask="url(#prefix__b)"/>
+            <g transform="translate(0 52)">
+                <mask id="prefix__d" fill="#fff">
+                    <use xlink:href="#prefix__c"/>
+                </mask>
+                <path fill="#989898" d="M0 0.333L0 13.031 160.793 191 160.793 177.349z" mask="url(#prefix__d)"/>
+            </g>
+            <path fill="#FFF" d="M265.612 136.786L265.612 190.47 324.971 171.299 324.971 117.326z"/>
+        </g>
+        <g transform="translate(0 57) translate(265 165.174)">
+            <mask id="prefix__g" fill="#fff">
+                <use xlink:href="#prefix__e"/>
+            </mask>
+            <path fill="url(#prefix__f)" d="M0.612 19.705L0.612 25.47 59.971 6.299 59.971 0.245z" mask="url(#prefix__g)"/>
+        </g>
+        <g>
+            <path fill="#CBCBCB" d="M63.612 20.034L63.612 25.8 122.971 6.628 122.971 0.575z" transform="translate(0 57) translate(202 116.174)"/>
+            <path stroke="#FFF" d="M95.92 23.476L80.178 52.515M108.58 21.152L92.838 50.191" transform="translate(0 57) translate(202 116.174)"/>
+            <path fill="#FFF" d="M0.776 41.362L0.776 95.046 60.135 75.876 60.135 21.904z" transform="translate(0 57) translate(202 116.174)"/>
+        </g>
+        <g transform="translate(0 57) translate(202 185.174)">
+            <mask id="prefix__j" fill="#fff">
+                <use xlink:href="#prefix__h"/>
+            </mask>
+            <path fill="url(#prefix__i)" d="M0.775 20.282L0.775 26.046 60.135 6.876 60.135 0.821z" mask="url(#prefix__j)"/>
+        </g>
+        <g>
+            <path fill="#CBCBCB" d="M46.776 53.611L46.776 59.377 106.135 40.205 106.135 34.152z" transform="translate(0 57) translate(156 103.174)"/>
+            <path stroke="#FFF" d="M77.996 57.045L62.254 86.084M90.657 54.721L74.915 83.76" transform="translate(0 57) translate(156 103.174)"/>
+            <path fill="#FFF" d="M0.59 65.519L4.827 70.491 64 51.016 58.795 46.371z" transform="translate(0 57) translate(156 103.174)"/>
+            <path fill="#C10021" d="M4.827 70.491L4.827 127.68 64.001 108.494 64.001 51.015z" transform="translate(0 57) translate(156 103.174)"/>
+            <path fill="#CBCBCB" d="M0.59 65.519L0.59 121.042 4.809 127.681 4.809 70.492z" transform="translate(0 57) translate(156 103.174)"/>
+            <g transform="translate(0 57) translate(156 103.174) translate(158)">
+                <mask id="prefix__l" fill="#fff">
+                    <use xlink:href="#prefix__k"/>
+                </mask>
+                <path fill="#FFF" d="M0.55 17.956L4.788 22.928 65.54 5.095 60.334 0.449z" mask="url(#prefix__l)"/>
+            </g>
+            <g transform="translate(0 57) translate(156 103.174) translate(162 5)">
+                <mask id="prefix__n" fill="#fff">
+                    <use xlink:href="#prefix__m"/>
+                </mask>
+                <path fill="#C10021" d="M0.788 17.929L0.788 75.118 61.54 57.573 61.54 0.095z" mask="url(#prefix__n)"/>
+            </g>
+            <path fill="#CBCBCB" d="M158.55 17.956L158.55 73.479 162.77 80.118 162.77 22.929z" transform="translate(0 57) translate(156 103.174)"/>
+        </g>
+    </g>
+</svg>

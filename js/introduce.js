@@ -2,6 +2,16 @@
 
 let whoActive = 'L-1'
 
+if (window.innerWidth < 3840) {
+  whoActive = 'R-1'
+}
+
+$(window).resize(() => {
+  if (window.innerWidth < 3840) {
+    whoActive = 'R-1'
+  }
+})
+
 // 左 3
 $('.introduce__map-land__left-section__three').click(function (e) {
   e.preventDefault()
@@ -18,13 +28,6 @@ $('#left-link-3').click(function (e) {
   changeBoard()
   guideChange()
 })
-
-// $('.introduce__map-land__left-section__three').hover(function () {
-//     $('.introduce__map-land__left-section__three').css('z-index', '100')
-//   }, function () {
-//     $('.introduce__map-land__left-section__three').css('z-index', 'initial')
-//   }
-// )
 
 // 左 2
 $('.introduce__map-land__left-section__two').click(function (e) { 
@@ -43,13 +46,6 @@ $('#left-link-2').click(function (e) {
   guideChange()
 })
 
-// $('.introduce__map-land__left-section__two').hover(function () {
-//     $('.introduce__map-land__left-section__two').css('z-index', '100')
-//   }, function () {
-//     $('.introduce__map-land__left-section__two').css('z-index', 'initial')
-//   }
-// )
-
 // 左 1
 $('.introduce__map-land__left-section__one').click(function (e) { 
   e.preventDefault()
@@ -66,13 +62,6 @@ $('#left-link-1').click(function (e) {
   changeBoard()
   guideChange()
 })
-
-// $('.introduce__map-land__left-section__one').hover(function () {
-//     $('.introduce__map-land__left-section__one').css('z-index', '100')
-//   }, function () {
-//     $('.introduce__map-land__left-section__one').css('z-index', 'initial')
-//   }
-// )
 
 // 左 4
 $('.introduce__map-land__left-section__four').click(function (e) { 
@@ -91,13 +80,6 @@ $('#left-link-4').click(function (e) {
   guideChange()
 })
 
-// $('.introduce__map-land__left-section__four').hover(function () {
-//     $('.introduce__map-land__left-section__four').css('z-index', '100')
-//   }, function () {
-//     $('.introduce__map-land__left-section__four').css('z-index', 'initial')
-//   }
-// )
-
 // 左 5
 $('.introduce__map-land__left-section__five').click(function (e) { 
   e.preventDefault()
@@ -114,13 +96,6 @@ $('#left-link-5').click(function (e) {
   changeBoard()
   guideChange()
 })
-
-// $('.introduce__map-land__left-section__five').hover(function () {
-//     $('.introduce__map-land__left-section__five').css('z-index', '100')
-//   }, function () {
-//     $('.introduce__map-land__left-section__five').css('z-index', 'initial')
-//   }
-// )
 
 // 右 4
 $('.introduce__map-land__right-section__four').click(function (e) { 
@@ -209,6 +184,7 @@ $('#right-link-5').click(function (e) {
 
 /* 判斷 active 區塊 */
 function changeActive () {
+  console.log('觸發:', whoActive)
   if (whoActive === 'L-3') {
     $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__active')
     $('.introduce__map-land__left-section__three__title').addClass('introduce__map-land__left-section__three__title__active')

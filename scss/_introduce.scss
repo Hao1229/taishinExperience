@@ -254,6 +254,9 @@
       top: 7.88vh;
       left: 23.44vw;
       z-index: 150;
+      @media(max-width: 3839px) {
+        background-image: url('../images/introduce/your-place-web.svg');
+      }
     }
     &__right-section {
       max-width: 50%;
@@ -359,6 +362,9 @@
         top: 17.83vh;
         left: 1.042vw;
         z-index: 101;
+        @media(max-width: 3839px) {
+          background-image: url('../images/introduce/map-rightsection-one-default-web.png');
+        }
         &__title {
           background: linear-gradient(#999, #828282);
           width: 2.084vw;
@@ -375,6 +381,9 @@
         }
         &__active {
           background-image: url('../images/introduce/map-rightsection-one-active.png');
+          @media(max-width: 3839px) {
+            background-image: url('../images/introduce/map-rightsection-one-active-web.png');
+          }
         }
       }
       &__five {
