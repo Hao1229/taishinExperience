@@ -236,6 +236,14 @@ html, body {
           align-items: center;
 }
 
+.index__pool {
+  width: 25vw;
+  height: 25vh;
+  position: absolute;
+  top: 18.52vh;
+  left: 37.761vw;
+}
+
 .index__bg-bottom-cloud {
   background-image: url("../images/index/cloud-front.svg");
   background-size: cover;
@@ -848,11 +856,12 @@ html, body {
   margin-top: 2.315vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 35.42vh;
+  max-height: 35.42vh;
   overflow-y: hidden;
 }
 
 .index__video-popup__video-list__list__content__active {
+  max-height: none;
   height: auto;
 }
 

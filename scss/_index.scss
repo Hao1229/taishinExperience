@@ -8,6 +8,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  &__pool {
+    width: 25vw;
+    height: 25vh;
+    position: absolute;
+    top: 18.52vh;
+    left: 37.761vw;
+  }
   &__bg-bottom-cloud {
     background-image: url('../images/index/cloud-front.svg');
     background-size: cover;
@@ -510,9 +517,10 @@
         &__content {
           margin-top: 2.315vh;
           flex-wrap: wrap;
-          height: 35.42vh;
+          max-height: 35.42vh;
           overflow-y: hidden;
           &__active {
+            max-height: none;
             height: auto;
           }
           &__item {

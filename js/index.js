@@ -12,11 +12,13 @@ function videoPopDefault () {
   $('.video-btn-one').addClass('video-btn-one__active')
   $('.video-btn-two').removeClass('video-btn-two__active')
   $('.video-btn-three').removeClass('video-btn-three__active')
+  document.querySelector('.index__video-popup__video-title').textContent = videoMainList[0].title
   $('#film-one').css('display', 'block')
   $('#film-two').css('display', 'none')
   $('#film-three').css('display', 'none')
   $('#film-four').css('display', 'none')
   setTimeout(() => {
+    popupVideo.load()
     popupVideo.play()
   }, 1000)
 }
@@ -167,24 +169,9 @@ $('#activity-video .index__video-popup__video-list__more-btn').click(function (e
 })
 
 /* 影片總覽影片縮圖點擊換片 */
-const hotFilmList = [
-  {
-    title: '台新公司簡介1',
-    url: 'mov_bbb.mp4'
-  },
-  {
-    title: '台新公司簡介2',
-    url: 'trailer.mp4'
-  },
-  {
-    title: '台新公司簡介3',
-    url: 'View_From_A_Blue_Moon_Trailer-576p.mp4'
-  }
-]
-
-function changeHotSource (num) {
-  $('#film-four > source').attr('src', `./video/${hotFilmList[num - 1].url}`)
-  document.querySelector('.index__video-popup__video-title').textContent = hotFilmList[num - 1].title
+function changeHotSource (video, title) {
+  $('#film-four > source').attr('src', video)
+  document.querySelector('.index__video-popup__video-title').textContent = title
 
   $('#film-one').css('display', 'none')
   $('#film-two').css('display', 'none')
@@ -204,24 +191,6 @@ function changeHotSource (num) {
   $('.video-btn-two').removeClass('video-btn-two__active')
   $('.video-btn-three').removeClass('video-btn-three__active')
 }
-
-$('#hot-video-1').click(function (e) {
-  e.preventDefault()
-  changeHotSource(1)
-})
-
-$('#hot-video-2').click(function (e) {
-  e.preventDefault()
-  changeHotSource(2)
-})
-
-$('#hot-video-3').click(function (e) {
-  e.preventDefault()
-  changeHotSource(3)
-})
-
-
-
 
 /* 輪播 */
 function boardActive () {
