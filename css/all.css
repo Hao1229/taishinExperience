@@ -1647,6 +1647,7 @@ video::-webkit-media-controls-rewind-button {
   position: absolute;
   top: 7.88vh;
   left: 23.44vw;
+  z-index: 150;
 }
 
 .introduce__map-land__right-section {
@@ -2055,7 +2056,7 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__guide-line-section {
   position: absolute;
-  z-index: 102;
+  z-index: 151;
   overflow: hidden;
 }
 

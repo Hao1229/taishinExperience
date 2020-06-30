@@ -253,6 +253,7 @@
       position: absolute;
       top: 7.88vh;
       left: 23.44vw;
+      z-index: 150;
     }
     &__right-section {
       max-width: 50%;
@@ -599,7 +600,7 @@
   }
   &__guide-line-section {
     position: absolute;
-    z-index: 102;
+    z-index: 151;
     overflow: hidden;
   }
   &__guide-line-mask {
