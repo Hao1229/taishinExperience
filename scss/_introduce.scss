@@ -10,6 +10,9 @@
   width: 100vw;
   height: 100vh;
   z-index: 700;
+  &__web {
+    display: block;
+  }
   &__title {
     width: 33.62vw;
     height: 14.73vh;

@@ -1,16 +1,6 @@
 /* 導覽地圖 active default 切換 */
 
-let whoActive = 'L-1'
-
-if (window.innerWidth < 3840) {
-  whoActive = 'R-1'
-}
-
-$(window).resize(() => {
-  if (window.innerWidth < 3840) {
-    whoActive = 'R-1'
-  }
-})
+let whoActive = 'R-1'
 
 // 左 3
 $('.introduce__map-land__left-section__three').click(function (e) {
@@ -537,3 +527,19 @@ function guideChange () {
       break
   }
 }
+
+/* 介紹頁右上角圓圈旋轉會遇到奇怪錯誤，第二次進入頁面，圖片會變模糊，因此改用動態加入動畫的方式讓其旋轉 */
+function circleRotate () {
+  $('.introduce__frame__circle-group__circle').addClass('introduce__frame__circle-group__circle__rotate')
+  $('.introduce__frame__circle-group__circle2').addClass('introduce__frame__circle-group__circle__rotate')
+  $('.introduce__frame__circle-group__circle3').addClass('introduce__frame__circle-group__circle__rotate')
+}
+
+function circleStop () {
+  $('.introduce__frame__circle-group__circle').removeClass('introduce__frame__circle-group__circle__rotate')
+  $('.introduce__frame__circle-group__circle2').removeClass('introduce__frame__circle-group__circle__rotate')
+  $('.introduce__frame__circle-group__circle3').removeClass('introduce__frame__circle-group__circle__rotate')
+}
+
+circleRotate()
+guideChange()

@@ -1361,6 +1361,10 @@ video::-webkit-media-controls-rewind-button {
   z-index: 700;
 }
 
+.introduce__web {
+  display: block;
+}
+
 .introduce__title {
   width: 33.62vw;
   height: 14.73vh;
