@@ -743,6 +743,10 @@
   background-color: rgba($color: #000000, $alpha: 0.8);
 }
 
+video::-webkit-media-controls-volume-slider {  display: none; }
+
+video::-webkit-media-controls-mute-button {  display: none; }
+
 /* 指針動畫 */
 // Doc: https://cssanimation.rocks/clocks/
 @keyframes pointer-rotate {
