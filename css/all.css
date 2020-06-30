@@ -213,6 +213,11 @@ html, body {
   height: 100%;
 }
 
+/* 隱藏預設 scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
 .index {
   background-image: url("../images/index/bg-graidient.svg");
   background-size: cover;

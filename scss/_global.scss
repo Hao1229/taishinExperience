@@ -114,3 +114,8 @@ html, body {
     }
   }
 }
+
+/* 隱藏預設 scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
