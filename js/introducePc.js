@@ -19,6 +19,33 @@ $('#left-link-3').click(function (e) {
   guideChange()
 })
 
+$('.introduce__map-land__left-section__three').hover(function () {
+    // over
+    $('.introduce__map-land__left-section__two').addClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').addClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').addClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').addClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').addClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__three').addClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').addClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').addClass('introduce__map-land__right-section__two__hover')
+  }, function () {
+    // out
+    $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
+  }
+)
+
 // 左 2
 $('.introduce__map-land__left-section__two').click(function (e) { 
   e.preventDefault()
@@ -35,6 +62,33 @@ $('#left-link-2').click(function (e) {
   changeBoard()
   guideChange()
 })
+
+$('.introduce__map-land__left-section__two').hover(function () {
+    // over
+    $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__one').addClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').addClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').addClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').addClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__three').addClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').addClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').addClass('introduce__map-land__right-section__two__hover')
+  }, function () {
+    // out
+    $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
+  }
+)
 
 // 左 1
 $('.introduce__map-land__left-section__one').click(function (e) { 
@@ -53,6 +107,33 @@ $('#left-link-1').click(function (e) {
   guideChange()
 })
 
+$('.introduce__map-land__left-section__one').hover(function () {
+    // over
+    $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').addClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__four').addClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').addClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').addClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__three').addClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').addClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').addClass('introduce__map-land__right-section__two__hover')
+  }, function () {
+    // out
+    $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
+  }
+)
+
 // 左 4
 $('.introduce__map-land__left-section__four').click(function (e) { 
   e.preventDefault()
@@ -69,6 +150,33 @@ $('#left-link-4').click(function (e) {
   changeBoard()
   guideChange()
 })
+
+$('.introduce__map-land__left-section__four').hover(function () {
+    // over
+    $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').addClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').addClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__five').addClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').addClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__three').addClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').addClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').addClass('introduce__map-land__right-section__two__hover')
+  }, function () {
+    // out
+    $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
+  }
+)
 
 // 左 5
 $('.introduce__map-land__left-section__five').click(function (e) { 
@@ -87,6 +195,33 @@ $('#left-link-5').click(function (e) {
   guideChange()
 })
 
+$('.introduce__map-land__left-section__five').hover(function () {
+    // over
+    $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').addClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').addClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').addClass('introduce__map-land__left-section__four__hover')
+
+    $('.introduce__map-land__right-section__four').addClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__three').addClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').addClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').addClass('introduce__map-land__right-section__two__hover')
+  }, function () {
+    // out
+    $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+
+    $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
+  }
+)
+
 // 右 4
 $('.introduce__map-land__right-section__four').click(function (e) { 
   e.preventDefault()
@@ -103,6 +238,33 @@ $('#right-link-4').click(function (e) {
   changeBoard()
   guideChange()
 })
+
+$('.introduce__map-land__right-section__four').hover(function () {
+    // over
+    $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').addClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').addClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').addClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').addClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__three').addClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').addClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').addClass('introduce__map-land__right-section__two__hover')
+  }, function () {
+    // out
+    $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+    $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
+  }
+)
 
 // 右 3
 $('.introduce__map-land__right-section__three').click(function (e) { 
@@ -121,6 +283,33 @@ $('#right-link-3').click(function (e) {
   guideChange()
 })
 
+$('.introduce__map-land__right-section__three').hover(function () {
+    // over
+    $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').addClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').addClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').addClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').addClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').addClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__five').addClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').addClass('introduce__map-land__right-section__two__hover')
+  }, function () {
+    // out
+    $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
+  }
+)
+
 // 右 2
 $('.introduce__map-land__right-section__two').click(function (e) { 
   e.preventDefault()
@@ -137,6 +326,33 @@ $('#right-link-2').click(function (e) {
   changeBoard()
   guideChange()
 })
+
+$('.introduce__map-land__right-section__two').hover(function () {
+    // over
+    $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').addClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').addClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').addClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').addClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').addClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__five').addClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__three').addClass('introduce__map-land__right-section__three__hover')
+  }, function () {
+    // out
+    $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+  }
+)
 
 // 右 1
 $('.introduce__map-land__right-section__one').click(function (e) { 
@@ -155,6 +371,33 @@ $('#right-link-1').click(function (e) {
   guideChange()
 })
 
+$('.introduce__map-land__right-section__one').hover(function () {
+    // over
+    $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').addClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').addClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').addClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').addClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').addClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__five').addClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__two').addClass('introduce__map-land__right-section__two__hover')
+    $('.introduce__map-land__right-section__three').addClass('introduce__map-land__right-section__three__hover')
+  }, function () {
+    // out
+    $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+    $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
+    $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+  }
+)
+
 // 右 5
 $('.introduce__map-land__right-section__five').click(function (e) { 
   e.preventDefault()
@@ -171,6 +414,33 @@ $('#right-link-5').click(function (e) {
   changeBoard()
   guideChange()
 })
+
+$('.introduce__map-land__right-section__five').hover(function () {
+    // over
+    $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').addClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').addClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').addClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').addClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').addClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').addClass('introduce__map-land__right-section__two__hover')
+    $('.introduce__map-land__right-section__three').addClass('introduce__map-land__right-section__three__hover')
+  }, function () {
+    // out
+    $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+    $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+    $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+    $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+    $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+    $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+    $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+    $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
+    $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+  }
+)
 
 /* 判斷 active 區塊 */
 function changeActive () {

@@ -1497,6 +1497,10 @@ video::-webkit-media-controls-rewind-button {
   background-image: url("../images/introduce/map-leftsection-three-active.svg");
 }
 
+.introduce__map-land__left-section__three__hover {
+  opacity: 0.5;
+}
+
 .introduce__map-land__left-section__two {
   width: calc(11.85vw * 0.9);
   height: calc(18.48vh * 0.9);
@@ -1529,6 +1533,10 @@ video::-webkit-media-controls-rewind-button {
 .introduce__map-land__left-section__two__active {
   z-index: 100;
   background-image: url("../images/introduce/map-leftsection-two-active.svg");
+}
+
+.introduce__map-land__left-section__two__hover {
+  opacity: 0.5;
 }
 
 .introduce__map-land__left-section__one {
@@ -1566,6 +1574,10 @@ video::-webkit-media-controls-rewind-button {
   background-image: url("../images/introduce/map-leftsection-one-active.svg");
 }
 
+.introduce__map-land__left-section__one__hover {
+  opacity: 0.5;
+}
+
 .introduce__map-land__left-section__four {
   width: calc(11.8vw * 0.9);
   height: calc(14.95vh * 0.9);
@@ -1599,6 +1611,10 @@ video::-webkit-media-controls-rewind-button {
 .introduce__map-land__left-section__four__active {
   z-index: 100;
   background-image: url("../images/introduce/map-leftsection-four-active.svg");
+}
+
+.introduce__map-land__left-section__four__hover {
+  opacity: 0.5;
 }
 
 .introduce__map-land__left-section__five {
@@ -1639,6 +1655,10 @@ video::-webkit-media-controls-rewind-button {
   left: 13.29vw;
   z-index: 100;
   background-image: url("../images/introduce/map-leftsection-five-active.svg");
+}
+
+.introduce__map-land__left-section__five__hover {
+  opacity: 0.5;
 }
 
 .introduce__map-land__your-place {
@@ -1702,6 +1722,10 @@ video::-webkit-media-controls-rewind-button {
   background-image: url("../images/introduce/map-rightsection-four-active.svg");
 }
 
+.introduce__map-land__right-section__four__hover {
+  opacity: 0.5;
+}
+
 .introduce__map-land__right-section__three {
   width: 6.96vw;
   height: 9.77vh;
@@ -1735,6 +1759,10 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__right-section__three__active {
   background-image: url("../images/introduce/map-rightsection-three-active.svg");
+}
+
+.introduce__map-land__right-section__three__hover {
+  opacity: 0.5;
 }
 
 .introduce__map-land__right-section__two {
@@ -1771,6 +1799,10 @@ video::-webkit-media-controls-rewind-button {
 .introduce__map-land__right-section__two__active {
   background-image: url("../images/introduce/map-rightsection-two-active.svg");
   z-index: 101;
+}
+
+.introduce__map-land__right-section__two__hover {
+  opacity: 0.5;
 }
 
 .introduce__map-land__right-section__one {
@@ -1820,6 +1852,10 @@ video::-webkit-media-controls-rewind-button {
   }
 }
 
+.introduce__map-land__right-section__one__hover {
+  opacity: 0.5;
+}
+
 .introduce__map-land__right-section__five {
   width: 20.521vw;
   height: 23.89vh;
@@ -1853,6 +1889,10 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__right-section__five__active {
   background-image: url("../images/introduce/map-rightsection-five-active.png");
+}
+
+.introduce__map-land__right-section__five__hover {
+  opacity: 0.5;
 }
 
 .introduce__map-land__conference-room {

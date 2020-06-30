@@ -124,6 +124,9 @@
           z-index: 100;
           background-image: url('../images/introduce/map-leftsection-three-active.svg');
         }
+        &__hover{
+          opacity: 0.5;
+        }
       }
       &__two {
         width: calc(11.85vw * 0.9);
@@ -151,6 +154,9 @@
         &__active {
           z-index: 100;
           background-image: url('../images/introduce/map-leftsection-two-active.svg');
+        }
+        &__hover{
+          opacity: 0.5;
         }
       }
       &__one {
@@ -181,6 +187,9 @@
           z-index: 100;
           background-image: url('../images/introduce/map-leftsection-one-active.svg');
         }
+        &__hover{
+          opacity: 0.5;
+        }
       }
       &__four {
         width: calc(11.8vw * 0.9);
@@ -209,6 +218,9 @@
         &__active {
           z-index: 100;
           background-image: url('../images/introduce/map-leftsection-four-active.svg');
+        }
+        &__hover{
+          opacity: 0.5;
         }
       }
       &__five {
@@ -243,6 +255,9 @@
           left: 13.29vw;
           z-index: 100;
           background-image: url('../images/introduce/map-leftsection-five-active.svg');
+        }
+        &__hover{
+          opacity: 0.5;
         }
       }
     }
@@ -294,6 +309,9 @@
         &__active {
           background-image: url('../images/introduce/map-rightsection-four-active.svg');
         }
+        &__hover{
+          opacity: 0.5;
+        }
       }
       &__three {
         width: 6.96vw;
@@ -322,6 +340,9 @@
         }
         &__active {
           background-image: url('../images/introduce/map-rightsection-three-active.svg');
+        }
+        &__hover{
+          opacity: 0.5;
         }
       }
       &__two {
@@ -352,6 +373,9 @@
         &__active {
           background-image: url('../images/introduce/map-rightsection-two-active.svg');
           z-index: 101;
+        }
+        &__hover{
+          opacity: 0.5;
         }
       }
       &__one {
@@ -388,6 +412,9 @@
             background-image: url('../images/introduce/map-rightsection-one-active-web.png');
           }
         }
+        &__hover{
+          opacity: 0.5;
+        }
       }
       &__five {
         width: 20.521vw;
@@ -416,6 +443,9 @@
         }
         &__active {
           background-image: url('../images/introduce/map-rightsection-five-active.png');
+        }
+        &__hover{
+          opacity: 0.5;
         }
       }
     }
