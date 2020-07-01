@@ -911,16 +911,8 @@ html, body {
           align-items: center;
 }
 
-.index__video-popup__video-list__list__content__item-1 {
-  background-image: url("../images/index/popup-demo-1.jpeg");
-}
-
-.index__video-popup__video-list__list__content__item-2 {
-  background-image: url("../images/index/popup-demo-2.jpeg");
-}
-
-.index__video-popup__video-list__list__content__item-3 {
-  background-image: url("../images/index/popup-demo-3.jpeg");
+.index__video-popup__video-list__list__content__item-space {
+  margin: 0 1.5625vw;
 }
 
 .index__video-popup__video-list__collapse {

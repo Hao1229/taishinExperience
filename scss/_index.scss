@@ -554,14 +554,8 @@
               align-items: center;
             }
           }
-          &__item-1 {
-            background-image: url('../images/index/popup-demo-1.jpeg');
-          }
-          &__item-2 {
-            background-image: url('../images/index/popup-demo-2.jpeg');
-          }
-          &__item-3 {
-            background-image: url('../images/index/popup-demo-3.jpeg');
+          &__item-space {
+            margin: 0 1.5625vw;
           }
         }
       }

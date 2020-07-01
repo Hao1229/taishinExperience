@@ -156,18 +156,6 @@ $('.index__video-popup__video-list__collapse').click(function (e) {
   handlePopupList()
 })
 
-$('#hot-video .index__video-popup__video-list__more-btn').click(function (e) { 
-  e.preventDefault()
-  $('#hot-video .index__video-popup__video-list__list__content').toggleClass('index__video-popup__video-list__list__content__active')
-  $('#hot-video .index__video-popup__video-list__more-btn').toggleClass('index__video-popup__video-list__more-btn__active')
-})
-
-$('#activity-video .index__video-popup__video-list__more-btn').click(function (e) { 
-  e.preventDefault()
-  $('#activity-video .index__video-popup__video-list__list__content').toggleClass('index__video-popup__video-list__list__content__active')
-  $('#activity-video .index__video-popup__video-list__more-btn').toggleClass('index__video-popup__video-list__more-btn__active')
-})
-
 /* 影片總覽影片縮圖點擊換片 */
 function changeHotSource (video, title) {
   $('#film-four > source').attr('src', video)
