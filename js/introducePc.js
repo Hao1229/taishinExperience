@@ -9,6 +9,16 @@ $('.introduce__map-land__left-section__three__click-section, .introduce__map-lan
   changeActive()
   changeBoard()
   guideChange()
+  $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+  $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+  $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+  $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+  $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+  $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+  $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+  $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+  $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
 })
 
 $('#left-link-3').click(function (e) {
@@ -53,6 +63,16 @@ $('.introduce__map-land__left-section__two__click-section, .introduce__map-land_
   changeActive()
   changeBoard()
   guideChange()
+  $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+  $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+  $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+  $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+  $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+  $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+  $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+  $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+  $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
 })
 
 $('#left-link-2').click(function (e) {
@@ -97,6 +117,16 @@ $('.introduce__map-land__left-section__one__click-section, .introduce__map-land_
   changeActive()
   changeBoard()
   guideChange()
+  $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+  $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+  $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+  $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+  $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+  $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+  $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+  $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+  $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
 })
 
 $('#left-link-1').click(function (e) {
@@ -141,6 +171,16 @@ $('.introduce__map-land__left-section__four__click-section, .introduce__map-land
   changeActive()
   changeBoard()
   guideChange()
+  $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+  $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+  $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+  $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+  $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+  $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+  $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+  $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+  $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
 })
 
 $('#left-link-4').click(function (e) {
@@ -185,6 +225,16 @@ $('.introduce__map-land__left-section__five__click-section, .introduce__map-land
   changeActive()
   changeBoard()
   guideChange()
+  $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+  $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+  $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+  $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+
+  $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+  $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+  $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+  $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+  $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
 })
 
 $('#left-link-5').click(function (e) {
@@ -229,6 +279,16 @@ $('.introduce__map-land__right-section__four__click-section, .introduce__map-lan
   changeActive()
   changeBoard()
   guideChange()
+  $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+  $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+  $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+  $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+  $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+  $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
+  $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+  $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+  $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
 })
 
 $('#right-link-4').click(function (e) {
@@ -273,6 +333,16 @@ $('.introduce__map-land__right-section__three__click-section, .introduce__map-la
   changeActive()
   changeBoard()
   guideChange()
+  $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+  $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+  $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+  $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+  $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+  $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+  $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+  $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+  $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
 })
 
 $('#right-link-3').click(function (e) {
@@ -317,6 +387,16 @@ $('.introduce__map-land__right-section__two__click-section, .introduce__map-land
   changeActive()
   changeBoard()
   guideChange()
+  $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+  $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+  $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+  $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+  $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+  $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+  $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+  $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+  $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
 })
 
 $('#right-link-2').click(function (e) {
@@ -361,6 +441,16 @@ $('.introduce__map-land__right-section__one__click-section, .introduce__map-land
   changeActive()
   changeBoard()
   guideChange()
+  $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+  $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+  $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+  $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+  $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+  $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+  $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__hover')
+  $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
+  $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
 })
 
 $('#right-link-1').click(function (e) {
@@ -405,6 +495,16 @@ $('.introduce__map-land__right-section__five__click-section, .introduce__map-lan
   changeActive()
   changeBoard()
   guideChange()
+  $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__hover')
+  $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__hover')
+  $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__hover')
+  $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__hover')
+  $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__hover')
+
+  $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__hover')
+  $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__hover')
+  $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__hover')
+  $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__hover')
 })
 
 $('#right-link-5').click(function (e) {
