@@ -214,12 +214,12 @@ function changeActive () {
     $('.introduce__map-land__left-section__four').addClass('introduce__map-land__left-section__four__active')
     $('.introduce__map-land__left-section__four__title').addClass('introduce__map-land__left-section__four__title__active')
     $('#left-link-4 .introduce__map-name-section__left-section__content__part__number').addClass('introduce__map-name-section__left-section__content__part__number__active')
-    $('#left-link-4 .introduce__map-name-section__left-section__content__part__text').addClass('introduce__map-name-section__left-section__content__part__text__right-four-active')
+    $('#left-link-4 .introduce__map-name-section__left-section__content__part__text').addClass('introduce__map-name-section__left-section__content__part__text__left-four-active')
   } else {
     $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__active')
     $('.introduce__map-land__left-section__four__title').removeClass('introduce__map-land__left-section__four__title__active')
     $('#left-link-4 .introduce__map-name-section__left-section__content__part__number').removeClass('introduce__map-name-section__left-section__content__part__number__active')
-    $('#left-link-4 .introduce__map-name-section__left-section__content__part__text').removeClass('introduce__map-name-section__left-section__content__part__text__right-four-active')
+    $('#left-link-4 .introduce__map-name-section__left-section__content__part__text').removeClass('introduce__map-name-section__left-section__content__part__text__left-four-active')
   }
 
   if (whoActive === 'L-5') {
