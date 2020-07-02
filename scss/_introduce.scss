@@ -606,6 +606,7 @@
         }
       }
       &__content {
+        font-family: Noto Sans TC Medium;
         margin-top: 1.852vh;
         &__part {
           font-size: 1.042vw;
@@ -616,12 +617,24 @@
           }
           &__number {
             color: white;
-            background-color: black;
+            background: black;
             border-radius: 50%;
             width: 1.042vw;
             height: 1.852vh;
             font-size: 0.652vw;
             padding-left: 0.131vw;
+            &__active {
+              background: #9f041b;
+            }
+          }
+          &__text {
+            &__right-four-active {
+              font-size: 0.99vw;
+              font-family: Noto Sans TC;
+            }
+            &__active {
+              font-family: Noto Sans TC;
+            }
           }
         }
       }
@@ -645,6 +658,7 @@
         }
       }
       &__content {
+        font-family: Noto Sans TC Medium;
         margin-top: 1.852vh;
         &__part {
           font-size: 1.042vw;
@@ -655,12 +669,20 @@
           }
           &__number {
             color: white;
-            background-color: rgba($color: gray, $alpha: 1);
+            background: rgba($color: gray, $alpha: 1);
             border-radius: 50%;
             width: 1.042vw;
             height: 1.852vh;
             font-size: 0.652vw;
             padding-left: 0.131vw;
+            &__active {
+              background: #9f041b;
+            }
+          }
+          &__text {
+            &__active {
+              font-family: Noto Sans TC;
+            }
           }
         }
       }

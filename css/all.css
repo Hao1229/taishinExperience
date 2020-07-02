@@ -9,6 +9,11 @@
   src: url("../fonts/Roboto/Roboto-Medium.ttf") format("opentype");
 }
 
+@font-face {
+  font-family: Noto Sans TC Medium;
+  src: url("../fonts/Noto_Sans_TC/NotoSansTC-Regular.otf") format("opentype");
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -68,7 +73,7 @@ html, body {
   width: 100%;
   position: fixed;
   overflow: hidden !important;
-  font-family: Noto Sans TC, Roboto, sans-serif;
+  font-family: Noto Sans TC, Roboto, Noto Sans TC Medium, sans-serif;
 }
 
 .pointer {
@@ -2086,6 +2091,7 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-name-section__left-section__content {
+  font-family: Noto Sans TC Medium;
   margin-top: 1.852vh;
 }
 
@@ -2101,12 +2107,25 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-name-section__left-section__content__part__number {
   color: white;
-  background-color: black;
+  background: black;
   border-radius: 50%;
   width: 1.042vw;
   height: 1.852vh;
   font-size: 0.652vw;
   padding-left: 0.131vw;
+}
+
+.introduce__map-name-section__left-section__content__part__number__active {
+  background: #9f041b;
+}
+
+.introduce__map-name-section__left-section__content__part__text__right-four-active {
+  font-size: 0.99vw;
+  font-family: Noto Sans TC;
+}
+
+.introduce__map-name-section__left-section__content__part__text__active {
+  font-family: Noto Sans TC;
 }
 
 .introduce__map-name-section__left-section__second-line {
@@ -2133,6 +2152,7 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-name-section__right-section__content {
+  font-family: Noto Sans TC Medium;
   margin-top: 1.852vh;
 }
 
@@ -2148,12 +2168,20 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-name-section__right-section__content__part__number {
   color: white;
-  background-color: gray;
+  background: gray;
   border-radius: 50%;
   width: 1.042vw;
   height: 1.852vh;
   font-size: 0.652vw;
   padding-left: 0.131vw;
+}
+
+.introduce__map-name-section__right-section__content__part__number__active {
+  background: #9f041b;
+}
+
+.introduce__map-name-section__right-section__content__part__text__active {
+  font-family: Noto Sans TC;
 }
 
 .introduce__map-name-section__right-section__second-line {

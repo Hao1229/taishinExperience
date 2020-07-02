@@ -6,6 +6,11 @@
   font-family: Roboto;
   src: url('../fonts/Roboto/Roboto-Medium.ttf') format('opentype')
 }
+@font-face {
+  font-family: Noto Sans TC Medium;
+  src: url('../fonts/Noto_Sans_TC/NotoSansTC-Regular.otf') format('opentype')
+}
+
 @import './reset';
 @import './global';
 @import './index';

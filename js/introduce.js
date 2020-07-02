@@ -2,16 +2,6 @@
 
 let whoActive = 'L-1'
 
-if (window.innerWidth < 3840) {
-  whoActive = 'R-1'
-}
-
-$(window).resize(() => {
-  if (window.innerWidth < 3840) {
-    whoActive = 'R-1'
-  }
-})
-
 // 左 3
 $('.introduce__map-land__left-section__three__click-section, .introduce__map-land__left-section__three__title').click(function (e) {
   e.preventDefault()
@@ -187,81 +177,121 @@ function changeActive () {
   if (whoActive === 'L-3') {
     $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__active')
     $('.introduce__map-land__left-section__three__title').addClass('introduce__map-land__left-section__three__title__active')
+    $('#left-link-3 .introduce__map-name-section__left-section__content__part__number').addClass('introduce__map-name-section__left-section__content__part__number__active')
+    $('#left-link-3 .introduce__map-name-section__left-section__content__part__text').addClass('introduce__map-name-section__left-section__content__part__text__active')
   } else {
     $('.introduce__map-land__left-section__three').removeClass('introduce__map-land__left-section__three__active')
     $('.introduce__map-land__left-section__three__title').removeClass('introduce__map-land__left-section__three__title__active')
+    $('#left-link-3 .introduce__map-name-section__left-section__content__part__text').removeClass('introduce__map-name-section__left-section__content__part__text__active')
+    $('#left-link-3 .introduce__map-name-section__left-section__content__part__number').removeClass('introduce__map-name-section__left-section__content__part__number__active')
   }
 
   if (whoActive === 'L-2') {
     $('.introduce__map-land__left-section__two').addClass('introduce__map-land__left-section__two__active')
     $('.introduce__map-land__left-section__two__title').addClass('introduce__map-land__left-section__two__title__active')
+    $('#left-link-2 .introduce__map-name-section__left-section__content__part__number').addClass('introduce__map-name-section__left-section__content__part__number__active')
+    $('#left-link-2 .introduce__map-name-section__left-section__content__part__text').addClass('introduce__map-name-section__left-section__content__part__text__active')
   } else {
     $('.introduce__map-land__left-section__two').removeClass('introduce__map-land__left-section__two__active')
     $('.introduce__map-land__left-section__two__title').removeClass('introduce__map-land__left-section__two__title__active')
+    $('#left-link-2 .introduce__map-name-section__left-section__content__part__number').removeClass('introduce__map-name-section__left-section__content__part__number__active')
+    $('#left-link-2 .introduce__map-name-section__left-section__content__part__text').removeClass('introduce__map-name-section__left-section__content__part__text__active')
   }
 
   if (whoActive === 'L-1') {
     $('.introduce__map-land__left-section__one').addClass('introduce__map-land__left-section__one__active')
     $('.introduce__map-land__left-section__one__title').addClass('introduce__map-land__left-section__one__title__active')
+    $('#left-link-1 .introduce__map-name-section__left-section__content__part__number').addClass('introduce__map-name-section__left-section__content__part__number__active')
+    $('#left-link-1 .introduce__map-name-section__left-section__content__part__text').addClass('introduce__map-name-section__left-section__content__part__text__active')
   } else {
     $('.introduce__map-land__left-section__one').removeClass('introduce__map-land__left-section__one__active')
     $('.introduce__map-land__left-section__one__title').removeClass('introduce__map-land__left-section__one__title__active')
+    $('#left-link-1 .introduce__map-name-section__left-section__content__part__number').removeClass('introduce__map-name-section__left-section__content__part__number__active')
+    $('#left-link-1 .introduce__map-name-section__left-section__content__part__text').removeClass('introduce__map-name-section__left-section__content__part__text__active')
   }
 
   if (whoActive === 'L-4') {
     $('.introduce__map-land__left-section__four').addClass('introduce__map-land__left-section__four__active')
     $('.introduce__map-land__left-section__four__title').addClass('introduce__map-land__left-section__four__title__active')
+    $('#left-link-4 .introduce__map-name-section__left-section__content__part__number').addClass('introduce__map-name-section__left-section__content__part__number__active')
+    $('#left-link-4 .introduce__map-name-section__left-section__content__part__text').addClass('introduce__map-name-section__left-section__content__part__text__right-four-active')
   } else {
     $('.introduce__map-land__left-section__four').removeClass('introduce__map-land__left-section__four__active')
     $('.introduce__map-land__left-section__four__title').removeClass('introduce__map-land__left-section__four__title__active')
+    $('#left-link-4 .introduce__map-name-section__left-section__content__part__number').removeClass('introduce__map-name-section__left-section__content__part__number__active')
+    $('#left-link-4 .introduce__map-name-section__left-section__content__part__text').removeClass('introduce__map-name-section__left-section__content__part__text__right-four-active')
   }
 
   if (whoActive === 'L-5') {
     $('.introduce__map-land__left-section__five').addClass('introduce__map-land__left-section__five__active')
     $('.introduce__map-land__left-section__five__title').addClass('introduce__map-land__left-section__five__title__active')
+    $('#left-link-5 .introduce__map-name-section__left-section__content__part__number').addClass('introduce__map-name-section__left-section__content__part__number__active')
+    $('#left-link-5 .introduce__map-name-section__left-section__content__part__text').addClass('introduce__map-name-section__left-section__content__part__text__active')
   } else {
     $('.introduce__map-land__left-section__five').removeClass('introduce__map-land__left-section__five__active')
     $('.introduce__map-land__left-section__five__title').removeClass('introduce__map-land__left-section__five__title__active')
+    $('#left-link-5 .introduce__map-name-section__left-section__content__part__number').removeClass('introduce__map-name-section__left-section__content__part__number__active')
+    $('#left-link-5 .introduce__map-name-section__left-section__content__part__text').removeClass('introduce__map-name-section__left-section__content__part__text__active')
   }
 
   if (whoActive === 'R-4') {
     $('.introduce__map-land__right-section__four').addClass('introduce__map-land__right-section__four__active')
     $('.introduce__map-land__right-section__four__title').addClass('introduce__map-land__right-section__four__title__active')
+    $('#right-link-4 .introduce__map-name-section__right-section__content__part__number').addClass('introduce__map-name-section__right-section__content__part__number__active')
+    $('#right-link-4 .introduce__map-name-section__right-section__content__part__text').addClass('introduce__map-name-section__right-section__content__part__text__active')
   } else {
     $('.introduce__map-land__right-section__four').removeClass('introduce__map-land__right-section__four__active')
     $('.introduce__map-land__right-section__four__title').removeClass('introduce__map-land__right-section__four__title__active')
+    $('#right-link-4 .introduce__map-name-section__right-section__content__part__number').removeClass('introduce__map-name-section__right-section__content__part__number__active')
+    $('#right-link-4 .introduce__map-name-section__right-section__content__part__text').removeClass('introduce__map-name-section__right-section__content__part__text__active')
   }
 
   if (whoActive === 'R-3') {
     $('.introduce__map-land__right-section__three').addClass('introduce__map-land__right-section__three__active')
     $('.introduce__map-land__right-section__three__title').addClass('introduce__map-land__right-section__three__title__active')
+    $('#right-link-3 .introduce__map-name-section__right-section__content__part__number').addClass('introduce__map-name-section__right-section__content__part__number__active')
+    $('#right-link-3 .introduce__map-name-section__right-section__content__part__text').addClass('introduce__map-name-section__right-section__content__part__text__active')
   } else {
     $('.introduce__map-land__right-section__three').removeClass('introduce__map-land__right-section__three__active')
     $('.introduce__map-land__right-section__three__title').removeClass('introduce__map-land__right-section__three__title__active')
+    $('#right-link-3 .introduce__map-name-section__right-section__content__part__number').removeClass('introduce__map-name-section__right-section__content__part__number__active')
+    $('#right-link-3 .introduce__map-name-section__right-section__content__part__text').removeClass('introduce__map-name-section__right-section__content__part__text__active')
   }
 
   if (whoActive === 'R-2') {
     $('.introduce__map-land__right-section__two').addClass('introduce__map-land__right-section__two__active')
     $('.introduce__map-land__right-section__two__title').addClass('introduce__map-land__right-section__two__title__active')
+    $('#right-link-2 .introduce__map-name-section__right-section__content__part__number').addClass('introduce__map-name-section__right-section__content__part__number__active')
+    $('#right-link-2 .introduce__map-name-section__right-section__content__part__text').addClass('introduce__map-name-section__right-section__content__part__text__active')
   } else {
     $('.introduce__map-land__right-section__two').removeClass('introduce__map-land__right-section__two__active')
     $('.introduce__map-land__right-section__two__title').removeClass('introduce__map-land__right-section__two__title__active')
+    $('#right-link-2 .introduce__map-name-section__right-section__content__part__number').removeClass('introduce__map-name-section__right-section__content__part__number__active')
+    $('#right-link-2 .introduce__map-name-section__right-section__content__part__text').removeClass('introduce__map-name-section__right-section__content__part__text__active')
   }
 
   if (whoActive === 'R-1') {
     $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__active')
     $('.introduce__map-land__right-section__one__title').addClass('introduce__map-land__right-section__one__title__active')
+    $('#right-link-1 .introduce__map-name-section__right-section__content__part__number').addClass('introduce__map-name-section__right-section__content__part__number__active')
+    $('#right-link-1 .introduce__map-name-section__right-section__content__part__text').addClass('introduce__map-name-section__right-section__content__part__text__active')
   } else {
     $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__active')
     $('.introduce__map-land__right-section__one__title').removeClass('introduce__map-land__right-section__one__title__active')
+    $('#right-link-1 .introduce__map-name-section__right-section__content__part__number').removeClass('introduce__map-name-section__right-section__content__part__number__active')
+    $('#right-link-1 .introduce__map-name-section__right-section__content__part__text').removeClass('introduce__map-name-section__right-section__content__part__text__active')
   }
 
   if (whoActive === 'R-5') {
     $('.introduce__map-land__right-section__five').addClass('introduce__map-land__right-section__five__active')
     $('.introduce__map-land__right-section__five__title').addClass('introduce__map-land__right-section__five__title__active')
+    $('#right-link-5 .introduce__map-name-section__right-section__content__part__number').addClass('introduce__map-name-section__right-section__content__part__number__active')
+    $('#right-link-5 .introduce__map-name-section__right-section__content__part__text').addClass('introduce__map-name-section__right-section__content__part__text__active')
   } else {
     $('.introduce__map-land__right-section__five').removeClass('introduce__map-land__right-section__five__active')
     $('.introduce__map-land__right-section__five__title').removeClass('introduce__map-land__right-section__five__title__active')
+    $('#right-link-5 .introduce__map-name-section__right-section__content__part__number').removeClass('introduce__map-name-section__right-section__content__part__number__active')
+    $('#right-link-5 .introduce__map-name-section__right-section__content__part__text').removeClass('introduce__map-name-section__right-section__content__part__text__active')
   }
 }
 
