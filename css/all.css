@@ -1965,22 +1965,22 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__one__click-section {
-  width: 75%;
-  height: 55%;
+  width: calc(14.59vw * 0.75);
+  height: calc(15.79vh * 0.55);
   position: absolute;
-  top: 3.704vh;
-  left: 1.823vw;
+  top: 22.23vh;
+  left: 1.5625vw;
   -webkit-transform: rotate(-25deg);
           transform: rotate(-25deg);
   z-index: 500;
 }
 
 .introduce__map-land__right-section__one__click-section-2 {
-  width: 70%;
-  height: 35%;
+  width: calc(14.59vw * 0.7);
+  height: calc(15.79vh * 0.35);
   position: absolute;
-  top: 2.315vh;
-  left: 3.646vw;
+  top: 19.45vh;
+  left: 4.6875vw;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
   z-index: 500;

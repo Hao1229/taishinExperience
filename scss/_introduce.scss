@@ -496,20 +496,20 @@
           opacity: 0.5;
         }
         &__click-section {
-          width: 75%;
-          height: 55%;
+          width: calc(14.59vw * 0.75);
+          height: calc(15.79vh * 0.55);
           position: absolute;
-          top: 3.704vh;
-          left: 1.823vw;
+          top: 22.23vh;
+          left: 1.5625vw;
           transform: rotate(-25deg);
           z-index: 500;
         }
         &__click-section-2 {
-          width: 70%;
-          height: 35%;
+          width: calc(14.59vw * 0.7);
+          height: calc(15.79vh * 0.35);
           position: absolute;
-          top: 2.315vh;
-          left: 3.646vw;
+          top: 19.45vh;
+          left: 4.6875vw;
           transform: rotate(10deg);
           z-index: 500;
         }
