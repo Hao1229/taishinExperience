@@ -244,11 +244,10 @@ html, body {
 }
 
 .index__pool {
-  width: 25vw;
-  height: 25vh;
+  width: 15vw;
+  height: 15vh;
   position: absolute;
-  top: 18.52vh;
-  left: 37.761vw;
+  top: 20.37vh;
 }
 
 .index__bg-bottom-cloud {
@@ -1476,6 +1475,12 @@ video::-webkit-media-controls-rewind-button {
   left: 2.61vw;
 }
 
+@media (max-width: 3839px) {
+  .introduce__map-land__left-section__three {
+    background-image: url("../images/introduce/map-leftsection-three-default-web.svg");
+  }
+}
+
 .introduce__map-land__left-section__three__title {
   background: -webkit-gradient(linear, left top, left bottom, from(#656665), to(#333));
   background: linear-gradient(#656665, #333);
@@ -1492,7 +1497,6 @@ video::-webkit-media-controls-rewind-button {
 .introduce__map-land__left-section__three__title__active {
   background: -webkit-gradient(linear, left top, left bottom, from(#f5515f), to(#9f041b));
   background: linear-gradient(#f5515f, #9f041b);
-  top: -2.315vh;
 }
 
 .introduce__map-land__left-section__three__active {
@@ -1504,18 +1508,28 @@ video::-webkit-media-controls-rewind-button {
   background-image: url("../images/introduce/map-leftsection-three-active.svg");
 }
 
+@media (max-width: 3839px) {
+  .introduce__map-land__left-section__three__active {
+    width: calc(9.56vw * 0.95);
+    height: calc(15.74vh * 0.95);
+    top: 6.02vh;
+    left: 2.61vw;
+    background-image: url("../images/introduce/map-leftsection-three-active-web.svg");
+  }
+}
+
 .introduce__map-land__left-section__three__hover {
   opacity: 0.5;
 }
 
 .introduce__map-land__left-section__three__click-section {
-  width: 80%;
+  width: 75%;
   height: 80%;
   position: absolute;
-  top: 1.39vh;
+  top: 1.51vh;
   left: 0.6771vw;
-  -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
+  -webkit-transform: rotate(-22deg);
+          transform: rotate(-22deg);
   z-index: 500;
 }
 
@@ -1980,7 +1994,7 @@ video::-webkit-media-controls-rewind-button {
   background-position: center center;
   position: absolute;
   top: 2.315vh;
-  left: -0.78125vw;
+  left: -0.521vw;
   z-index: 100;
 }
 
