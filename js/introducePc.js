@@ -674,6 +674,9 @@ function changeBoard () {
   const detailTitle = document.createElement('span')
   const detailContentSection = document.querySelector('.introduce__board__text')
   const detailContent = document.createElement('p')
+  const detailPartnerSection = document.querySelector('.introduce__board__partner')
+  const detailPartner = document.createElement('span')
+  const detailPartnerLine = document.createElement('div')
 
   while (detailTitleSection.firstChild) {
     detailTitleSection.removeChild(detailTitleSection.firstChild)
@@ -683,60 +686,86 @@ function changeBoard () {
     detailContentSection.removeChild(detailContentSection.firstChild)
   }
 
+  while (detailPartnerSection.firstChild) {
+    detailPartnerSection.removeChild(detailPartnerSection.firstChild)
+  }
+
   let num = null
   let title = null
   let content = null
+  let partner = null
+  let img = null
 
   switch (whoActive) {
     case 'L-1':
       num = document.createTextNode('1')
-      title = document.createTextNode('自動化服務區')
-      content = document.createTextNode('喚醒居家智能客服，即時匯率、個人化數位金融都有小幫手為你服務 喚醒居家智能客服，即時匯率、個人化數位金融都有小幫手為你服務 喚醒居家智能客服，即時匯率、個人化數位金融都有小幫手為你服務')
+      title = document.createTextNode('便捷•自動化服務')
+      content = document.createTextNode('24小時ATM，自動化金融服務就在彈指之間！')
+      partner = null
+      img = './images/introduce/frameImg/left-section-one-frame.jpg'
       break
     case 'L-2':
       num = document.createTextNode('2')
-      title = document.createTextNode('VR體驗區')
-      content = document.createTextNode('這是VR體驗區')
+      title = document.createTextNode('5G•VR商城')
+      content = document.createTextNode('進入台新VR商場，宅在家也能身歷其境，一指購足')
+      partner = document.createTextNode('協力夥伴: 亞太電信、時刻旅行')
+      img = './images/introduce/frameImg/left-section-two-frame.jpg'
       break
     case 'L-3':
       num = document.createTextNode('3')
-      title = document.createTextNode('居家場景')
-      content = document.createTextNode('這是居家場景')
+      title = document.createTextNode('AI智慧•居家金融')
+      content = document.createTextNode('用聲音啟動金融智慧生活，用科技讓Richart成為您的帳務管理小幫手')
+      partner = null
+      img = './images/introduce/frameImg/left-section-three-frame.jpg'
       break
     case 'L-4':
       num = document.createTextNode('4')
-      title = document.createTextNode('Master Card 區')
-      content = document.createTextNode('這是Master Card 區')
+      title = document.createTextNode('跨域•想像未來')
+      content = document.createTextNode('台新邀請產業跨域合作打造生活金融生態圈，萬事達卡以便捷支付科技，跨國界點數整合，拓展對未來無限想像')
+      partner = document.createTextNode('協力夥伴: Mastercard')
+      img = './images/introduce/frameImg/left-section-four-frame.jpeg'
       break
     case 'L-5':
       num = document.createTextNode('5')
-      title = document.createTextNode('全家導客區')
-      content = document.createTextNode('這是全家導客區')
+      title = document.createTextNode('品味科技•全家咖啡')
+      content = document.createTextNode('輕鬆掃碼，用一杯咖啡的時間，品味數位金融的全新體驗')
+      partner = document.createTextNode('協力夥伴:全家便利')
+      img = './images/introduce/frameImg/left-section-five-frame.jpeg'
       break
     case 'R-1':
       num = document.createTextNode('1')
-      title = document.createTextNode('導覽說明區')
-      content = document.createTextNode('這是導覽說明區')
+      title = document.createTextNode('探索•台新光影')
+      content = document.createTextNode('領航數位金融先驅，台新光影與時俱進，攜手產業實現生活金融生態圈')
+      partner = null
+      img = './images/introduce/frameImg/right-section-one-frame.jpg'
       break
     case 'R-2':
       num = document.createTextNode('2')
-      title = document.createTextNode('交通場景')
-      content = document.createTextNode('這是交通場景')
+      title = document.createTextNode('智慧•自在暢行')
+      content = document.createTextNode('刷臉通行，自在暢行；你，就是智慧的支付方式')
+      partner = document.createTextNode('協力夥伴:亞太電信')
+      img = './images/introduce/frameImg/right-section-two-frame.jpg'
       break
     case 'R-3':
       num = document.createTextNode('3')
-      title = document.createTextNode('分行迎賓')
-      content = document.createTextNode('這是分行迎賓')
+      title = document.createTextNode('數據•掌握先機')
+      content = document.createTextNode('客戶的需求，台新都知道，行銷出擊一把罩')
+      partner = null
+      img = './images/introduce/frameImg/right-section-three-frame.jpeg'
       break
     case 'R-4':
       num = document.createTextNode('4')
-      title = document.createTextNode('無人商店')
-      content = document.createTextNode('這是無人商店')
+      title = document.createTextNode('科技•自助商店')
+      content = document.createTextNode('24H服務不打烊，不管什麼PAY都速配')
+      partner = null
+      img = './images/introduce/frameImg/right-section-four-frame.jpeg'
       break
     case 'R-5':
       num = document.createTextNode('5')
-      title = document.createTextNode('餐廳零售場景')
-      content = document.createTextNode('這是餐廳零售場景')
+      title = document.createTextNode('整合•多元支付')
+      content = document.createTextNode('點餐、付款、結帳一條龍，整合多元支付，台新滿足你我的需求')
+      partner = document.createTextNode('協力夥伴:恩益禧、經貿聯網')
+      img = './images/introduce/frameImg/right-section-five-frame.jpg'
       break
   }
 
@@ -749,6 +778,15 @@ function changeBoard () {
 
   detailContent.appendChild(content)
   detailContentSection.appendChild(detailContent)
+
+  $('.introduce__board__frame').css('background-image', `url(${img})`)
+
+  if (partner) {
+    detailPartner.appendChild(partner)
+    detailPartnerLine.className = 'introduce__board__partner__line'
+    detailPartnerSection.appendChild(detailPartnerLine)
+    detailPartnerSection.appendChild(detailPartner)
+  }
 }
 
 changeBoard()

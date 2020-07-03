@@ -33,9 +33,10 @@
     &__title {
       position: absolute;
       top: 3.704vh;
-      right: 6.511vw;
+      right: 9.9vw;
       color: white;
-      font-size: 2.605vw;
+      font-size: 2.34375vw;
+      letter-spacing: 0.261vw;
     }
     &__title-english {
       font-size: 2.084vw;
@@ -324,7 +325,7 @@
       top: 7.88vh;
       left: 23.44vw;
       z-index: 150;
-      @media(max-width: 3839px) {
+      @media(max-width: 2000px) {
         background-image: url('../images/introduce/your-place-web.svg');
       }
     }
@@ -468,7 +469,7 @@
         top: 17.83vh;
         left: 1.042vw;
         z-index: 101;
-        @media(max-width: 3839px) {
+        @media(max-width: 2000px) {
           background-image: url('../images/introduce/map-rightsection-one-default-web.png');
         }
         &__title {
@@ -487,7 +488,7 @@
         }
         &__active {
           background-image: url('../images/introduce/map-rightsection-one-active.png');
-          @media(max-width: 3839px) {
+          @media(max-width: 2000px) {
             background-image: url('../images/introduce/map-rightsection-one-active-web.png');
           }
         }
@@ -588,7 +589,7 @@
   &__map-name-section {
     height: 14.13vh;
     width: 52.04vw;
-    margin-bottom: 7.871vh;
+    margin-bottom: 8.871vh;
     margin-left: 5.99vw;
     &__left-section {
       position: relative;
@@ -602,17 +603,12 @@
         top: 0;
       }
       &__title {
-        width: 10.58vw;
-        height: 4.87vh;
-        background-image: url('../images/introduce/map-title-bg.svg');
+        width: 13.881vw;
+        height: 4.91vh;
+        background-image: url('../images/introduce/map-name-left-section-title.svg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        span {
-          font-size: 1.303vw;
-          margin-left: 1.823vw;
-          letter-spacing: 0.131vw;
-        }
       }
       &__content {
         font-family: Noto Sans TC Medium;
@@ -654,17 +650,12 @@
     &__right-section {
       padding-left: 3.907vw;
       &__title {
-        width: 10.58vw;
-        height: 4.87vh;
-        background-image: url('../images/introduce/map-title-bg.svg');
+        width: 13.881vw;
+        height: 4.91vh;
+        background-image: url('../images/introduce/map-name-right-section-title.svg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        span {
-          font-size: 1.303vw;
-          margin-left: 1.823vw;
-          letter-spacing: 0.131vw;
-        }
       }
       &__content {
         font-family: Noto Sans TC Medium;
@@ -732,18 +723,34 @@
       font-size: 2.35vw;
       color: white;
       &__number {
-        font-size: 3.91vw;
-        margin-right: 1.31vw;
+        font-size: 2.35vw;
+        margin-right: 0.85vw;
       }
     }
     &__frame {
       width: 24.74vw;
       height: 25.47vh;
-      background-image: url('../images/introduce/demo-picture.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
       margin-top: 2.09vh;
+    }
+    &__partner {
+      font-size: 0.78125vw;
+      color: white;
+      margin-top: 1.389vh;
+      display: flex;
+      padding-right: 3.646vw;
+      align-items: center;
+      height: 1.389vh;
+      &__line {
+        height: 0.1389vh;
+        background-color: white;
+        flex: 2;
+      }
+      span {
+        margin-left: 0.521vw;
+      }
     }
     &__text {
       width: 24.74vw;
@@ -755,7 +762,6 @@
       overflow-y: scroll;
     }
     &__btn-group {
-      margin-top: 2.56vh;
       padding-left: 7.82vw;
     }
     &__btn-left {
