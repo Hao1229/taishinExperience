@@ -1748,10 +1748,8 @@ video::-webkit-media-controls-rewind-button {
   z-index: 150;
 }
 
-@media (max-width: 2000px) {
-  .introduce__map-land__your-place {
-    background-image: url("../images/introduce/your-place-web.svg");
-  }
+.introduce__map-land__your-place__web {
+  background-image: url("../images/introduce/your-place-web.svg");
 }
 
 .introduce__map-land__right-section {
@@ -1925,10 +1923,8 @@ video::-webkit-media-controls-rewind-button {
   z-index: 101;
 }
 
-@media (max-width: 2000px) {
-  .introduce__map-land__right-section__one {
-    background-image: url("../images/introduce/map-rightsection-one-default-web.png");
-  }
+.introduce__map-land__right-section__one__web {
+  background-image: url("../images/introduce/map-rightsection-one-default-web.png");
 }
 
 .introduce__map-land__right-section__one__title {
@@ -1953,10 +1949,8 @@ video::-webkit-media-controls-rewind-button {
   background-image: url("../images/introduce/map-rightsection-one-active.png");
 }
 
-@media (max-width: 2000px) {
-  .introduce__map-land__right-section__one__active {
-    background-image: url("../images/introduce/map-rightsection-one-active-web.png");
-  }
+.introduce__map-land__right-section__one__active__web {
+  background-image: url("../images/introduce/map-rightsection-one-active-web.png");
 }
 
 .introduce__map-land__right-section__one__hover {
@@ -2195,8 +2189,8 @@ video::-webkit-media-controls-rewind-button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  width: 909px;
-  height: 170px;
+  width: 23.672vw;
+  height: 7.871vh;
   position: absolute;
   bottom: 0;
   left: 40vw;

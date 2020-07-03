@@ -641,12 +641,12 @@ function changeActive () {
   }
 
   if (whoActive === 'R-1') {
-    $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__active')
+    $('.introduce__map-land__right-section__one').addClass('introduce__map-land__right-section__one__active introduce__map-land__right-section__one__active__web')
     $('.introduce__map-land__right-section__one__title').addClass('introduce__map-land__right-section__one__title__active')
     $('#right-link-1 .introduce__map-name-section__right-section__content__part__number').addClass('introduce__map-name-section__right-section__content__part__number__active')
     $('#right-link-1 .introduce__map-name-section__right-section__content__part__text').addClass('introduce__map-name-section__right-section__content__part__text__active')
   } else {
-    $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__active')
+    $('.introduce__map-land__right-section__one').removeClass('introduce__map-land__right-section__one__active introduce__map-land__right-section__one__active__web')
     $('.introduce__map-land__right-section__one__title').removeClass('introduce__map-land__right-section__one__title__active')
     $('#right-link-1 .introduce__map-name-section__right-section__content__part__number').removeClass('introduce__map-name-section__right-section__content__part__number__active')
     $('#right-link-1 .introduce__map-name-section__right-section__content__part__text').removeClass('introduce__map-name-section__right-section__content__part__text__active')

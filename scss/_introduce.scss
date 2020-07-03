@@ -325,7 +325,7 @@
       top: 7.88vh;
       left: 23.44vw;
       z-index: 150;
-      @media(max-width: 2000px) {
+      &__web {
         background-image: url('../images/introduce/your-place-web.svg');
       }
     }
@@ -469,7 +469,7 @@
         top: 17.83vh;
         left: 1.042vw;
         z-index: 101;
-        @media(max-width: 2000px) {
+        &__web {
           background-image: url('../images/introduce/map-rightsection-one-default-web.png');
         }
         &__title {
@@ -488,7 +488,7 @@
         }
         &__active {
           background-image: url('../images/introduce/map-rightsection-one-active.png');
-          @media(max-width: 2000px) {
+          &__web {
             background-image: url('../images/introduce/map-rightsection-one-active-web.png');
           }
         }
@@ -696,8 +696,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 909px;
-    height: 170px;
+    width: 23.672vw;
+    height: 7.871vh;
     position: absolute;
     bottom: 0;
     left: 40vw;
