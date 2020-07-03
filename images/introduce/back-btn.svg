@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="909" height="170" viewBox="0 0 909 170">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1010" height="245" viewBox="0 0 1010 245">
     <defs>
         <filter id="prefix__a" width="115.7%" height="168.3%" x="-7.9%" y="-37.1%" filterUnits="objectBoundingBox">
             <feMorphology in="SourceAlpha" operator="dilate" radius="5" result="shadowSpreadOuter1"/>
@@ -43,7 +43,7 @@
         <path id="prefix__b" d="M162.793 0L0.288 170 908.325 168 746.819 0z"/>
         <path id="prefix__d" d="M604.407 34.473L294.213 34.473 190.311 34.473 84.458 140.471 294.213 140.471 604.407 140.471 824.212 140.471 718.359 34.473z"/>
     </defs>
-    <g fill="none" fill-rule="evenodd">
+    <g fill="none" fill-rule="evenodd" transform="translate(51 42)">
         <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
         <use fill="#F7E7EA" xlink:href="#prefix__b"/>
         <use fill="#000" filter="url(#prefix__c)" xlink:href="#prefix__d"/>
