@@ -9,178 +9,81 @@
 /* 主打影片 list */
 const videoMainList = [
   {
-    title: '台新主打一',
-    video: './video/mainVideo/mov_bbb.mp4',
+    title: '啟動數位生活',
+    video: './video/mainVideo/啟動數位生活.mp4',
   },
   {
-    title: '台新主打二',
-    video: './video/mainVideo/trailer.mp4',
+    title: 'Open Bank',
+    video: './video/mainVideo/OpenBank.mp4',
   },
   {
-    title: '台新主打三',
-    video: './video/mainVideo/View_From_A_Blue_Moon_Trailer-576p.mp4',
+    title: 'Link Pay',
+    video: './video/mainVideo/LinkPay.mp4',
   }
 ]
 
 /* 影片總覽編輯 */
 const videoList = [
   {
-    mainTitle: '熱門影片',
+    mainTitle: '數位生活',
     list: [
       {
-        title: '台新公司簡介',
-        img: './images/videoImg/popup-demo-1.jpeg',
-        video: './video/videoList/mov_bbb.mp4',
-        time: '7:30'
+        title: '啟動數位生活',
+        img: './images/videoImg/啟動數位生活.png',
+        video: './video/videoList/數位生活/啟動數位生活.mp4',
+        time: '2:32'
       },
       {
-        title: '台新公司簡介2',
-        img: './images/videoImg/popup-demo-2.jpeg',
-        video: './video/videoList/trailer.mp4',
-        time: '7:30'
-      },
-      {
-        title: '台新公司簡介3',
-        img: './images/videoImg/popup-demo-3.jpeg',
-        video: './video/videoList/View_From_A_Blue_Moon_Trailer-576p.mp4',
-        time: '7:30'
-      },
-      {
-        title: '台新公司簡介4',
-        img: './images/videoImg/popup-demo-1.jpeg',
-        video: './video/videoList/mov_bbb.mp4',
-        time: '10:30'
-      },
-      {
-        title: '台新公司簡介5',
-        img: './images/videoImg/popup-demo-2.jpeg',
-        video: './video/videoList/trailer.mp4',
-        time: '10:30'
-      },
-      {
-        title: '台新公司簡介6',
-        img: './images/videoImg/popup-demo-3.jpeg',
-        video: './video/videoList/View_From_A_Blue_Moon_Trailer-576p.mp4',
-        time: '10:30'
-      },
-      {
-        title: '台新公司簡介7',
-        img: './images/videoImg/popup-demo-1.jpeg',
-        video: './video/videoList/mov_bbb.mp4',
-        time: '3:30'
+        title: 'Open Bank',
+        img: './images/videoImg/OpenBank.png',
+        video: './video/videoList/數位生活/OpenBank.mp4',
+        time: '1:38'
       }
     ]
   },
   {
-    mainTitle: '活動影片',
+    mainTitle: '多元支付',
     list: [
       {
-        title: '台新活動影片',
-        img: './images/videoImg/popup-demo-1.jpeg',
-        video: './video/videoList/mov_bbb.mp4',
-        time: '7:30'
-      },
-      {
-        title: '台新活動影片2',
-        img: './images/videoImg/popup-demo-2.jpeg',
-        video: './video/videoList/trailer.mp4',
-        time: '7:30'
-      },
-      {
-        title: '台新活動影片3',
-        img: './images/videoImg/popup-demo-3.jpeg',
-        video: './video/videoList/View_From_A_Blue_Moon_Trailer-576p.mp4',
-        time: '7:30'
-      },
-      {
-        title: '台新活動影片4',
-        img: './images/videoImg/popup-demo-1.jpeg',
-        video: './video/videoList/mov_bbb.mp4',
-        time: '10:30'
-      },
-      {
-        title: '台新活動影片5',
-        img: './images/videoImg/popup-demo-2.jpeg',
-        video: './video/videoList/trailer.mp4',
-        time: '10:30'
-      },
-      {
-        title: '台新活動影片6',
-        img: './images/videoImg/popup-demo-3.jpeg',
-        video: './video/videoList/View_From_A_Blue_Moon_Trailer-576p.mp4',
-        time: '10:30'
-      },
-      {
-        title: '台新活動影片7',
-        img: './images/videoImg/popup-demo-1.jpeg',
-        video: './video/videoList/mov_bbb.mp4',
-        time: '3:30'
-      },
-      {
-        title: '台新活動影片8',
-        img: './images/videoImg/popup-demo-2.jpeg',
-        video: './video/videoList/trailer.mp4',
-        time: '3:30'
+        title: 'Link Pay',
+        img: './images/videoImg/LinkPay.png',
+        video: './video/videoList/多元支付/LinkPay.mp4',
+        time: '1:38'
       }
     ]
   },
   {
-    mainTitle: '宣傳影片',
+    mainTitle: '智慧理財',
     list: [
       {
-        title: '台新宣傳影片',
-        img: './images/videoImg/popup-demo-1.jpeg',
-        video: './video/videoList/mov_bbb.mp4',
-        time: '7:30'
+        title: '信貸線上申請',
+        img: './images/videoImg/信貸線上申請.png',
+        video: './video/videoList/智慧理財/信貸線上申請.mp4',
+        time: '0:30'
       },
       {
-        title: '台新宣傳影片2',
-        img: './images/videoImg/popup-demo-2.jpeg',
-        video: './video/videoList/trailer.mp4',
-        time: '7:30'
+        title: '證券線上開戶',
+        img: './images/videoImg/證券線上開戶.png',
+        video: './video/videoList/智慧理財/證券線上開戶.mp4',
+        time: '0:32'
+      }
+    ]
+  },
+  {
+    mainTitle: '自動化設備 - ATM',
+    list: [
+      {
+        title: '刷臉提款',
+        img: './images/videoImg/刷臉提款.png',
+        video: './video/videoList/自動化設備-ATM/刷臉提款.mp4',
+        time: '0:36'
       },
       {
-        title: '台新宣傳影片3',
-        img: './images/videoImg/popup-demo-3.jpeg',
-        video: './video/videoList/View_From_A_Blue_Moon_Trailer-576p.mp4',
-        time: '7:30'
-      },
-      {
-        title: '台新宣傳影片4',
-        img: './images/videoImg/popup-demo-1.jpeg',
-        video: './video/videoList/mov_bbb.mp4',
-        time: '10:30'
-      },
-      {
-        title: '台新宣傳影片5',
-        img: './images/videoImg/popup-demo-2.jpeg',
-        video: './video/videoList/trailer.mp4',
-        time: '10:30'
-      },
-      {
-        title: '台新宣傳影片6',
-        img: './images/videoImg/popup-demo-3.jpeg',
-        video: './video/videoList/View_From_A_Blue_Moon_Trailer-576p.mp4',
-        time: '10:30'
-      },
-      {
-        title: '台新宣傳影片7',
-        img: './images/videoImg/popup-demo-1.jpeg',
-        video: './video/videoList/mov_bbb.mp4',
-        time: '3:30'
-      },
-      {
-        title: '台新宣傳影片8',
-        img: './images/videoImg/popup-demo-2.jpeg',
-        video: './video/videoList/trailer.mp4',
-        time: '3:30'
-      },
-      {
-        title: '台新宣傳影片9',
-        img: './images/videoImg/popup-demo-3.jpeg',
-        video: './video/videoList/View_From_A_Blue_Moon_Trailer-576p.mp4',
-        time: '3:30'
-      },
+        title: '外幣ATM',
+        img: './images/videoImg/外幣ATM.png',
+        video: './video/videoList/自動化設備-ATM/外幣ATM.mp4',
+        time: '1:03'
+      }
     ]
   }
 ]
