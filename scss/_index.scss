@@ -39,8 +39,8 @@
   }
   &__introduce {
     position: absolute;
-    bottom: 6.482vh;
-    left: 6.73vw;
+    bottom: 29.17vh;
+    left: 1.3021vw;
     width: 18.1511vw;
     height: 10.56vh;
     z-index: 3;
@@ -53,8 +53,8 @@
       width: 5.99vw;
       height: 12.6vh;
       position: absolute;
-      top: -2.084vh;
-      left: -2.344vw;
+      top: -5.084vh;
+      left: -2.2vw;
     }
     img {
       width: 100%;
@@ -85,8 +85,9 @@
       width: 7.84vw;
       height: 14.17vh;
       position: absolute;
-      top: -7.34vh;
-      left: -1.8vw;
+      top: -7.84vh;
+      left: -0.5vw;
+      z-index: -1;
     }
     img {
       width: 100%;
