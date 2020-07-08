@@ -2,7 +2,7 @@
 $('#introduce-link').click(function (e) { 
   e.preventDefault()
   setDefault()
-  resetTimer(true)
+  clearTimeout(time)
   closeDoor('introduce')
 })
 
@@ -48,14 +48,9 @@ function showProtect () {
   protectVideo.addEventListener('ended', removeProtect)
 }
 
-function resetTimer (clear) {
+function resetTimer () {
   clearTimeout(time)
-  if (typeof(clear) === 'object') {
-    clear = false
-  }
-  if (!clear) {
-    time = setTimeout(showProtect, 60000)
-  }
+  time = setTimeout(showProtect, 600000)
 }
 
 resetTimer()
@@ -96,7 +91,7 @@ function openDoor (target) {
   video.play()
   setTimeout(() => {
     watchTranslate()
-  }, 11500)
+  }, 9500)
 }
 
 function watchTranslate () {

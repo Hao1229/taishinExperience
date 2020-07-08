@@ -25,7 +25,7 @@ function videoPopDefault () {
 
 $('#lifestyle-link').click(function (e) { 
   e.preventDefault()
-  resetTimer(true)
+  clearTimeout(time)
   document.removeEventListener('mousemove', resetTimer)
   document.removeEventListener('keypress', resetTimer)
   $('#video-popup').modal('show')
@@ -54,11 +54,6 @@ $('#video-popup').on('hidden.bs.modal', function (e) {
   resetTimer()
   document.onmousemove = resetTimer
   document.onkeypress = resetTimer
-})
-
-$('#video-popup').click(function (e) { 
-  e.preventDefault()
-  resetTimer(true)
 })
 
 $('.video-btn-one').click(function (e) {
