@@ -28,6 +28,22 @@ $('.introduce__back-btn').click(function (e) {
 
 /* 閒置出現螢幕保護程式 */
 const protectVideo = document.getElementById('protect-video')
+let carouselCount = 0
+let carouselOrder = 2
+
+function protectCarousel () {
+  switch (carouselCount) {
+    case 0:
+      $('#protect-video > source').attr('src', protectList[0].video)
+      break
+    case 1:
+      $('#protect-video > source').attr('src', protectList[1].video)
+      break
+    case 2:
+      $('#protect-video > source').attr('src', protectList[2].video)
+      break
+  }
+}
 
 let time
 
@@ -42,15 +58,42 @@ function showProtect () {
   $('.animation-mask-section').css('display', 'none')
   $('.screen-protect').css('display', 'block')
   $('.screen-protect__video').css('display', 'block')
+  switch (carouselCount) {
+    case 0:
+      carouselOrder = 2
+      break
+    case 1:
+      carouselOrder = 0
+      break
+    case 2:
+      carouselOrder = 1
+      break
+  }
+  protectCarousel()
+  protectVideo.load()
   protectVideo.play()
   document.removeEventListener('mousemove', resetTimer)
   document.removeEventListener('keypress', resetTimer)
-  protectVideo.addEventListener('ended', removeProtect)
+  protectVideo.addEventListener('ended', carouselChange)
+}
+
+function carouselChange () {
+  if (carouselCount === carouselOrder) {
+    carouselCount = 0
+    carouselOrder = 2
+    removeProtect()
+  } else {
+    carouselCount !== 2 ? carouselCount += 1 : carouselCount = 0
+    protectCarousel()
+    protectVideo.load()
+    protectVideo.play()
+    protectVideo.addEventListener('ended', carouselChange)
+  }
 }
 
 function resetTimer () {
   clearTimeout(time)
-  time = setTimeout(showProtect, 600000)
+  time = setTimeout(showProtect, 60000)
 }
 
 resetTimer()
@@ -91,7 +134,7 @@ function openDoor (target) {
   video.play()
   setTimeout(() => {
     watchTranslate()
-  }, 9500)
+  }, 10500)
 }
 
 function watchTranslate () {

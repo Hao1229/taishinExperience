@@ -22,6 +22,19 @@ const videoMainList = [
   }
 ]
 
+/* 螢幕保護程式影片 list */
+const protectList = [
+  {
+    video: './video/mainVideo/啟動數位生活.mp4',
+  },
+  {
+    video: './video/mainVideo/OpenBank.mp4',
+  },
+  {
+    video: './video/mainVideo/LinkPay.mp4',
+  }
+]
+
 /* 影片總覽編輯 */
 const videoList = [
   {
