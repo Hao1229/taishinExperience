@@ -852,8 +852,8 @@ html, body {
 
 .index__video-popup__video-title-section {
   position: absolute;
-  top: 6.95vh;
-  left: 15.625vw;
+  top: 0;
+  left: 0;
   width: 58.672vw;
   height: 6.019vh;
   background-color: black;
@@ -866,6 +866,15 @@ html, body {
           align-items: center;
   padding-left: 1.3021vw;
   z-index: 2;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.index__video-popup__video-title-section__hide {
+  -webkit-transform: translateY(-6.045vh);
+          transform: translateY(-6.045vh);
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .index__video-popup__video-icon {
@@ -881,13 +890,17 @@ html, body {
   font-size: 1.5625vw;
 }
 
-.index__video-popup__video {
+.index__video-popup__video-section {
+  overflow: hidden;
   position: absolute;
-  width: 58.05vw;
-  height: 57.32vh;
-  top: 6.95vh;
+  top: 7.1vh;
   left: 15.89vw;
   z-index: 1;
+}
+
+.index__video-popup__video {
+  width: 58.05vw;
+  height: 57.32vh;
 }
 
 .index__video-popup #film-two, .index__video-popup #film-three {

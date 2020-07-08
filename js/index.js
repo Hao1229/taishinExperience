@@ -20,7 +20,26 @@ function videoPopDefault () {
   setTimeout(() => {
     popupVideo.load()
     popupVideo.play()
+    videoTitleShow()
+    $('#video-popup').click(function (e) { 
+      e.preventDefault()
+      videoTitleShow()
+    })
   }, 1000)
+}
+
+let hideTimer = null
+
+function titleHideTimer () {
+  hideTimer = setTimeout(() => {
+    $('.index__video-popup__video-title-section').addClass('index__video-popup__video-title-section__hide')
+  }, 3000)
+}
+
+function videoTitleShow () {
+  clearTimeout(hideTimer)
+  $('.index__video-popup__video-title-section').removeClass('index__video-popup__video-title-section__hide')
+  titleHideTimer()
 }
 
 $('#lifestyle-link').click(function (e) { 
@@ -155,7 +174,7 @@ $('.index__video-popup__video-list__collapse').click(function (e) {
 function changeHotSource (video, title) {
   $('#film-four > source').attr('src', video)
   document.querySelector('.index__video-popup__video-title').textContent = title
-
+  videoTitleShow()
   $('#film-one').css('display', 'none')
   $('#film-two').css('display', 'none')
   $('#film-three').css('display', 'none')

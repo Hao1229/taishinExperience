@@ -504,8 +504,8 @@
     }
     &__video-title-section {
       position: absolute;
-      top: 6.95vh;
-      left: 15.625vw;
+      top: 0;
+      left: 0;
       width: 58.672vw;
       height: 6.019vh;
       background-color: black;
@@ -514,6 +514,11 @@
       align-items: center;
       padding-left: 1.3021vw;
       z-index: 2;
+      transition: all .5s;
+      &__hide {
+        transform: translateY(-6.045vh);
+        transition: all .5s;
+      }
     }
     &__video-icon {
       width: 0;
@@ -526,13 +531,16 @@
     &__video-title {
       font-size: 1.5625vw;
     }
-    &__video {
+    &__video-section {
+      overflow: hidden;
       position: absolute;
-      width: 58.05vw;
-      height: 57.32vh;
-      top: 6.95vh;
+      top: 7.1vh;
       left: 15.89vw;
       z-index: 1;
+    }
+    &__video {
+      width: 58.05vw;
+      height: 57.32vh;
     }
     #film-two, #film-three {
       display: none;
