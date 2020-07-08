@@ -157,3 +157,6 @@ function circleStop () {
   $('.introduce__frame__circle-group__circle2').removeClass('introduce__frame__circle-group__circle__rotate')
   $('.introduce__frame__circle-group__circle3').removeClass('introduce__frame__circle-group__circle__rotate')
 }
+
+/* 鎖住右鍵 */
+document.addEventListener('contextmenu', event => event.preventDefault())
