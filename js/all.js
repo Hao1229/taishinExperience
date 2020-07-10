@@ -126,16 +126,9 @@ function closeDoor (target) {
 }
 
 function openDoor (target) {
-  // const video = document.querySelector('.transition-video')
-  // video.load()
   $('.right-door').removeClass('right-door__active')
   $('.left-door').removeClass('left-door__active')
-  // $('.transition-space').css('display', 'block')
-  // video.play()
   watchTranslate()
-  // setTimeout(() => {
-  //   watchTranslate()
-  // }, 10500)
 }
 
 function watchTranslate () {
@@ -143,7 +136,6 @@ function watchTranslate () {
   circleRotate()
   resetTimer()
   guideChange()
-  // $('.transition-space').css('display', 'none')
 }
 
 /* 介紹頁右上角圓圈旋轉會遇到奇怪錯誤，第二次進入頁面，圖片會變模糊，因此改用動態加入動畫的方式讓其旋轉 */
@@ -160,4 +152,4 @@ function circleStop () {
 }
 
 /* 鎖住右鍵 */
-document.addEventListener('contextmenu', event => event.preventDefault())
+// document.addEventListener('contextmenu', event => event.preventDefault())

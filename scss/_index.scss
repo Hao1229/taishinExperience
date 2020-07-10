@@ -545,6 +545,19 @@
     #film-two, #film-three {
       display: none;
     }
+    // &__video-progressbar {
+    //   position: absolute;
+    //   bottom: 0;
+    //   left: 15px;
+    //   background-color: rgba($color: #000000, $alpha: 0.5);
+    //   width: 100%;
+    //   height: 100px;
+    //   z-index: 10;
+    //   img {
+    //     width: 20px;
+    //     height: 20px;
+    //   }
+    // }
     &__close {
       position: absolute;
       top: -1.86vh;

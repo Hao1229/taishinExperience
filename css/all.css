@@ -1662,6 +1662,10 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__your-place__web {
   background-image: url("../images/introduce/your-place-web.svg");
+  top: 4.63vh;
+  left: 23.44vw;
+  width: 9.59vw;
+  height: 16.02vh;
 }
 
 .introduce__map-land__right-section {
@@ -1762,7 +1766,7 @@ video::-webkit-media-controls-rewind-button {
 
 .introduce__map-land__right-section__three__click-section {
   width: calc(6.96vw * 0.57);
-  height: calc(9.77vh * 0.50);
+  height: calc(9.77vh * 0.45);
   position: absolute;
   top: 17.593vh;
   left: -1.042vw;
