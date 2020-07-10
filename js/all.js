@@ -152,4 +152,4 @@ function circleStop () {
 }
 
 /* 鎖住右鍵 */
-// document.addEventListener('contextmenu', event => event.preventDefault())
+document.addEventListener('contextmenu', event => event.preventDefault())

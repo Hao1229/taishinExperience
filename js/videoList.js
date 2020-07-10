@@ -62,6 +62,12 @@ const videoList = [
         img: './images/videoImg/LinkPay.png',
         video: './video/videoList/多元支付/LinkPay.mp4',
         time: '1:38'
+      },
+      {
+        title: '快速辦卡',
+        img: './images/videoImg/快速辦卡.png',
+        video: './video/videoList/多元支付/快速辦卡.mp4',
+        time: '1:00'
       }
     ]
   },
@@ -79,6 +85,12 @@ const videoList = [
         img: './images/videoImg/證券線上開戶.png',
         video: './video/videoList/智慧理財/證券線上開戶.mp4',
         time: '0:32'
+      },
+      {
+        title: '網路投保智多新',
+        img: './images/videoImg/網路投保智多新.png',
+        video: './video/videoList/智慧理財/網路投保智多新.mp4',
+        time: '1:08'
       }
     ]
   },
