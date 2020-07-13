@@ -500,20 +500,29 @@
           opacity: 0.5;
         }
         &__click-section {
-          width: calc(14.59vw * 0.75);
+          width: calc(14.59vw * 0.65);
           height: calc(15.79vh * 0.55);
           position: absolute;
-          top: 22.23vh;
-          left: 1.5625vw;
+          top: 23.2vh;
+          left: 2.5625vw;
           transform: rotate(-25deg);
           z-index: 500;
         }
         &__click-section-2 {
-          width: calc(14.59vw * 0.7);
+          width: calc(14.59vw * 0.6);
           height: calc(15.79vh * 0.35);
           position: absolute;
-          top: 19.45vh;
-          left: 4.6875vw;
+          top: 21.45vh;
+          left: 5.6875vw;
+          transform: rotate(10deg);
+          z-index: 500;
+        }
+        &__click-section-3 {
+          width: calc(14.59vw * 0.4);
+          height: calc(15.79vh * 0.15);
+          position: absolute;
+          top: 19.85vh;
+          left: 8vw;
           transform: rotate(10deg);
           z-index: 500;
         }

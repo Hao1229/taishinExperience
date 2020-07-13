@@ -1874,22 +1874,33 @@ video::-webkit-media-controls-rewind-button {
 }
 
 .introduce__map-land__right-section__one__click-section {
-  width: calc(14.59vw * 0.75);
+  width: calc(14.59vw * 0.65);
   height: calc(15.79vh * 0.55);
   position: absolute;
-  top: 22.23vh;
-  left: 1.5625vw;
+  top: 23.2vh;
+  left: 2.5625vw;
   -webkit-transform: rotate(-25deg);
           transform: rotate(-25deg);
   z-index: 500;
 }
 
 .introduce__map-land__right-section__one__click-section-2 {
-  width: calc(14.59vw * 0.7);
+  width: calc(14.59vw * 0.6);
   height: calc(15.79vh * 0.35);
   position: absolute;
-  top: 19.45vh;
-  left: 4.6875vw;
+  top: 21.45vh;
+  left: 5.6875vw;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  z-index: 500;
+}
+
+.introduce__map-land__right-section__one__click-section-3 {
+  width: calc(14.59vw * 0.4);
+  height: calc(15.79vh * 0.15);
+  position: absolute;
+  top: 19.85vh;
+  left: 8vw;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
   z-index: 500;

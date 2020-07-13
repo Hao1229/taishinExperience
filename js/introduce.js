@@ -139,7 +139,7 @@ $('#right-link-2').click(function (e) {
 })
 
 // 右 1
-$('.introduce__map-land__right-section__one__click-section, .introduce__map-land__right-section__one__click-section-2, .introduce__map-land__right-section__one__title').click(function (e) { 
+$('.introduce__map-land__right-section__one__click-section, .introduce__map-land__right-section__one__click-section-2, .introduce__map-land__right-section__one__click-section-3, .introduce__map-land__right-section__one__title').click(function (e) { 
   e.preventDefault()
   whoActive = 'R-1'
   changeActive()

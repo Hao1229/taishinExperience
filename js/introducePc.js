@@ -435,7 +435,7 @@ $('.introduce__map-land__right-section__two__click-section, .introduce__map-land
 )
 
 // 右 1
-$('.introduce__map-land__right-section__one__click-section, .introduce__map-land__right-section__one__click-section-2, .introduce__map-land__right-section__one__title').click(function (e) { 
+$('.introduce__map-land__right-section__one__click-section, .introduce__map-land__right-section__one__click-section-2, .introduce__map-land__right-section__one__click-section-3, .introduce__map-land__right-section__one__title').click(function (e) { 
   e.preventDefault()
   whoActive = 'R-1'
   changeActive()
@@ -461,7 +461,7 @@ $('#right-link-1').click(function (e) {
   guideChange()
 })
 
-$('.introduce__map-land__right-section__one__click-section, .introduce__map-land__right-section__one__click-section-2, .introduce__map-land__right-section__one__title').hover(function () {
+$('.introduce__map-land__right-section__one__click-section, .introduce__map-land__right-section__one__click-section-2, .introduce__map-land__right-section__one__click-section-3, .introduce__map-land__right-section__one__title').hover(function () {
     // over
     $('.introduce__map-land__left-section__three').addClass('introduce__map-land__left-section__three__hover')
     $('.introduce__map-land__left-section__two').addClass('introduce__map-land__left-section__two__hover')

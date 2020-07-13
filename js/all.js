@@ -93,7 +93,7 @@ function carouselChange () {
 
 function resetTimer () {
   clearTimeout(time)
-  time = setTimeout(showProtect, 60000)
+  time = setTimeout(showProtect, 600000)
 }
 
 resetTimer()
