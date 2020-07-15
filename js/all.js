@@ -58,6 +58,7 @@ function showProtect () {
   $('.animation-mask-section').css('display', 'none')
   $('.screen-protect').css('display', 'block')
   $('.screen-protect__video').css('display', 'block')
+  $('#video-popup').modal('hide')
   switch (carouselCount) {
     case 0:
       carouselOrder = 2

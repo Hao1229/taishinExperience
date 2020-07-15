@@ -44,9 +44,10 @@ function videoTitleShow () {
 
 $('#lifestyle-link').click(function (e) { 
   e.preventDefault()
-  clearTimeout(time)
-  document.removeEventListener('mousemove', resetTimer)
-  document.removeEventListener('keypress', resetTimer)
+  // clearTimeout(time)
+  // document.removeEventListener('mousemove', resetTimer)
+  // document.removeEventListener('keypress', resetTimer)
+  resetTimer()
   $('#video-popup').modal('show')
   videoPopDefault()
 })
@@ -70,7 +71,7 @@ $('#video-popup').on('hidden.bs.modal', function (e) {
   popupVideoThree.load()
   popupVideoFour.pause()
   popupVideoFour.load()
-  resetTimer()
+  // resetTimer()
   document.onmousemove = resetTimer
   document.onkeypress = resetTimer
 })
