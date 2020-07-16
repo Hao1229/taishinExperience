@@ -325,6 +325,8 @@ function changeBoard () {
   let content = null
   let partner = null
   let img = null
+  let video = null
+  const videoPay = document.querySelector('#video-pay')
 
   switch (whoActive) {
     case 'L-1':
@@ -395,7 +397,7 @@ function changeBoard () {
       title = document.createTextNode('整合•多元支付')
       content = document.createTextNode('點餐、付款、結帳一條龍，整合多元支付，台新滿足你我的需求')
       partner = document.createTextNode('協力夥伴:NEC、經貿聯網')
-      img = './images/introduce/frameImg/right-section-five-frame.jpg'
+      video = './video/場館介紹_多元支付.mp4'
       break
   }
 
@@ -409,7 +411,19 @@ function changeBoard () {
   detailContent.appendChild(content)
   detailContentSection.appendChild(detailContent)
 
-  $('.introduce__board__frame').css('background-image', `url(${img})`)
+  if (whoActive === 'R-5') {
+    $('.introduce__board__frame').css('display', 'none')
+    $('.introduce__board__video').css('display', 'block')
+    $('#video-pay > source').attr('src', video)
+    videoPay.load()
+    videoPay.play()
+  } else {
+    $('.introduce__board__frame').css('display', 'block')
+    $('.introduce__board__frame').css('background-image', `url(${img})`)
+    $('.introduce__board__video').css('display', 'none')
+    videoPay.pause()
+  }
+
 
   if (partner) {
     detailPartner.appendChild(partner)
