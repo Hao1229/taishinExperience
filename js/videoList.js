@@ -44,7 +44,7 @@ const videoList = [
         title: '啟動數位生活',
         img: './images/videoImg/啟動數位生活.png',
         video: './video/videoList/數位生活/啟動數位生活.mp4',
-        time: '2:32'
+        time: '2:31'
       },
       {
         title: 'Open Bank',
