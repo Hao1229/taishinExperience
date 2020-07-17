@@ -76,7 +76,7 @@ const videoList = [
     list: [
       {
         title: '信貸線上申請',
-        img: './images/videoImg/信貸線上申請.png',
+        img: './images/videoImg/shintai.png',
         video: './video/videoList/智慧理財/信貸線上申請.mp4',
         time: '0:30'
       },
