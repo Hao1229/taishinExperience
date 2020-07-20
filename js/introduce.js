@@ -355,14 +355,14 @@ function changeBoard () {
       title = document.createTextNode('跨域•想像未來')
       content = document.createTextNode('台新邀請產業跨域合作打造生活金融生態圈，萬事達卡以便捷支付科技，跨國界點數整合，拓展對未來無限想像')
       partner = document.createTextNode('協力夥伴: Mastercard')
-      img = './images/introduce/frameImg/left-section-four-frame.jpg'
+      video = './video/left-section-four-video.mp4'
       break
     case 'L-5':
       num = document.createTextNode('5')
       title = document.createTextNode('品味科技•全家咖啡')
       content = document.createTextNode('輕鬆掃碼，用一杯咖啡的時間，品味數位金融的全新體驗')
       partner = document.createTextNode('協力夥伴:全家便利')
-      img = './images/introduce/frameImg/left-section-five-frame.jpg'
+      video = './video/left-section-five-video.mp4'
       break
     case 'R-1':
       num = document.createTextNode('1')
@@ -383,7 +383,7 @@ function changeBoard () {
       title = document.createTextNode('數據•掌握先機')
       content = document.createTextNode('客戶的需求，台新都知道，行銷出擊一把罩')
       partner = null
-      img = './images/introduce/frameImg/right-section-three-frame.jpg'
+      video = './video/right-section-three-video.mp4'
       break
     case 'R-4':
       num = document.createTextNode('4')
@@ -411,7 +411,7 @@ function changeBoard () {
   detailContent.appendChild(content)
   detailContentSection.appendChild(detailContent)
 
-  if (whoActive === 'R-5') {
+  if (whoActive === 'R-5' || whoActive === 'L-4' || whoActive === 'L-5' || whoActive === 'R-3') {
     $('.introduce__board__frame').css('display', 'none')
     $('.introduce__board__video').css('display', 'block')
     $('#video-pay > source').attr('src', video)
