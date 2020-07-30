@@ -846,7 +846,7 @@ function guideChange () {
   switch (whoActive) {
     case 'L-1':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
-      $('.introduce__guide-line').css('background-image', 'url("https://hao1229.github.io/images/introduce/guide/left-guide-1.png")')
+      $('.introduce__guide-line').css('background-image', 'url("images/introduce/guide/left-guide-1.png")')
       $('.introduce__guide-line').css('width', '37.95vw')
       $('.introduce__guide-line').css('height', '16.13vh')
       $('.introduce__guide-line-section').css('width', '37.95vw')
@@ -859,7 +859,7 @@ function guideChange () {
       break
     case 'L-2':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
-      $('.introduce__guide-line').css('background-image', 'url("https://hao1229.github.io/images/introduce/guide/left-guide-2.png")')
+      $('.introduce__guide-line').css('background-image', 'url("images/introduce/guide/left-guide-2.png")')
       $('.introduce__guide-line').css('width', '45.58vw')
       $('.introduce__guide-line').css('height', '11.89vh')
       $('.introduce__guide-line-section').css('width', '45.58vw')
@@ -872,7 +872,7 @@ function guideChange () {
       break
     case 'L-3':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
-      $('.introduce__guide-line').css('background-image', 'url("https://hao1229.github.io/images/introduce/guide/left-guide-3.png")')
+      $('.introduce__guide-line').css('background-image', 'url("images/introduce/guide/left-guide-3.png")')
       $('.introduce__guide-line').css('width', '52.09vw')
       $('.introduce__guide-line').css('height', '9.491vh')
       $('.introduce__guide-line-section').css('width', '52.09vw')
@@ -885,7 +885,7 @@ function guideChange () {
       break
     case 'L-4':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
-      $('.introduce__guide-line').css('background-image', 'url("https://hao1229.github.io/images/introduce/guide/left-guide-4.png")')
+      $('.introduce__guide-line').css('background-image', 'url("images/introduce/guide/left-guide-4.png")')
       $('.introduce__guide-line').css('width', '46.875vw')
       $('.introduce__guide-line').css('height', '3.2vh')
       $('.introduce__guide-line-section').css('width', '46.875vw')
@@ -898,7 +898,7 @@ function guideChange () {
       break
     case 'L-5':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
-      $('.introduce__guide-line').css('background-image', 'url("https://hao1229.github.io/images/introduce/guide/left-guide-5.png")')
+      $('.introduce__guide-line').css('background-image', 'url("images/introduce/guide/left-guide-5.png")')
       $('.introduce__guide-line').css('width', '39.85vw')
       $('.introduce__guide-line').css('height', '1.44vh')
       $('.introduce__guide-line-section').css('width', '39.85vw')
@@ -911,7 +911,7 @@ function guideChange () {
       break
     case 'R-1':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
-      $('.introduce__guide-line').css('background-image', 'url("https://hao1229.github.io/images/introduce/guide/right-guide-1.png")')
+      $('.introduce__guide-line').css('background-image', 'url("images/introduce/guide/right-guide-1.png")')
       $('.introduce__guide-line').css('width', '17.54vw')
       $('.introduce__guide-line').css('height', '1.436vh')
       $('.introduce__guide-line-section').css('width', '17.54vw')
@@ -924,7 +924,7 @@ function guideChange () {
       break
     case 'R-2':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
-      $('.introduce__guide-line').css('background-image', 'url("https://hao1229.github.io/images/introduce/guide/right-guide-2.png")')
+      $('.introduce__guide-line').css('background-image', 'url("images/introduce/guide/right-guide-2.png")')
       $('.introduce__guide-line').css('width', '23.27vw')
       $('.introduce__guide-line').css('height', '5.80vh')
       $('.introduce__guide-line-section').css('width', '23.27vw')
@@ -937,7 +937,7 @@ function guideChange () {
       break
     case 'R-3':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
-      $('.introduce__guide-line').css('background-image', 'url("https://hao1229.github.io/images/introduce/guide/right-guide-3.png")')
+      $('.introduce__guide-line').css('background-image', 'url("images/introduce/guide/right-guide-3.png")')
       $('.introduce__guide-line').css('width', '25.65vw')
       $('.introduce__guide-line').css('height', '9.19vh')
       $('.introduce__guide-line-section').css('width', '25.65vw')
@@ -950,7 +950,7 @@ function guideChange () {
       break
     case 'R-4':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
-      $('.introduce__guide-line').css('background-image', 'url("https://hao1229.github.io/images/introduce/guide/right-guide-4.png")')
+      $('.introduce__guide-line').css('background-image', 'url("images/introduce/guide/right-guide-4.png")')
       $('.introduce__guide-line').css('width', '25.65vw')
       $('.introduce__guide-line').css('height', '13.28vh')
       $('.introduce__guide-line-section').css('width', '25.65vw')
@@ -963,7 +963,7 @@ function guideChange () {
       break
     case 'R-5':
       $('.introduce__guide-line-mask').removeClass('introduce__guide-line-mask__active')
-      $('.introduce__guide-line').css('background-image', 'url("https://hao1229.github.io/images/introduce/guide/right-guide-5.png")')
+      $('.introduce__guide-line').css('background-image', 'url("images/introduce/guide/right-guide-5.png")')
       $('.introduce__guide-line').css('width', '7.28vw')
       $('.introduce__guide-line').css('height', '7.68vh')
       $('.introduce__guide-line-section').css('width', '7.28vw')
