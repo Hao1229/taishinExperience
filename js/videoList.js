@@ -61,7 +61,7 @@ const videoList = [
         title: 'Link Pay',
         img: './images/videoImg/LinkPay.png',
         video: './video/videoList/多元支付/LinkPay.mp4',
-        time: '1:38'
+        time: '1:37'
       },
       {
         title: '快速辦卡',
@@ -75,21 +75,21 @@ const videoList = [
     mainTitle: '智慧理財',
     list: [
       {
-        title: '信貸線上申請',
+        title: '快搜尋台新信貸線上申請',
         img: './images/videoImg/shintai.png',
-        video: './video/videoList/智慧理財/信貸線上申請.mp4',
+        video: './video/videoList/智慧理財/快搜尋台新信貸線上申請.mp4',
         time: '0:30'
       },
       {
         title: '證券線上開戶',
         img: './images/videoImg/證券線上開戶.png',
         video: './video/videoList/智慧理財/證券線上開戶.mp4',
-        time: '0:32'
+        time: '1:48'
       },
       {
-        title: '網路投保智多新',
+        title: '理處e指Fun心保及智多新',
         img: './images/videoImg/網路投保智多新.png',
-        video: './video/videoList/智慧理財/網路投保智多新.mp4',
+        video: './video/videoList/智慧理財/理處e指Fun心保及智多新.mp4',
         time: '1:08'
       }
     ]
