@@ -75,9 +75,9 @@ const videoList = [
     mainTitle: '智慧理財',
     list: [
       {
-        title: '快搜尋台新信貸線上申請',
+        title: '信貸線上申請',
         img: './images/videoImg/shintai.png',
-        video: './video/videoList/智慧理財/快搜尋台新信貸線上申請.mp4',
+        video: './video/videoList/智慧理財/信貸線上申請.mp4',
         time: '0:30'
       },
       {
@@ -87,9 +87,9 @@ const videoList = [
         time: '1:48'
       },
       {
-        title: '理處e指Fun心保及智多新',
+        title: '網路投保智多新',
         img: './images/videoImg/網路投保智多新.png',
-        video: './video/videoList/智慧理財/理處e指Fun心保及智多新.mp4',
+        video: './video/videoList/智慧理財/網路投保智多新.mp4',
         time: '1:08'
       }
     ]
@@ -108,6 +108,17 @@ const videoList = [
         img: './images/videoImg/外幣ATM.png',
         video: './video/videoList/自動化設備-ATM/外幣ATM.mp4',
         time: '1:03'
+      }
+    ]
+  },
+  {
+    mainTitle: '更多介紹',
+    list: [
+      {
+        title: 'Mastercard',
+        img: './images/videoImg/Mastercard.png',
+        video: './video/videoList/更多介紹/Mastercard.mp4',
+        time: '2:05'
       }
     ]
   }
